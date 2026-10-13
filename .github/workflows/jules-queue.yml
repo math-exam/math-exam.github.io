@@ -1,0 +1,268 @@
+name: Jules Issue Queue
+
+# Processes issues labeled `triage-send-to-bot` one at a time:
+#   1. An issue is labeled -> if nothing is in flight, Jules starts on it.
+#   2. When Jules opens/updates a PR, this same job waits for CI, merges it,
+#      closes the issue, releases the lock, and immediately picks up the next
+#      queued issue -- all inline, so it never depends on a *second* workflow
+#      run being triggered by the merge itself. (GitHub does not reliably
+#      fire pull_request:closed / issue auto-close for merges performed via
+#      GITHUB_TOKEN-based auto-merge, so we deliberately avoid depending on
+#      that path for the normal case.)
+#   3. `pull_request: closed` is kept only as a fallback for the case where a
+#      human merges or closes a Jules PR manually (a real user token, so the
+#      event fires normally).
+#   4. After merging, explicitly dispatches pages.yml, since that same
+#      GITHUB_TOKEN suppression also means pages.yml's `push` trigger never
+#      sees these merges.
+# Only one Jules session runs at a time, and each new session starts from
+# `main` as of the previous PR's resolution, so there are no stacked/
+# conflicting Jules branches.
+
+on:
+  issues:
+    types: [labeled]
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+  workflow_dispatch: {} # manual bootstrap / retry
+
+concurrency:
+  group: jules-queue
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  advance-queue:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'issues' &&
+       github.event.label.name == 'triage-send-to-bot' &&
+       (github.event.sender.login == 'axemclion' ||
+        github.event.sender.login == 'axemclion-bot' ||
+        github.event.sender.login == 'github-actions[bot]')) ||
+      (github.event_name == 'pull_request' &&
+       github.event.pull_request.head.repo.full_name == github.repository &&
+       (github.event.pull_request.user.login == 'google-labs-jules[bot]' ||
+        github.event.pull_request.user.login == 'axemclion'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for checks and merge Jules PR
+        if: github.event_name == 'pull_request' && github.event.action != 'closed'
+        id: merge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          state=$(gh pr view "$PR_URL" --json state --jq '.state')
+          if [ "$state" != "OPEN" ]; then
+            echo "PR #$PR_NUMBER is already $state, nothing to do."
+            exit 0
+          fi
+
+          # --required matters: this very job is itself a check run on this
+          # PR (triggered by the same pull_request event), and it's still
+          # in_progress while we're sitting in this step. Without --required,
+          # --watch would wait on that check too and deadlock against itself.
+          # "build" is the only required check (branch protection), so this
+          # only waits on that.
+          if ! gh pr checks "$PR_URL" --watch --required --fail-fast; then
+            issue=$(gh issue list --repo "$REPO" --label jules-in-progress --state all --json number --jq '.[0].number // empty')
+            if [ -z "$issue" ] || ! grep -qiE "(close[sd]?|fix(e[sd])?|resolve[sd]?) +#$issue\b" <<<"$PR_BODY"; then
+              echo "Checks failed for PR #$PR_NUMBER, leaving it open for review."
+              exit 0
+            fi
+
+            # Only one automatic retry per issue -- if Jules already had one
+            # shot at fixing a failure here and it failed again, stop and
+            # leave it for a human rather than retrying forever.
+            already_retried=$(gh issue view "$issue" --repo "$REPO" --json labels --jq '[.labels[].name] | any(. == "jules-fix-attempted")')
+            if [ "$already_retried" = "true" ]; then
+              echo "Checks failed again for PR #$PR_NUMBER after a retry, leaving it open for review."
+              exit 0
+            fi
+
+            echo "Checks failed for PR #$PR_NUMBER, asking Jules to fix it (one automatic retry allowed)."
+            gh issue edit "$issue" --repo "$REPO" --add-label jules-fix-attempted
+            echo "retry=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          gh pr merge "$PR_URL" --squash --delete-branch
+          echo "merged=true" >> "$GITHUB_OUTPUT"
+
+          issue=$(gh issue list --repo "$REPO" --label jules-in-progress --state all --json number --jq '.[0].number // empty')
+          if [ -z "$issue" ]; then
+            echo "No issue is currently locked, nothing to release."
+            exit 0
+          fi
+          if ! grep -qiE "(close[sd]?|fix(e[sd])?|resolve[sd]?) +#$issue\b" <<<"$PR_BODY"; then
+            echo "This PR doesn't reference the locked issue #$issue, leaving the lock alone."
+            exit 0
+          fi
+          gh issue close "$issue" --repo "$REPO" || true
+          gh issue edit "$issue" --repo "$REPO" --remove-label jules-in-progress --remove-label jules-fix-attempted || true
+
+      - name: Build retry prompt
+        if: steps.merge.outputs.retry == 'true'
+        id: retry-prompt
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          BRANCH: ${{ github.event.pull_request.head.ref }}
+        run: |
+          run_id=$(gh run list --repo "$REPO" --workflow=ci.yml --branch "$BRANCH" --limit 1 --json databaseId --jq '.[0].databaseId // empty')
+          if [ -n "$run_id" ]; then
+            failure_log=$(gh run view "$run_id" --repo "$REPO" --log-failed 2>&1 | sed -E 's/\x1b\[[0-9;]*[a-zA-Z]//g' | tail -c 6000)
+          else
+            failure_log="(could not locate the failing CI run's logs)"
+          fi
+
+          delimiter=$(openssl rand -hex 20)
+          {
+            echo "prompt<<$delimiter"
+            echo "This is a RETRY, not a new task. Your pull request $PR_URL (branch \`$BRANCH\`) failed the required \"build\" CI check."
+            echo
+            echo "Here is the log output from the failing step(s):"
+            echo '```'
+            echo "$failure_log"
+            echo '```'
+            echo
+            echo "Please:"
+            echo "1. Analyze the failure above and identify the root cause."
+            echo "2. Fix it directly on this same branch (\`$BRANCH\`) -- do not open a new PR."
+            echo "3. Run \`npm run format\`, \`npm run typecheck\`, and \`npm run build\` locally and confirm all three pass before finishing."
+            echo "$delimiter"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Ask Jules to fix the failing checks
+        if: steps.merge.outputs.retry == 'true'
+        uses: google-labs-code/jules-action@v1.0.0
+        with:
+          prompt: ${{ steps.retry-prompt.outputs.prompt }}
+          jules_api_key: ${{ secrets.JULES_API_KEY }}
+          starting_branch: ${{ github.event.pull_request.head.ref }}
+          include_last_commit: true
+
+      - name: Trigger site deploy
+        # Merges above happen via GH_TOKEN, and GitHub does not fire the
+        # resulting push event for workflows watching push/pull_request when
+        # the token doing the pushing is GITHUB_TOKEN (same suppression
+        # behavior as issue auto-close). So pages.yml's `push` trigger never
+        # sees these merges -- dispatch it explicitly instead. Real human
+        # merges (via the UI, with a personal token) still fire `push`
+        # normally, so this is additive, not a duplicate trigger.
+        if: steps.merge.outputs.merged == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: gh workflow run pages.yml --repo "$REPO" --ref main
+
+      - name: Release lock from a manually-closed Jules PR
+        if: github.event_name == 'pull_request' && github.event.action == 'closed'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          MERGED: ${{ github.event.pull_request.merged }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          issue=$(gh issue list --repo "$REPO" --label jules-in-progress --state all --json number --jq '.[0].number // empty')
+          if [ -z "$issue" ]; then
+            echo "No issue is currently locked, nothing to release."
+            exit 0
+          fi
+          # Only release the lock if this PR is actually the one for the
+          # locked issue (matches a GitHub closing keyword), so an unrelated
+          # PR closing at the same time can't desync the queue.
+          if ! grep -qiE "(close[sd]?|fix(e[sd])?|resolve[sd]?) +#$issue\b" <<<"$PR_BODY"; then
+            echo "This PR doesn't reference the locked issue #$issue, leaving the lock alone."
+            exit 0
+          fi
+          gh issue edit "$issue" --repo "$REPO" --remove-label jules-in-progress --remove-label jules-fix-attempted || true
+          if [ "$MERGED" != "true" ]; then
+            gh issue edit "$issue" --repo "$REPO" --add-label jules-failed
+            gh issue comment "$issue" --repo "$REPO" --body "Jules' pull request was closed without merging. Add \`triage-send-to-bot\` again to retry."
+          fi
+
+      - name: Find next queued issue
+        id: pick
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          # Retry: right after the previous step removes jules-in-progress,
+          # gh issue list can briefly still return the stale, pre-removal
+          # state (observed ~1 issue read 17ms after the label was removed).
+          # Only treat the lock as genuinely held if it's still there after
+          # a few retries, not just on the very first read.
+          in_progress=1
+          for i in 1 2 3 4 5; do
+            in_progress=$(gh issue list --repo "$REPO" --label jules-in-progress --state open --json number --jq 'length')
+            [ "$in_progress" = "0" ] && break
+            sleep 2
+          done
+          if [ "$in_progress" != "0" ]; then
+            echo "A Jules session is already in flight, nothing to do."
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          next=$(gh issue list --repo "$REPO" --label triage-send-to-bot --state open --json number,title,body,createdAt --jq 'sort_by(.createdAt) | .[0] // empty')
+          if [ -z "$next" ]; then
+            echo "No queued issues."
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          number=$(echo "$next" | jq -r '.number')
+          title=$(echo "$next" | jq -r '.title')
+          echo "$next" | jq -r '.body' > /tmp/issue_body.md
+
+          gh issue edit "$number" --repo "$REPO" --remove-label triage-send-to-bot --add-label jules-in-progress
+
+          {
+            echo "found=true"
+            echo "number=$number"
+            echo "title=$title"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Build prompt
+        if: steps.pick.outputs.found == 'true'
+        id: prompt
+        env:
+          ISSUE_TITLE: ${{ steps.pick.outputs.title }}
+          ISSUE_NUMBER: ${{ steps.pick.outputs.number }}
+        run: |
+          # Use a random delimiter (not a fixed string) so an issue body can't
+          # smuggle extra key=value lines into $GITHUB_OUTPUT.
+          delimiter=$(openssl rand -hex 20)
+          {
+            echo "prompt<<$delimiter"
+            echo "Fix the following issue and open a pull request against main."
+            echo
+            echo "## $ISSUE_TITLE (#$ISSUE_NUMBER)"
+            echo
+            cat /tmp/issue_body.md
+            echo
+            echo "Requirements:"
+            echo "- Include \"Closes #$ISSUE_NUMBER\" in the pull request description so it auto-closes on merge."
+            echo "- MANDATORY, LAST STEP BEFORE SUBMITTING: run \`npm run format\` on the whole repo and include any resulting changes in your commit. This is not optional — CI runs \`npm run format:check\` and the required build check WILL FAIL, blocking your PR from merging, if anything is unformatted."
+            echo "- Run \`npm run typecheck\` and \`npm run build\` and make sure both pass before submitting."
+            echo "$delimiter"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Invoke Jules
+        if: steps.pick.outputs.found == 'true'
+        uses: google-labs-code/jules-action@v1.0.0
+        with:
+          prompt: ${{ steps.prompt.outputs.prompt }}
+          jules_api_key: ${{ secrets.JULES_API_KEY }}
+          starting_branch: main

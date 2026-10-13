@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit",
     "generate": "tsx scripts/build/generate-questions.ts",
     "format": "prettier --write \"src/**/*.{ts,html}\" \"scripts/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.{ts,html}\" \"scripts/**/*.ts\"",
     "prepare": "husky"
   },
   "engines": {
