@@ -14,6 +14,7 @@ jobs:
     if: >-
       github.event.sender.login != 'axemclion' &&
       github.event.sender.login != 'axemclion-bot' &&
+      github.event.sender.login != 'biits-llc' &&
       github.event.sender.login != 'github-actions[bot]' &&
       github.event.sender.login != 'google-labs-jules[bot]'
     runs-on: ubuntu-latest
