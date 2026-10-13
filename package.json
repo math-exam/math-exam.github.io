@@ -2,7 +2,7 @@
   "name": "mathpath",
   "version": "3.0.0",
   "private": true,
-  "description": "Grade 6 adaptive MAP Growth Math style practice, as a static site with Google sign-in and Google Drive storage.",
+  "description": "Adaptive MAP Growth Math style practice, as a static site with Google sign-in and Google Drive storage.",
   "scripts": {
     "build": "tsx scripts/build/build.ts",
     "dev": "tsx scripts/build/build.ts --watch",
