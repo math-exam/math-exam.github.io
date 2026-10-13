@@ -1,0 +1,264 @@
+[
+  {
+    "id": "G-PDF-001",
+    "dom": "G",
+    "diff": 3,
+    "source": "pdf:Unit 1 Test Review Part 1",
+    "addedAt": "2026-09-15",
+    "q": "What is the matching height for the given base of this parallelogram?",
+    "img": "<svg viewBox=\"0 0 380 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n  <path d=\"M60,170 L260,170 L320,50 L120,50 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n  <line x1=\"320\" y1=\"50\" x2=\"320\" y2=\"170\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n  <rect x=\"308\" y=\"158\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n  <text x=\"15\" y=\"115\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">5 in.</text>\n  <text x=\"155\" y=\"200\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">10 in.</text>\n  <text x=\"326\" y=\"115\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">h in.</text>\n  <text x=\"60\" y=\"25\" font-size=\"16\" font-weight=\"800\" fill=\"#2B3242\">Area: 40 square inches</text>\n</svg>",
+    "opts": [
+      "4 inches",
+      "5 inches",
+      "30 inches",
+      "50 inches"
+    ],
+    "correct": 0,
+    "why": "Area = base × height. The area is 40 square inches and the base is 10 inches, so height = 40 ÷ 10 = 4 inches. The 5 in. side is a slanted side, not the height — it isn’t used in the area formula.",
+    "tip": "For a parallelogram, always use the height that is perpendicular to the base — a slanted side length is a distractor, not the height.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-002",
+    "dom": "G",
+    "diff": 3,
+    "source": "pdf:Unit 1 Test Review Part 1",
+    "addedAt": "2026-09-15",
+    "q": "A triangle has an area of 12 square units. Which base and height could it have?",
+    "opts": [
+      "base 8, height 3",
+      "base 8, height 2",
+      "base 6, height 3",
+      "base 5, height 4"
+    ],
+    "correct": 0,
+    "why": "Triangle area = (base × height) ÷ 2. For base 8 and height 3: (8 × 3) ÷ 2 = 12. The other pairs give 8, 9, and 10 square units.",
+    "tip": "There are many base/height pairs that give the same triangle area — check each with (base × height) ÷ 2 rather than assuming there’s only one right answer.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-003",
+    "dom": "G",
+    "diff": 3,
+    "source": "pdf:Unit 1 Test Review Part 1",
+    "addedAt": "2026-09-15",
+    "q": "Triangle 1 has a base of 6 units and Triangle 2 has a base of 8 units. Both triangles have an area of 12 square units. What is the height of each triangle?",
+    "opts": [
+      "Triangle 1: 4 units, Triangle 2: 3 units",
+      "Triangle 1: 3 units, Triangle 2: 4 units",
+      "Triangle 1: 2 units, Triangle 2: 1.5 units",
+      "Triangle 1: 12 units, Triangle 2: 12 units"
+    ],
+    "correct": 0,
+    "why": "Height = (2 × area) ÷ base. Triangle 1: (2 × 12) ÷ 6 = 4. Triangle 2: (2 × 12) ÷ 8 = 3.",
+    "tip": "Work the triangle area formula backwards — multiply the area by 2 before dividing by the base, so you don’t forget the factor of 2.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-004",
+    "dom": "G",
+    "diff": 4,
+    "source": "pdf:Unit 1 Test Review Part 1",
+    "addedAt": "2026-09-15",
+    "q": "This pentagon is a rectangle with a triangular roof. The base is 8 cm, the vertical walls are 6 cm, and the total height from the base to the peak is 9 cm. What is the area of the pentagon?",
+    "img": "<svg viewBox=\"0 0 320 240\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n    <path d=\"M70,218 L246,218 L246,86 L158,20 L70,86 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n    <line x1=\"158\" y1=\"20\" x2=\"158\" y2=\"218\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n    <rect x=\"152\" y=\"206\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n    <text x=\"166\" y=\"119\" font-size=\"15\" font-weight=\"700\" fill=\"#4F46E5\">9 cm</text>\n    <text x=\"24\" y=\"157\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">6 cm</text>\n    <text x=\"252\" y=\"157\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">6 cm</text>\n    <text x=\"134\" y=\"240\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">8 cm</text>\n  </svg>",
+    "opts": [
+      "60 square centimeters",
+      "72 square centimeters",
+      "84 square centimeters",
+      "36 square centimeters"
+    ],
+    "correct": 0,
+    "why": "Split it into a rectangle and a triangle. Rectangle: 8 × 6 = 48. The triangle’s height is the total height minus the wall height: 9 − 6 = 3, so its area is (8 × 3) ÷ 2 = 12. Total: 48 + 12 = 60 square centimeters.",
+    "tip": "For a composite \"house\" shape, split it into a rectangle plus a triangle — and remember the triangle’s own height is only the part above the rectangle, not the whole figure’s height.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-005",
+    "dom": "G",
+    "diff": 2,
+    "source": "pdf:Unit 1 Test Review Part 1",
+    "addedAt": "2026-09-15",
+    "q": "A polyhedron has 2 parallel, congruent triangular faces connected by 3 rectangular faces. What is it called?",
+    "opts": [
+      "Triangular prism",
+      "Triangular pyramid",
+      "Rectangular prism",
+      "Pentagonal prism"
+    ],
+    "correct": 0,
+    "why": "A prism is named by the shape of its two parallel, congruent bases. Triangular bases connected by rectangles make a triangular prism.",
+    "tip": "A prism’s name comes from its base shape; a pyramid instead has triangular faces meeting at a single point (an apex), not a second parallel base.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-006",
+    "dom": "G",
+    "diff": 2,
+    "source": "pdf:Unit 1 Test Review Part 1",
+    "addedAt": "2026-09-15",
+    "q": "Is this solid a polyhedron?",
+    "img": "<svg viewBox=\"0 0 220 200\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n  <ellipse cx=\"110\" cy=\"150\" rx=\"80\" ry=\"22\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\"/>\n  <path d=\"M30,150 L110,20 L190,150\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n</svg>",
+    "opts": [
+      "No — it has a curved surface, and polyhedra are made only of flat polygon faces",
+      "Yes — it has a flat circular base",
+      "Yes — all 3D solids are polyhedra",
+      "No — it doesn’t have a vertex"
+    ],
+    "correct": 0,
+    "why": "A polyhedron’s faces must all be flat polygons. A cone has one curved surface, so it is not a polyhedron — even though it does have a flat circular base and a vertex (the point at the top).",
+    "tip": "Check every face: if even one face is curved (like a cone or cylinder), the solid is not a polyhedron.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-007",
+    "dom": "G",
+    "diff": 5,
+    "source": "pdf:Unit 1 Test Review Part 1",
+    "addedAt": "2026-09-15",
+    "q": "Here is a net on a grid, made of one square and four triangles. Determine the surface area, in square units, of the polyhedron that could be created using this net.",
+    "img": "<svg viewBox=\"0 0 344 344\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\"><line x1=\"16\" y1=\"16\" x2=\"16\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"42\" y1=\"16\" x2=\"42\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"68\" y1=\"16\" x2=\"68\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"94\" y1=\"16\" x2=\"94\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"120\" y1=\"16\" x2=\"120\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"146\" y1=\"16\" x2=\"146\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"172\" y1=\"16\" x2=\"172\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"198\" y1=\"16\" x2=\"198\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"224\" y1=\"16\" x2=\"224\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"250\" y1=\"16\" x2=\"250\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"276\" y1=\"16\" x2=\"276\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"302\" y1=\"16\" x2=\"302\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"328\" y1=\"16\" x2=\"328\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"16\" x2=\"328\" y2=\"16\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"42\" x2=\"328\" y2=\"42\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"68\" x2=\"328\" y2=\"68\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"94\" x2=\"328\" y2=\"94\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"120\" x2=\"328\" y2=\"120\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"146\" x2=\"328\" y2=\"146\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"172\" x2=\"328\" y2=\"172\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"198\" x2=\"328\" y2=\"198\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"224\" x2=\"328\" y2=\"224\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"250\" x2=\"328\" y2=\"250\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"276\" x2=\"328\" y2=\"276\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"302\" x2=\"328\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"328\" x2=\"328\" y2=\"328\" stroke=\"#D7DEEA\" stroke-width=\"1\"/>\n    <rect x=\"120\" y=\"120\" width=\"104\" height=\"104\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\"/>\n    <path d=\"M120,120 L172,16 L224,120 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n    <path d=\"M120,224 L172,328 L224,224 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n    <path d=\"M120,120 L16,172 L120,224 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n    <path d=\"M224,120 L328,172 L224,224 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n  </svg>",
+    "opts": [
+      "48 square units",
+      "32 square units",
+      "64 square units",
+      "24 square units"
+    ],
+    "correct": 0,
+    "why": "The net folds into a square pyramid: a 4-by-4 base (16 square units) plus four triangular faces, each with base 4 and height 4, so each triangle is (4 × 4) ÷ 2 = 8 square units. Base + 4 triangles = 16 + 4(8) = 48 square units.",
+    "tip": "For a net, add up the area of every individual face — count grid squares (or use the area formulas) for each piece separately, then sum them.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-008",
+    "dom": "G",
+    "diff": 4,
+    "source": "pdf:Unit 1 Test Review Part 2",
+    "addedAt": "2026-09-15",
+    "q": "Determine the area of this triangle. (The 8 cm side is extra information — you don’t need every number given to solve a problem.)",
+    "img": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n  <path d=\"M40,160 L220,160 L250,50 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n  <line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"160\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n  <line x1=\"220\" y1=\"160\" x2=\"250\" y2=\"160\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n  <rect x=\"238\" y=\"148\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n  <text x=\"105\" y=\"185\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">6 cm</text>\n  <text x=\"120\" y=\"95\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">8 cm</text>\n  <text x=\"256\" y=\"110\" font-size=\"15\" font-weight=\"700\" fill=\"#4F46E5\">5 cm</text>\n</svg>",
+    "opts": [
+      "15 square centimeters",
+      "24 square centimeters",
+      "18 square centimeters",
+      "30 square centimeters"
+    ],
+    "correct": 0,
+    "why": "Area = (base × height) ÷ 2 = (6 × 5) ÷ 2 = 15 square centimeters. The 8 cm side isn’t the base or the height, so it isn’t used.",
+    "tip": "Not every number in a problem is needed — find the base and the perpendicular height first, and set aside any other given lengths.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-009",
+    "dom": "G",
+    "diff": 4,
+    "source": "pdf:Unit 1 Test Review Part 2",
+    "addedAt": "2026-09-15",
+    "q": "Determine the area of this triangle. (The two 5 in. sides are extra information.)",
+    "img": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n  <path d=\"M90,40 L90,190 L230,115 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n  <line x1=\"90\" y1=\"115\" x2=\"230\" y2=\"115\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n  <rect x=\"90\" y=\"103\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n  <text x=\"30\" y=\"120\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">8 in.</text>\n  <text x=\"145\" y=\"100\" font-size=\"15\" font-weight=\"700\" fill=\"#4F46E5\">3 in.</text>\n  <text x=\"150\" y=\"65\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">5 in.</text>\n  <text x=\"150\" y=\"175\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">5 in.</text>\n</svg>",
+    "opts": [
+      "12 square inches",
+      "20 square inches",
+      "24 square inches",
+      "15 square inches"
+    ],
+    "correct": 0,
+    "why": "Area = (base × height) ÷ 2 = (8 × 3) ÷ 2 = 12 square inches, using the 8 in. base and the 3 in. perpendicular height.",
+    "tip": "When a triangle is drawn sideways or tilted, look for the perpendicular (dashed) height line — it might not look like the \"bottom\" of the figure.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-010",
+    "dom": "G",
+    "diff": 4,
+    "source": "pdf:Unit 1 Test Review Part 2",
+    "addedAt": "2026-09-15",
+    "q": "Determine the area of this shape on the grid. Each grid square is 1 square unit.",
+    "img": "<svg viewBox=\"0 0 288 224\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\"><line x1=\"16\" y1=\"16\" x2=\"16\" y2=\"208\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"48\" y1=\"16\" x2=\"48\" y2=\"208\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"80\" y1=\"16\" x2=\"80\" y2=\"208\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"112\" y1=\"16\" x2=\"112\" y2=\"208\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"144\" y1=\"16\" x2=\"144\" y2=\"208\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"176\" y1=\"16\" x2=\"176\" y2=\"208\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"208\" y1=\"16\" x2=\"208\" y2=\"208\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"240\" y1=\"16\" x2=\"240\" y2=\"208\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"272\" y1=\"16\" x2=\"272\" y2=\"208\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"16\" x2=\"272\" y2=\"16\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"48\" x2=\"272\" y2=\"48\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"80\" x2=\"272\" y2=\"80\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"112\" x2=\"272\" y2=\"112\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"144\" x2=\"272\" y2=\"144\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"176\" x2=\"272\" y2=\"176\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"208\" x2=\"272\" y2=\"208\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><path d=\"M48,112 L176,48 L176,112 L240,112 L112,176 L112,112 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>",
+    "opts": [
+      "8 square units",
+      "12 square units",
+      "16 square units",
+      "6 square units"
+    ],
+    "correct": 0,
+    "why": "Splitting the shape into two triangles (one above the middle line, one below) gives 4 square units each, for a total of 8 square units.",
+    "tip": "For an irregular shape on a grid, split it into triangles and rectangles you can find the area of separately, then add the pieces together.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-011",
+    "dom": "G",
+    "diff": 4,
+    "source": "pdf:Unit 1 Test Review Part 2",
+    "addedAt": "2026-09-15",
+    "q": "Sadie is going to paint the front of her house, shown here. What is the area of the front of her house?",
+    "img": "<svg viewBox=\"0 0 360 240\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n    <path d=\"M70,188 L280,188 L280,104 L175,20 L70,104 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n    <line x1=\"175\" y1=\"20\" x2=\"175\" y2=\"188\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n    <rect x=\"169\" y=\"176\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n    <text x=\"183\" y=\"104\" font-size=\"15\" font-weight=\"700\" fill=\"#4F46E5\">12 ft</text>\n    <text x=\"24\" y=\"151\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">6 ft</text>\n    <text x=\"286\" y=\"151\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">6 ft</text>\n    <text x=\"151\" y=\"210\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\">15 ft</text>\n  </svg>",
+    "opts": [
+      "135 square feet",
+      "180 square feet",
+      "90 square feet",
+      "270 square feet"
+    ],
+    "correct": 0,
+    "why": "Split the house into a rectangle and a triangle. Rectangle: 15 × 6 = 90. The triangle’s height is 12 − 6 = 6, so its area is (15 × 6) ÷ 2 = 45. Total: 90 + 45 = 135 square feet.",
+    "tip": "For a house-shaped composite figure, the total height given usually includes the wall — subtract the wall height first to get the roof triangle’s own height.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-012",
+    "dom": "G",
+    "diff": 4,
+    "source": "pdf:Unit 1 Test Review Part 2",
+    "addedAt": "2026-09-15",
+    "q": "The front of Sadie’s house is 135 square feet, and the back is the same shape. She has enough paint in one case to cover 100 square feet. How many cases of paint will she need to paint the front AND back?",
+    "opts": [
+      "3 cases",
+      "2 cases",
+      "270 cases",
+      "2.7 cases"
+    ],
+    "correct": 0,
+    "why": "Front + back = 135 + 135 = 270 square feet. 270 ÷ 100 = 2.7, but paint only comes in whole cases, so she must round up to 3 cases — 2 cases wouldn’t be quite enough.",
+    "tip": "When a real-world total doesn’t divide evenly, round up if you can only buy whole units (cases, buses, boxes) — even a small leftover amount needs one more.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-013",
+    "dom": "G",
+    "diff": 4,
+    "source": "pdf:Unit 1 Test Review Part 2",
+    "addedAt": "2026-09-15",
+    "q": "Here is a rectangular prism (6 by 3 by 12) and its net. Use the net to calculate the surface area, in square units.",
+    "img": "<svg viewBox=\"0 0 338 176\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n    <rect x=\"61\" y=\"34\" width=\"108\" height=\"27\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2.5\"/>\n    <rect x=\"34\" y=\"61\" width=\"27\" height=\"54\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2.5\"/>\n    <rect x=\"61\" y=\"61\" width=\"108\" height=\"54\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2.5\"/>\n    <rect x=\"169\" y=\"61\" width=\"27\" height=\"54\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2.5\"/>\n    <rect x=\"196\" y=\"61\" width=\"108\" height=\"54\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2.5\"/>\n    <rect x=\"61\" y=\"115\" width=\"108\" height=\"27\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2.5\"/>\n    <text x=\"105\" y=\"93\" font-size=\"14\" font-weight=\"700\" fill=\"#4F46E5\">12</text>\n    <text x=\"42.5\" y=\"51\" font-size=\"13\" font-weight=\"700\" fill=\"#2B3242\">3</text>\n    <text x=\"16\" y=\"93\" font-size=\"13\" font-weight=\"700\" fill=\"#2B3242\">6</text>\n  </svg>",
+    "opts": [
+      "252 square units",
+      "216 square units",
+      "126 square units",
+      "504 square units"
+    ],
+    "correct": 0,
+    "why": "A rectangular prism has 3 pairs of matching faces: 2 faces of 12×6=72, 2 faces of 12×3=36, and 2 faces of 3×6=18. Total: 2(72+36+18) = 2(126) = 252 square units.",
+    "tip": "Surface area formula for a rectangular prism: 2(lw + lh + wh) — or just add up all 6 faces of the net one at a time.",
+    "module": "test-review-1"
+  },
+  {
+    "id": "G-PDF-014",
+    "dom": "G",
+    "diff": 5,
+    "source": "pdf:Unit 1 Test Review Part 2",
+    "addedAt": "2026-09-15",
+    "q": "Here is a net for a triangular prism. The triangular ends are right triangles with legs 3 and 4 (hypotenuse 5), and the prism is 5 units long. Determine the surface area, in square units.",
+    "img": "<svg viewBox=\"0 0 396 318\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\"><line x1=\"16\" y1=\"16\" x2=\"16\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"42\" y1=\"16\" x2=\"42\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"68\" y1=\"16\" x2=\"68\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"94\" y1=\"16\" x2=\"94\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"120\" y1=\"16\" x2=\"120\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"146\" y1=\"16\" x2=\"146\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"172\" y1=\"16\" x2=\"172\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"198\" y1=\"16\" x2=\"198\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"224\" y1=\"16\" x2=\"224\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"250\" y1=\"16\" x2=\"250\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"276\" y1=\"16\" x2=\"276\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"302\" y1=\"16\" x2=\"302\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"328\" y1=\"16\" x2=\"328\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"354\" y1=\"16\" x2=\"354\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"380\" y1=\"16\" x2=\"380\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"16\" x2=\"380\" y2=\"16\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"42\" x2=\"380\" y2=\"42\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"68\" x2=\"380\" y2=\"68\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"94\" x2=\"380\" y2=\"94\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"120\" x2=\"380\" y2=\"120\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"146\" x2=\"380\" y2=\"146\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"172\" x2=\"380\" y2=\"172\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"198\" x2=\"380\" y2=\"198\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"224\" x2=\"380\" y2=\"224\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"250\" x2=\"380\" y2=\"250\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"276\" x2=\"380\" y2=\"276\" stroke=\"#D7DEEA\" stroke-width=\"1\"/><line x1=\"16\" y1=\"302\" x2=\"380\" y2=\"302\" stroke=\"#D7DEEA\" stroke-width=\"1\"/>\n    <rect x=\"68\" y=\"94\" width=\"312\" height=\"130\" fill=\"#EEF1F8\" stroke=\"none\"/>\n    <line x1=\"172\" y1=\"94\" x2=\"172\" y2=\"224\" stroke=\"#2B3242\" stroke-width=\"2.5\"/>\n    <line x1=\"250\" y1=\"94\" x2=\"250\" y2=\"224\" stroke=\"#2B3242\" stroke-width=\"2.5\"/>\n    <rect x=\"68\" y=\"94\" width=\"312\" height=\"130\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"3\"/>\n    <path d=\"M68,94 L172,16 L172,94 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n    <path d=\"M68,224 L172,302 L172,224 Z\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n  </svg>",
+    "opts": [
+      "72 square units",
+      "60 square units",
+      "84 square units",
+      "54 square units"
+    ],
+    "correct": 0,
+    "why": "Two triangular ends: 2 × [(3×4)÷2] = 2 × 6 = 12. Three rectangular faces, each 5 units long by the triangle’s side lengths (3, 4, and 5): (3×5) + (4×5) + (5×5) = 15 + 20 + 25 = 60. Total: 12 + 60 = 72 square units.",
+    "tip": "For a triangular prism’s net, the three rectangles’ widths always match the triangle’s three side lengths — a 3-4-5 triangle gives rectangles of width 3, 4, and 5, all sharing the prism’s length.",
+    "module": "test-review-1"
+  }
+]

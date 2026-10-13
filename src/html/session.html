@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{APP_NAME}} — Session</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+  </head>
+  <body>
+    <div class="wrap wide">
+      <div class="auth-banner hide" id="authBanner">
+        Your Google sign-in expired. <button class="btn ghost small">Reconnect</button>
+      </div>
+
+      <section id="signin" class="card hide">
+        <span class="brand"><span class="dot"></span> {{APP_NAME}}</span>
+        <p class="lead">Sign in to view this session.</p>
+        <button class="btn" id="signInBtn" style="width: auto">Sign in with Google</button>
+        <p class="fine mt8" id="signinMsg"></p>
+      </section>
+
+      <section id="loading" class="card hide"><p class="fine" id="loadingMsg">Loading session…</p></section>
+
+      <section id="detail" class="card hide">
+        <div class="section-title" style="margin-top: 0">
+          <a href="admin.html" style="text-decoration: none; color: var(--indigo); font-weight: 800">← Back</a>
+          <h2 id="sessionTitle" style="margin-left: 12px">Session</h2>
+          <span class="pill" id="statusPill"></span>
+        </div>
+        <div class="stat-row">
+          <div class="stat">
+            <div class="k">Student</div>
+            <div class="v" id="studentName">—</div>
+          </div>
+          <div class="stat">
+            <div class="k">Score</div>
+            <div class="v" id="score">—</div>
+          </div>
+          <div class="stat">
+            <div class="k">Level</div>
+            <div class="v" id="level">—</div>
+          </div>
+          <div class="stat">
+            <div class="k">Started</div>
+            <div class="v small-v" id="startTime">—</div>
+          </div>
+          <div class="stat">
+            <div class="k">Ended</div>
+            <div class="v small-v" id="endTime">—</div>
+          </div>
+          <div class="stat">
+            <div class="k">Time spent</div>
+            <div class="v" id="timeSpent">—</div>
+          </div>
+        </div>
+        <div class="insight-list" id="insights"></div>
+        <div class="path-box"><svg id="path" viewBox="0 0 640 190" width="100%" height="180"></svg></div>
+        <div class="dbreak" id="domains"></div>
+
+        <div class="section-title mt18">
+          <h2>Question log</h2>
+          <button class="btn ghost small" id="filterAll">All</button>
+          <button class="btn ghost small" id="filterWrong">Wrong</button>
+        </div>
+        <div class="log-wrap">
+          <table class="log-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Domain</th>
+                <th>Level</th>
+                <th>Result</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody id="logBody"></tbody>
+          </table>
+        </div>
+      </section>
+      <footer class="site-foot">
+        <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a>
+      </footer>
+    </div>
+    <script src="session.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "id": "sub-unit-2-quiz-ratios",
+  "title": "Sub Unit 2 Quiz (Ratios)",
+  "createdAt": "2026-10-05T21:23:49.000Z",
+  "criteria": {
+    "fromDate": "2026-10-05",
+    "toDate": "2026-10-05",
+    "domains": [
+      "RP"
+    ],
+    "minDiff": 1,
+    "maxDiff": 5,
+    "count": 30
+  },
+  "questionIds": [
+    "SU2-01",
+    "SU2-02",
+    "SU2-03",
+    "SU2-04",
+    "SU2-05",
+    "SU2-06",
+    "SU2-07",
+    "SU2-08",
+    "SU2-09",
+    "SU2-10",
+    "SU2-11",
+    "SU2-12",
+    "SU2-13",
+    "SU2-14",
+    "SU2-15",
+    "SU2-16",
+    "SU2-17",
+    "SU2-18",
+    "SU2-19",
+    "SU2-20",
+    "SU2-21",
+    "SU2-22",
+    "SU2-23",
+    "SU2-24",
+    "SU2-25",
+    "SU2-26",
+    "SU2-27",
+    "SU2-28",
+    "SU2-29",
+    "SU2-30"
+  ]
+}

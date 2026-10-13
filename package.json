@@ -1,0 +1,29 @@
+{
+  "name": "mathpath",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Grade 6 adaptive MAP Growth Math style practice, as a static site with Google sign-in and Google Drive storage.",
+  "scripts": {
+    "build": "tsx scripts/build/build.ts",
+    "dev": "tsx scripts/build/build.ts --watch",
+    "typecheck": "tsc --noEmit",
+    "generate": "tsx scripts/build/generate-questions.ts",
+    "format": "prettier --write \"src/**/*.{ts,html}\" \"scripts/**/*.ts\"",
+    "prepare": "husky"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "esbuild": "^0.28.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.3"
+  },
+  "lint-staged": {
+    "*.{ts,html}": "prettier --write"
+  }
+}

@@ -1,0 +1,3010 @@
+[
+  {
+    "id": "M21-L1-01",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "ratio-language",
+    "module": "module-2",
+    "lesson": "2.1",
+    "source": "slides:Acc6 Lesson 2.1 (Describing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "In a picture there are 3 moons and 6 stars. Which sentence describes the ratio?",
+    "img": "<svg viewBox=\"0 0 420 116\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:440px\"><text x=\"24\" y=\"44\" font-size=\"30\" fill=\"#B45309\">☾</text><text x=\"60\" y=\"44\" font-size=\"30\" fill=\"#B45309\">☾</text><text x=\"96\" y=\"44\" font-size=\"30\" fill=\"#B45309\">☾</text><text x=\"24\" y=\"92\" font-size=\"30\" fill=\"#4F46E5\">★</text><text x=\"60\" y=\"92\" font-size=\"30\" fill=\"#4F46E5\">★</text><text x=\"96\" y=\"92\" font-size=\"30\" fill=\"#4F46E5\">★</text><text x=\"132\" y=\"92\" font-size=\"30\" fill=\"#4F46E5\">★</text><text x=\"168\" y=\"92\" font-size=\"30\" fill=\"#4F46E5\">★</text><text x=\"204\" y=\"92\" font-size=\"30\" fill=\"#4F46E5\">★</text></svg>",
+    "opts": [
+      "For every 6 moons, there are 3 stars.",
+      "For every 9 moons, there are 3 stars.",
+      "For every 3 stars, there are 6 moons.",
+      "For every 3 moons, there are 6 stars."
+    ],
+    "correct": 3,
+    "why": "There are 3 moons and 6 stars, so \"for every 3 moons, there are 6 stars.\" The order of the words must match the order of the numbers.",
+    "tip": "Read the ratio in the same order as the quantities are named."
+  },
+  {
+    "id": "M21-L1-02",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "ratio-language",
+    "module": "module-2",
+    "lesson": "2.1",
+    "source": "slides:Acc6 Lesson 2.1 (Describing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "For every 3 moons there are 6 stars. What is the ratio of moons to stars written with the smallest whole numbers?",
+    "opts": [
+      "1 : 3",
+      "1 : 2",
+      "2 : 1",
+      "3 : 1"
+    ],
+    "correct": 1,
+    "why": "3 : 6 — divide both by 3 to get 1 : 2. For every 1 moon there are 2 stars.",
+    "tip": "Moons come first because the question says \"moons to stars.\""
+  },
+  {
+    "id": "M21-L1-03",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "ratio-language",
+    "module": "module-2",
+    "lesson": "2.1",
+    "source": "slides:Acc6 Lesson 2.1 (Describing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A class has 12 girls and 10 boys. What is the ratio of boys to girls?",
+    "opts": [
+      "12 : 10",
+      "10 : 22",
+      "10 : 12",
+      "12 : 22"
+    ],
+    "correct": 2,
+    "why": "Boys are named first, so write the number of boys first: 10 : 12.",
+    "tip": "The first word in \"boys to girls\" gets the first number."
+  },
+  {
+    "id": "M21-L1-04",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "ratio-language",
+    "module": "module-2",
+    "lesson": "2.1",
+    "source": "slides:Acc6 Lesson 2.1 (Describing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Which is NOT a way to write the ratio \"5 cats for every 2 dogs\"?",
+    "opts": [
+      "5 : 2",
+      "2 : 5",
+      "5 to 2",
+      "5 cats for every 2 dogs"
+    ],
+    "correct": 1,
+    "why": "5 : 2, 5 to 2, and the sentence all show cats first. 2 : 5 reverses the order, so it would mean 2 cats for every 5 dogs.",
+    "tip": "a : b, \"a to b\" and \"for every a there are b\" all mean the same ratio."
+  },
+  {
+    "id": "M21-L1-05",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "ratio-language",
+    "module": "module-2",
+    "lesson": "2.1",
+    "source": "slides:Acc6 Lesson 2.1 (Describing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A recipe uses 4 cups of flour and 1 cup of sugar. Which statement is true?",
+    "opts": [
+      "The ratio of sugar to flour is 4 : 1.",
+      "The ratio of sugar to flour is 1 : 4.",
+      "The ratio of flour to sugar is 1 : 4.",
+      "There is 1 cup of flour for every 4 cups of sugar."
+    ],
+    "correct": 1,
+    "why": "Sugar is 1 cup and flour is 4 cups, so sugar to flour is 1 : 4 (and flour to sugar is 4 : 1).",
+    "tip": "Check each statement: which quantity is named first?"
+  },
+  {
+    "id": "M21-L1-06",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "ratio-language",
+    "module": "module-2",
+    "lesson": "2.1",
+    "source": "slides:Acc6 Lesson 2.1 (Describing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A fruit bowl has 5 apples, 3 bananas, and 2 pears. What is the ratio of bananas to all the fruit?",
+    "opts": [
+      "3 : 5",
+      "3 : 7",
+      "3 : 10",
+      "10 : 3"
+    ],
+    "correct": 2,
+    "why": "Total fruit is 5 + 3 + 2 = 10. Bananas to all fruit is 3 : 10.",
+    "tip": "A ratio can compare a part to the whole, not just part to part."
+  },
+  {
+    "id": "M21-L1-07",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "ratio-language",
+    "module": "module-2",
+    "lesson": "2.1",
+    "source": "slides:Acc6 Lesson 2.1 (Describing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "In a survey, 8 students chose pepperoni and 6 chose cheese as their favorite pizza topping. Which statement is correct?",
+    "opts": [
+      "For every 4 students who chose pepperoni, 3 chose cheese.",
+      "For every 2 students who chose pepperoni, 1 chose cheese.",
+      "For every 4 students who chose cheese, 3 chose pepperoni.",
+      "For every 8 students who chose pepperoni, 14 chose cheese."
+    ],
+    "correct": 0,
+    "why": "8 : 6 divides by 2 to give 4 : 3, so for every 4 pepperoni votes there are 3 cheese votes.",
+    "tip": "Divide both numbers by the same amount to describe the ratio more simply."
+  },
+  {
+    "id": "M21-L1-08",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "ratio-language",
+    "module": "module-2",
+    "lesson": "2.1",
+    "source": "slides:Acc6 Lesson 2.1 (Describing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "There are 6 stars and 3 moons. Two more moons are added, but the stars stay the same. What is the new ratio of stars to moons?",
+    "opts": [
+      "6 : 5",
+      "2 : 1",
+      "6 : 3",
+      "8 : 3"
+    ],
+    "correct": 0,
+    "why": "Moons become 3 + 2 = 5 and stars stay at 6, so the ratio is now 6 : 5. When the numbers change, the ratio changes too.",
+    "tip": "Recount each quantity after a change before writing the ratio."
+  },
+  {
+    "id": "M21-L1-09",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "ratio-language",
+    "module": "module-2",
+    "lesson": "2.1",
+    "source": "slides:Acc6 Lesson 2.1 (Describing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A bag has red and blue marbles in the ratio 2 : 5. Which could be the actual numbers of marbles?",
+    "opts": [
+      "5 red and 2 blue",
+      "7 red and 10 blue",
+      "8 red and 20 blue",
+      "4 red and 7 blue"
+    ],
+    "correct": 2,
+    "why": "2 × 4 = 8 and 5 × 4 = 20, so 8 : 20 is the same ratio as 2 : 5. The others do not multiply both parts by the same number.",
+    "tip": "Actual amounts must be the ratio multiplied by the same number."
+  },
+  {
+    "id": "M21-L2-01",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.2",
+    "source": "slides:Acc6 Lesson 2.2 (Intro to Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A rice recipe uses 2 cups of rice for every 3 cups of water. Which is an equivalent ratio of rice to water?",
+    "opts": [
+      "3 : 2",
+      "4 : 6",
+      "4 : 5",
+      "6 : 8"
+    ],
+    "correct": 1,
+    "why": "Multiply both parts by 2: 2 × 2 = 4 and 3 × 2 = 6, giving 4 : 6.",
+    "tip": "Equivalent ratios multiply or divide BOTH numbers by the same number."
+  },
+  {
+    "id": "M21-L2-02",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.2",
+    "source": "slides:Acc6 Lesson 2.2 (Intro to Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Which ratio is equivalent to 5 : 1?",
+    "opts": [
+      "10 : 5",
+      "15 : 3",
+      "15 : 1",
+      "6 : 2"
+    ],
+    "correct": 1,
+    "why": "5 × 3 = 15 and 1 × 3 = 3, so 15 : 3 is equivalent to 5 : 1.",
+    "tip": "Find what number you multiply the first part by, then do the same to the second."
+  },
+  {
+    "id": "M21-L2-03",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.2",
+    "source": "slides:Acc6 Lesson 2.2 (Intro to Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Noah says 3 : 4 and 5 : 6 are equivalent because he added 2 to each number. Is he correct?",
+    "opts": [
+      "No — he should have added 2 to only the first number.",
+      "Yes — both ratios have the second number 1 more than the first.",
+      "No — equivalent ratios come from multiplying or dividing both numbers by the same number, not adding.",
+      "Yes — adding the same number keeps the ratio the same."
+    ],
+    "correct": 2,
+    "why": "Adding changes the relationship. 3 : 4 doubled is 6 : 8, not 5 : 6. Only multiplying or dividing both parts by the same number keeps the ratio equivalent.",
+    "tip": "Test: does one ratio scale to the other by a single multiplier?"
+  },
+  {
+    "id": "M21-L2-04",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.2",
+    "source": "slides:Acc6 Lesson 2.2 (Intro to Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "To make 1 batch of rice, you use 1 cup of rice and 2 cups of water. How much water do you need for 5 batches?",
+    "opts": [
+      "10 cups",
+      "6 cups",
+      "5 cups",
+      "7 cups"
+    ],
+    "correct": 0,
+    "why": "5 batches means multiplying both amounts by 5: 1 × 5 = 5 cups rice and 2 × 5 = 10 cups water.",
+    "tip": "Each batch is one copy of the ratio — 5 batches is 5 copies."
+  },
+  {
+    "id": "M21-L2-05",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.2",
+    "source": "slides:Acc6 Lesson 2.2 (Intro to Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Which pair of ratios is equivalent?",
+    "opts": [
+      "6 : 9 and 2 : 3",
+      "6 : 9 and 4 : 6.5",
+      "6 : 9 and 7 : 10",
+      "6 : 9 and 3 : 2"
+    ],
+    "correct": 0,
+    "why": "Divide 6 : 9 by 3 to get 2 : 3. So 6 : 9 and 2 : 3 are equivalent.",
+    "tip": "Simplify each ratio and compare."
+  },
+  {
+    "id": "M21-L2-06",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.2",
+    "source": "slides:Acc6 Lesson 2.2 (Intro to Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A drink mix uses 3 scoops of powder for every 8 ounces of water. Which mixture will taste the SAME?",
+    "opts": [
+      "5 scoops in 10 ounces",
+      "9 scoops in 24 ounces",
+      "9 scoops in 16 ounces",
+      "6 scoops in 24 ounces"
+    ],
+    "correct": 1,
+    "why": "3 × 3 = 9 scoops and 8 × 3 = 24 ounces. Same ratio means the same taste.",
+    "tip": "Same taste means equivalent ratio — check for one common multiplier."
+  },
+  {
+    "id": "M21-L2-07",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.2",
+    "source": "slides:Acc6 Lesson 2.2 (Intro to Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Batches of purple paint use 2 cups of blue paint and 3 cups of red paint. If you use 12 cups of red paint, how much blue paint keeps the same color?",
+    "opts": [
+      "18 cups",
+      "6 cups",
+      "8 cups",
+      "11 cups"
+    ],
+    "correct": 2,
+    "why": "Red went from 3 to 12, which is × 4. Blue must also be × 4: 2 × 4 = 8 cups.",
+    "tip": "Find the multiplier on the quantity you know, then use it on the other."
+  },
+  {
+    "id": "M21-L2-08",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.2",
+    "source": "slides:Acc6 Lesson 2.2 (Intro to Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Which ratio is NOT equivalent to the others: 4 : 10, 6 : 15, 10 : 25, 8 : 18?",
+    "opts": [
+      "6 : 15",
+      "10 : 25",
+      "4 : 10",
+      "8 : 18"
+    ],
+    "correct": 3,
+    "why": "4 : 10, 6 : 15 and 10 : 25 all simplify to 2 : 5. 8 : 18 simplifies to 4 : 9.",
+    "tip": "Reduce each ratio to simplest form and look for the odd one out."
+  },
+  {
+    "id": "M21-L2-09",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.2",
+    "source": "slides:Acc6 Lesson 2.2 (Intro to Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A recipe uses 12 cups of water for 8 cups of rice. Which smaller recipe uses the same ratio?",
+    "opts": [
+      "10 cups water for 6 cups rice",
+      "4 cups water for 2 cups rice",
+      "3 cups water for 2 cups rice",
+      "6 cups water for 2 cups rice"
+    ],
+    "correct": 2,
+    "why": "Divide both by 4: 12 ÷ 4 = 3 and 8 ÷ 4 = 2. So 3 cups water for 2 cups rice.",
+    "tip": "Dividing both parts by the same number also makes an equivalent ratio."
+  },
+  {
+    "id": "M21-L3-01",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.3",
+    "source": "slides:Acc6 Lesson 2.3 (Creating Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Complete the equivalent ratio: 3 : 7 = 12 : ___",
+    "opts": [
+      "24",
+      "28",
+      "16",
+      "21"
+    ],
+    "correct": 1,
+    "why": "3 × 4 = 12, so 7 × 4 = 28.",
+    "tip": "Figure out the multiplier from the parts you know."
+  },
+  {
+    "id": "M21-L3-02",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.3",
+    "source": "slides:Acc6 Lesson 2.3 (Creating Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Complete the equivalent ratio: 45 : 30 = ___ : 2",
+    "opts": [
+      "2",
+      "3",
+      "15",
+      "17"
+    ],
+    "correct": 1,
+    "why": "30 ÷ 15 = 2, so 45 ÷ 15 = 3. The ratio is 3 : 2.",
+    "tip": "You can divide to make an equivalent ratio with smaller numbers."
+  },
+  {
+    "id": "M21-L3-03",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.3",
+    "source": "slides:Acc6 Lesson 2.3 (Creating Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A fruit salad uses 4 strawberries for every 6 grapes. Which is NOT an equivalent ratio?",
+    "opts": [
+      "2 strawberries : 3 grapes",
+      "10 strawberries : 15 grapes",
+      "8 strawberries : 12 grapes",
+      "6 strawberries : 8 grapes"
+    ],
+    "correct": 3,
+    "why": "4 : 6 = 2 : 3 = 8 : 12 = 10 : 15. But 6 : 8 is 3 : 4, which is different (it came from adding 2).",
+    "tip": "Simplify every option to 2 : 3 to test it."
+  },
+  {
+    "id": "M21-L3-04",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "justify-equivalence",
+    "module": "module-2",
+    "lesson": "2.3",
+    "source": "slides:Acc6 Lesson 2.3 (Creating Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Is 7 : 3 equivalent to 21 : 9? Choose the best justification.",
+    "opts": [
+      "No, because 21 and 9 are both odd.",
+      "No, because 21 is not a multiple of 9.",
+      "Yes, because 7 × 3 = 21 and 3 × 3 = 9.",
+      "Yes, because 21 − 7 = 14 and 9 − 3 = 6."
+    ],
+    "correct": 2,
+    "why": "Both parts of 7 : 3 are multiplied by the same number, 3, to get 21 : 9, so the ratios are equivalent.",
+    "tip": "Precise justification names the same multiplier for both parts."
+  },
+  {
+    "id": "M21-L3-05",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.3",
+    "source": "slides:Acc6 Lesson 2.3 (Creating Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Lin mixes 5 cups of juice with 2 cups of soda. She wants to make 3 times as much. How many total cups will she have?",
+    "opts": [
+      "15 cups",
+      "21 cups",
+      "10 cups",
+      "7 cups"
+    ],
+    "correct": 1,
+    "why": "3 times as much: 15 cups juice and 6 cups soda. 15 + 6 = 21 cups.",
+    "tip": "Scale both parts, then add for the total."
+  },
+  {
+    "id": "M21-L3-06",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.3",
+    "source": "slides:Acc6 Lesson 2.3 (Creating Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Which list shows ratios that are all equivalent to 2 : 5?",
+    "opts": [
+      "4 : 10, 6 : 15, 8 : 20",
+      "4 : 10, 6 : 15, 8 : 25",
+      "4 : 10, 6 : 12, 8 : 14",
+      "3 : 6, 4 : 7, 5 : 8"
+    ],
+    "correct": 0,
+    "why": "Multiply 2 : 5 by 2, 3 and 4: 4 : 10, 6 : 15, 8 : 20.",
+    "tip": "Each new ratio should be the original times a whole number."
+  },
+  {
+    "id": "M21-L3-07",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.3",
+    "source": "slides:Acc6 Lesson 2.3 (Creating Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "The ratio of cats to dogs at a shelter is 3 : 4. There are 24 dogs. How many cats are there?",
+    "opts": [
+      "12",
+      "32",
+      "21",
+      "18"
+    ],
+    "correct": 3,
+    "why": "4 × 6 = 24 dogs, so cats = 3 × 6 = 18.",
+    "tip": "Find how many \"groups\" of the ratio there are."
+  },
+  {
+    "id": "M21-L3-08",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.3",
+    "source": "slides:Acc6 Lesson 2.3 (Creating Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Which ratio is equivalent to 18 : 24 AND uses the smallest possible whole numbers?",
+    "opts": [
+      "9 : 12",
+      "6 : 8",
+      "3 : 4",
+      "4 : 3"
+    ],
+    "correct": 2,
+    "why": "The GCF of 18 and 24 is 6. 18 ÷ 6 = 3, 24 ÷ 6 = 4.",
+    "tip": "Divide by the greatest common factor to get the simplest form."
+  },
+  {
+    "id": "M21-L3-09",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "equivalent-ratios",
+    "module": "module-2",
+    "lesson": "2.3",
+    "source": "slides:Acc6 Lesson 2.3 (Creating Equivalent Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A fruit lab drink uses 2 cups of mango and 5 cups of orange juice. Kiran made a drink with the same taste using 35 cups of orange juice. How many cups of mango did he use?",
+    "opts": [
+      "7 cups",
+      "14 cups",
+      "12 cups",
+      "32 cups"
+    ],
+    "correct": 1,
+    "why": "5 × 7 = 35, so mango is 2 × 7 = 14 cups.",
+    "tip": "Same taste = equivalent ratio. Find the multiplier from 5 to 35."
+  },
+  {
+    "id": "M21-L4-01",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "double-number-line",
+    "module": "module-2",
+    "lesson": "2.4",
+    "source": "slides:Acc6 Lesson 2.4 (Intro to Double Number Lines)",
+    "addedAt": "2026-10-13",
+    "q": "The double number line shows the ratio of cups of flour to eggs. What number goes where the question mark is?",
+    "img": "<svg viewBox=\"0 0 420 150\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:440px\"><line x1=\"100\" y1=\"50\" x2=\"410\" y2=\"50\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><text x=\"8\" y=\"55\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\">Flour</text><line x1=\"110\" y1=\"42\" x2=\"110\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"110\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">0</text><line x1=\"182\" y1=\"42\" x2=\"182\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"182\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">2</text><line x1=\"255\" y1=\"42\" x2=\"255\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"255\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">4</text><line x1=\"328\" y1=\"42\" x2=\"328\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"328\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#4F46E5\" text-anchor=\"middle\">?</text><line x1=\"400\" y1=\"42\" x2=\"400\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"400\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">8</text><line x1=\"100\" y1=\"110\" x2=\"410\" y2=\"110\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><text x=\"8\" y=\"115\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\">Eggs</text><line x1=\"110\" y1=\"102\" x2=\"110\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"110\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">0</text><line x1=\"182\" y1=\"102\" x2=\"182\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"182\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">1</text><line x1=\"255\" y1=\"102\" x2=\"255\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"255\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">2</text><line x1=\"328\" y1=\"102\" x2=\"328\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"328\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">3</text><line x1=\"400\" y1=\"102\" x2=\"400\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"400\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">4</text></svg>",
+    "opts": [
+      "8",
+      "4",
+      "6",
+      "5"
+    ],
+    "correct": 2,
+    "why": "Each step adds 2 cups of flour and 1 egg. Under 3 eggs, the flour is 2 × 3 = 6 cups.",
+    "tip": "On a double number line, each tick mark has the same jump on its own line."
+  },
+  {
+    "id": "M21-L4-02",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "double-number-line",
+    "module": "module-2",
+    "lesson": "2.4",
+    "source": "slides:Acc6 Lesson 2.4 (Intro to Double Number Lines)",
+    "addedAt": "2026-10-13",
+    "q": "Use the double number line. How many minutes does it take to read 30 pages?",
+    "img": "<svg viewBox=\"0 0 420 150\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:440px\"><line x1=\"100\" y1=\"50\" x2=\"410\" y2=\"50\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><text x=\"8\" y=\"55\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\">Pages</text><line x1=\"110\" y1=\"42\" x2=\"110\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"110\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">0</text><line x1=\"168\" y1=\"42\" x2=\"168\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"168\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">6</text><line x1=\"226\" y1=\"42\" x2=\"226\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"226\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">12</text><line x1=\"284\" y1=\"42\" x2=\"284\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"284\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">18</text><line x1=\"342\" y1=\"42\" x2=\"342\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"342\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">24</text><line x1=\"400\" y1=\"42\" x2=\"400\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"400\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">30</text><line x1=\"100\" y1=\"110\" x2=\"410\" y2=\"110\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><text x=\"8\" y=\"115\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\">Minutes</text><line x1=\"110\" y1=\"102\" x2=\"110\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"110\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">0</text><line x1=\"168\" y1=\"102\" x2=\"168\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"168\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">4</text><line x1=\"226\" y1=\"102\" x2=\"226\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"226\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">8</text><line x1=\"284\" y1=\"102\" x2=\"284\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"284\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">12</text><line x1=\"342\" y1=\"102\" x2=\"342\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"342\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">16</text><line x1=\"400\" y1=\"102\" x2=\"400\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"400\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#4F46E5\" text-anchor=\"middle\">?</text></svg>",
+    "opts": [
+      "20 minutes",
+      "15 minutes",
+      "45 minutes",
+      "25 minutes"
+    ],
+    "correct": 0,
+    "why": "The pages go up by 6 and the minutes go up by 4. 30 pages is 5 jumps, so 5 × 4 = 20 minutes.",
+    "tip": "Line up the value you know and read straight across to the other line."
+  },
+  {
+    "id": "M21-L4-03",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "double-number-line",
+    "module": "module-2",
+    "lesson": "2.4",
+    "source": "slides:Acc6 Lesson 2.4 (Intro to Double Number Lines)",
+    "addedAt": "2026-10-13",
+    "q": "On a double number line for 3 apples costing $2, which pair should line up at the same tick mark?",
+    "opts": [
+      "12 apples and $8",
+      "12 apples and $11",
+      "9 apples and $5",
+      "6 apples and $3"
+    ],
+    "correct": 0,
+    "why": "3 apples : $2. Multiply by 4: 12 apples : $8. Values lined up must be an equivalent ratio.",
+    "tip": "Pairs at the same tick mark are equivalent ratios."
+  },
+  {
+    "id": "M21-L4-04",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "double-number-line",
+    "module": "module-2",
+    "lesson": "2.4",
+    "source": "slides:Acc6 Lesson 2.4 (Intro to Double Number Lines)",
+    "addedAt": "2026-10-13",
+    "q": "A double number line shows 0, 5, 10, 15 on the top line (liters of water) and 0, 2, 4, 6 on the bottom line (spoons of salt). How much salt goes with 25 liters?",
+    "opts": [
+      "10 spoons",
+      "8 spoons",
+      "9 spoons",
+      "12 spoons"
+    ],
+    "correct": 0,
+    "why": "Each jump is 5 liters to 2 spoons. 25 liters is 5 jumps, so 5 × 2 = 10 spoons.",
+    "tip": "Extend the double number line with the same jumps."
+  },
+  {
+    "id": "M21-L4-05",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "double-number-line",
+    "module": "module-2",
+    "lesson": "2.4",
+    "source": "slides:Acc6 Lesson 2.4 (Intro to Double Number Lines)",
+    "addedAt": "2026-10-13",
+    "q": "Which is the same between a ratio table and a double number line that show the same ratio?",
+    "opts": [
+      "Both show pairs of values that are equivalent ratios.",
+      "Both must start at 1.",
+      "A double number line can only show 3 values.",
+      "A table cannot show the value 0."
+    ],
+    "correct": 0,
+    "why": "Both representations list equivalent ratios — the table in rows and the number line at lined-up tick marks.",
+    "tip": "A double number line is like a table turned sideways with evenly spaced values."
+  },
+  {
+    "id": "M21-L4-06",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "double-number-line",
+    "module": "module-2",
+    "lesson": "2.4",
+    "source": "slides:Acc6 Lesson 2.4 (Intro to Double Number Lines)",
+    "addedAt": "2026-10-13",
+    "q": "The double number line shows distance and time for a walker. What distance goes with 1 minute?",
+    "img": "<svg viewBox=\"0 0 420 150\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:440px\"><line x1=\"100\" y1=\"50\" x2=\"410\" y2=\"50\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><text x=\"8\" y=\"55\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\">Meters</text><line x1=\"110\" y1=\"42\" x2=\"110\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"110\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">0</text><line x1=\"182\" y1=\"42\" x2=\"182\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"182\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#4F46E5\" text-anchor=\"middle\">?</text><line x1=\"255\" y1=\"42\" x2=\"255\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"255\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\"></text><line x1=\"328\" y1=\"42\" x2=\"328\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"328\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\"></text><line x1=\"400\" y1=\"42\" x2=\"400\" y2=\"58\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"400\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">300</text><line x1=\"100\" y1=\"110\" x2=\"410\" y2=\"110\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><text x=\"8\" y=\"115\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\">Minutes</text><line x1=\"110\" y1=\"102\" x2=\"110\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"110\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">0</text><line x1=\"182\" y1=\"102\" x2=\"182\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"182\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">1</text><line x1=\"255\" y1=\"102\" x2=\"255\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"255\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">2</text><line x1=\"328\" y1=\"102\" x2=\"328\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"328\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">3</text><line x1=\"400\" y1=\"102\" x2=\"400\" y2=\"118\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"400\" y=\"136\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">4</text></svg>",
+    "opts": [
+      "100 meters",
+      "150 meters",
+      "300 meters",
+      "75 meters"
+    ],
+    "correct": 3,
+    "why": "300 meters in 4 minutes. Divide both by 4: 300 ÷ 4 = 75 meters in 1 minute.",
+    "tip": "To find the value for 1, divide both lines by the same number."
+  },
+  {
+    "id": "M21-L4-07",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "double-number-line",
+    "module": "module-2",
+    "lesson": "2.4",
+    "source": "slides:Acc6 Lesson 2.4 (Intro to Double Number Lines)",
+    "addedAt": "2026-10-13",
+    "q": "A double number line for paint uses tick marks 0, 3, 6, 9 for cups of yellow and 0, 4, 8, 12 for cups of blue. Ana says 7 cups of yellow goes with 8 cups of blue because 7 is between 6 and 9. What is her mistake?",
+    "opts": [
+      "She should have added 1 to 8 as well.",
+      "7 is not lined up with 8; 6 cups of yellow goes with 8 cups of blue.",
+      "Double number lines cannot show yellow paint.",
+      "There is no mistake."
+    ],
+    "correct": 1,
+    "why": "Values must be at the SAME tick mark. 8 cups of blue lines up with 6 cups of yellow, not 7.",
+    "tip": "Read straight up or down the same tick mark."
+  },
+  {
+    "id": "M21-L4-08",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "double-number-line",
+    "module": "module-2",
+    "lesson": "2.4",
+    "source": "slides:Acc6 Lesson 2.4 (Intro to Double Number Lines)",
+    "addedAt": "2026-10-13",
+    "q": "A double number line shows $15 lines up with 6 tickets. How much do 10 tickets cost?",
+    "opts": [
+      "$19",
+      "$20",
+      "$30",
+      "$25"
+    ],
+    "correct": 3,
+    "why": "$15 ÷ 6 = $2.50 per ticket. 10 × $2.50 = $25.",
+    "tip": "When the multiplier is not a whole number, go to the value for 1 first."
+  },
+  {
+    "id": "M21-L5-01",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "unit-price",
+    "module": "module-2",
+    "lesson": "2.5",
+    "source": "slides:Acc6 Lesson 2.5 (Price for One)",
+    "addedAt": "2026-10-13",
+    "q": "5 tomatoes cost $2.00. What is the price for 1 tomato?",
+    "opts": [
+      "$0.40",
+      "$0.50",
+      "$0.25",
+      "$2.50"
+    ],
+    "correct": 0,
+    "why": "$2.00 ÷ 5 = $0.40. A clerk who charges $0.50 for one is overcharging.",
+    "tip": "Divide the total price by the number of items."
+  },
+  {
+    "id": "M21-L5-02",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "unit-price",
+    "module": "module-2",
+    "lesson": "2.5",
+    "source": "slides:Acc6 Lesson 2.5 (Price for One)",
+    "addedAt": "2026-10-13",
+    "q": "A pack of 6 juice boxes costs $3.00. What is the price of 1 juice box?",
+    "opts": [
+      "$0.60",
+      "$2.00",
+      "$18.00",
+      "$0.50"
+    ],
+    "correct": 3,
+    "why": "$3.00 ÷ 6 = $0.50 per juice box.",
+    "tip": "Price for one = total ÷ number of items."
+  },
+  {
+    "id": "M21-L5-03",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "unit-price",
+    "module": "module-2",
+    "lesson": "2.5",
+    "source": "slides:Acc6 Lesson 2.5 (Price for One)",
+    "addedAt": "2026-10-13",
+    "q": "Which item has the lowest price for one? A: 2 for $7.00   B: 10 for $24.00   C: 4 for $5.00",
+    "opts": [
+      "B",
+      "A",
+      "C",
+      "They are all the same"
+    ],
+    "correct": 2,
+    "why": "A: $7 ÷ 2 = $3.50. B: $24 ÷ 10 = $2.40. C: $5 ÷ 4 = $1.25. C is the cheapest per item, even though A has a lower total than B.",
+    "tip": "Compare price for one, not the total price."
+  },
+  {
+    "id": "M21-L5-04",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "unit-price",
+    "module": "module-2",
+    "lesson": "2.5",
+    "source": "slides:Acc6 Lesson 2.5 (Price for One)",
+    "addedAt": "2026-10-13",
+    "q": "4 bottles of apple juice cost $6.00. How much do 3 bottles cost?",
+    "opts": [
+      "$4.50",
+      "$5.00",
+      "$4.00",
+      "$18.00"
+    ],
+    "correct": 0,
+    "why": "$6.00 ÷ 4 = $1.50 per bottle. $1.50 × 3 = $4.50.",
+    "tip": "Find the price for one, then multiply."
+  },
+  {
+    "id": "M21-L5-05",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "unit-price",
+    "module": "module-2",
+    "lesson": "2.5",
+    "source": "slides:Acc6 Lesson 2.5 (Price for One)",
+    "addedAt": "2026-10-13",
+    "q": "12 pencils cost $2.40. How much do 8 pencils cost?",
+    "opts": [
+      "$1.60",
+      "$3.20",
+      "$1.80",
+      "$0.80"
+    ],
+    "correct": 0,
+    "why": "$2.40 ÷ 12 = $0.20 each. 8 × $0.20 = $1.60.",
+    "tip": "Price for one is the bridge between two amounts."
+  },
+  {
+    "id": "M21-L5-06",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "unit-price",
+    "module": "module-2",
+    "lesson": "2.5",
+    "source": "slides:Acc6 Lesson 2.5 (Price for One)",
+    "addedAt": "2026-10-13",
+    "q": "5 notebooks cost $4.00. How much do 10 notebooks cost?",
+    "opts": [
+      "$9.00",
+      "$4.80",
+      "$20.00",
+      "$8.00"
+    ],
+    "correct": 3,
+    "why": "10 is double 5, so double the price: $8.00. (Or $0.80 each × 10.)",
+    "tip": "Sometimes you can scale the whole ratio without finding the price for one."
+  },
+  {
+    "id": "M21-L5-07",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "unit-price",
+    "module": "module-2",
+    "lesson": "2.5",
+    "source": "slides:Acc6 Lesson 2.5 (Price for One)",
+    "addedAt": "2026-10-13",
+    "q": "Naoki is finding the price of 5 cupcakes when 4 cupcakes cost $10. He did $10 ÷ 5 = $2, then $2 × 5 = $10. What should he have done?",
+    "opts": [
+      "Divide $10 by 5 and multiply by 4 to get $8.",
+      "Add $1 to get $11.",
+      "Divide $10 by 4 to get $2.50, then multiply by 5 to get $12.50.",
+      "His answer of $10 is correct."
+    ],
+    "correct": 2,
+    "why": "The price for one is $10 ÷ 4 = $2.50 because $10 buys 4 cupcakes. Then 5 × $2.50 = $12.50.",
+    "tip": "Divide the price by the number of items it actually buys."
+  },
+  {
+    "id": "M21-L5-08",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "unit-price",
+    "module": "module-2",
+    "lesson": "2.5",
+    "source": "slides:Acc6 Lesson 2.5 (Price for One)",
+    "addedAt": "2026-10-13",
+    "q": "Store A sells 3 bananas for $1. Store B sells 8 bananas for $2. Which is the better deal and why?",
+    "opts": [
+      "Store A, because 3 bananas is fewer to carry.",
+      "Store A, because $1 is less than $2.",
+      "Store B, because each banana costs $0.25 instead of about $0.33.",
+      "They are the same deal."
+    ],
+    "correct": 2,
+    "why": "A: $1 ÷ 3 ≈ $0.33 each. B: $2 ÷ 8 = $0.25 each. Store B is cheaper per banana.",
+    "tip": "A better deal means a lower price for one."
+  },
+  {
+    "id": "M21-L5-09",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "unit-price",
+    "module": "module-2",
+    "lesson": "2.5",
+    "source": "slides:Acc6 Lesson 2.5 (Price for One)",
+    "addedAt": "2026-10-13",
+    "q": "6 muffins cost $9.00. Maria has $20. What is the greatest number of muffins she can buy?",
+    "opts": [
+      "13",
+      "11",
+      "14",
+      "12"
+    ],
+    "correct": 0,
+    "why": "$9 ÷ 6 = $1.50 each. $20 ÷ $1.50 ≈ 13.3, so she can buy 13 muffins ($19.50).",
+    "tip": "Round down when you can only buy whole items."
+  },
+  {
+    "id": "M21-L6-01",
+    "dom": "NS",
+    "diff": 1,
+    "tag": "lcm",
+    "module": "module-2",
+    "lesson": "2.6",
+    "source": "slides:Acc6 Lesson 2.6 (Least Common Multiple)",
+    "addedAt": "2026-10-13",
+    "q": "What is the least common multiple of 4 and 6?",
+    "opts": [
+      "12",
+      "24",
+      "10",
+      "2"
+    ],
+    "correct": 0,
+    "why": "Multiples of 4: 4, 8, 12… Multiples of 6: 6, 12… The first one they share is 12.",
+    "tip": "List multiples of each number until you find the first match."
+  },
+  {
+    "id": "M21-L6-02",
+    "dom": "NS",
+    "diff": 1,
+    "tag": "lcm",
+    "module": "module-2",
+    "lesson": "2.6",
+    "source": "slides:Acc6 Lesson 2.6 (Least Common Multiple)",
+    "addedAt": "2026-10-13",
+    "q": "Which list shows the first three common multiples of 3 and 5?",
+    "opts": [
+      "15, 30, 45",
+      "1, 3, 5",
+      "8, 16, 24",
+      "3, 5, 15"
+    ],
+    "correct": 0,
+    "why": "Common multiples of 3 and 5 are multiples of 15: 15, 30, 45.",
+    "tip": "Common multiples are numbers in BOTH skip-counting lists."
+  },
+  {
+    "id": "M21-L6-03",
+    "dom": "NS",
+    "diff": 2,
+    "tag": "lcm",
+    "module": "module-2",
+    "lesson": "2.6",
+    "source": "slides:Acc6 Lesson 2.6 (Least Common Multiple)",
+    "addedAt": "2026-10-13",
+    "q": "What is the LCM of 8 and 12?",
+    "opts": [
+      "4",
+      "24",
+      "48",
+      "96"
+    ],
+    "correct": 1,
+    "why": "Multiples of 8: 8, 16, 24. Multiples of 12: 12, 24. The LCM is 24.",
+    "tip": "The product (96) is a common multiple, but not always the least."
+  },
+  {
+    "id": "M21-L6-04",
+    "dom": "NS",
+    "diff": 2,
+    "tag": "lcm",
+    "module": "module-2",
+    "lesson": "2.6",
+    "source": "slides:Acc6 Lesson 2.6 (Least Common Multiple)",
+    "addedAt": "2026-10-13",
+    "q": "What is the LCM of 7 and 5?",
+    "opts": [
+      "70",
+      "35",
+      "12",
+      "1"
+    ],
+    "correct": 1,
+    "why": "7 and 5 share no factors except 1, so their LCM is 7 × 5 = 35.",
+    "tip": "When two numbers share no factors, the LCM is their product."
+  },
+  {
+    "id": "M21-L6-05",
+    "dom": "NS",
+    "diff": 3,
+    "tag": "lcm",
+    "module": "module-2",
+    "lesson": "2.6",
+    "source": "slides:Acc6 Lesson 2.6 (Least Common Multiple)",
+    "addedAt": "2026-10-13",
+    "q": "Hot dogs come in packs of 10 and buns come in packs of 8. What is the fewest of each you can buy to have the same number of hot dogs and buns?",
+    "opts": [
+      "18 hot dogs and 18 buns",
+      "20 hot dogs and 20 buns",
+      "80 hot dogs and 80 buns",
+      "40 hot dogs and 40 buns"
+    ],
+    "correct": 3,
+    "why": "The LCM of 10 and 8 is 40. That means 4 packs of hot dogs and 5 packs of buns.",
+    "tip": "\"The fewest to match up\" is an LCM problem."
+  },
+  {
+    "id": "M21-L6-06",
+    "dom": "NS",
+    "diff": 3,
+    "tag": "lcm",
+    "module": "module-2",
+    "lesson": "2.6",
+    "source": "slides:Acc6 Lesson 2.6 (Least Common Multiple)",
+    "addedAt": "2026-10-13",
+    "q": "One light blinks every 6 seconds and another every 9 seconds. They blink together now. In how many seconds will they next blink together?",
+    "opts": [
+      "3 seconds",
+      "15 seconds",
+      "18 seconds",
+      "54 seconds"
+    ],
+    "correct": 2,
+    "why": "Multiples of 6: 6, 12, 18. Multiples of 9: 9, 18. They meet at 18 seconds.",
+    "tip": "Events that repeat on different schedules line up at the LCM."
+  },
+  {
+    "id": "M21-L6-07",
+    "dom": "NS",
+    "diff": 4,
+    "tag": "lcm",
+    "module": "module-2",
+    "lesson": "2.6",
+    "source": "slides:Acc6 Lesson 2.6 (Least Common Multiple)",
+    "addedAt": "2026-10-13",
+    "q": "What is the LCM of 12 and 18?",
+    "opts": [
+      "6",
+      "36",
+      "216",
+      "72"
+    ],
+    "correct": 1,
+    "why": "Multiples of 18: 18, 36. 36 is also a multiple of 12 (12 × 3). So the LCM is 36.",
+    "tip": "Skip-count by the larger number and check each against the smaller."
+  },
+  {
+    "id": "M21-L6-08",
+    "dom": "NS",
+    "diff": 4,
+    "tag": "lcm",
+    "module": "module-2",
+    "lesson": "2.6",
+    "source": "slides:Acc6 Lesson 2.6 (Least Common Multiple)",
+    "addedAt": "2026-10-13",
+    "q": "Which pair of numbers has an LCM of 20?",
+    "opts": [
+      "6 and 10",
+      "4 and 10",
+      "3 and 10",
+      "2 and 10"
+    ],
+    "correct": 1,
+    "why": "Multiples of 10: 10, 20. 20 is also a multiple of 4, and 10 is not, so LCM(4, 10) = 20. LCM(2, 10) = 10, LCM(3, 10) = 30 and LCM(6, 10) = 30.",
+    "tip": "Test each pair by listing multiples of the larger number."
+  },
+  {
+    "id": "M21-L6-09",
+    "dom": "NS",
+    "diff": 5,
+    "tag": "lcm",
+    "module": "module-2",
+    "lesson": "2.6",
+    "source": "slides:Acc6 Lesson 2.6 (Least Common Multiple)",
+    "addedAt": "2026-10-13",
+    "q": "Bus A leaves every 15 minutes and Bus B every 20 minutes. Both leave at 8:00 a.m. When do they next leave together?",
+    "opts": [
+      "8:35 a.m.",
+      "8:30 a.m.",
+      "9:00 a.m.",
+      "8:20 a.m."
+    ],
+    "correct": 2,
+    "why": "LCM of 15 and 20: 15, 30, 45, 60 — and 60 is a multiple of 20. 60 minutes after 8:00 is 9:00 a.m.",
+    "tip": "Find the LCM in minutes, then add it to the start time."
+  },
+  {
+    "id": "M21-L7-01",
+    "dom": "NS",
+    "diff": 1,
+    "tag": "gcf",
+    "module": "module-2",
+    "lesson": "2.7",
+    "source": "slides:Acc6 Lesson 2.7 (Greatest Common Factor)",
+    "addedAt": "2026-10-13",
+    "q": "What is the greatest common factor of 12 and 18?",
+    "opts": [
+      "3",
+      "6",
+      "36",
+      "2"
+    ],
+    "correct": 1,
+    "why": "Factors of 12: 1, 2, 3, 4, 6, 12. Factors of 18: 1, 2, 3, 6, 9, 18. The greatest shared factor is 6.",
+    "tip": "List all factors of both numbers and pick the largest one in both lists."
+  },
+  {
+    "id": "M21-L7-02",
+    "dom": "NS",
+    "diff": 1,
+    "tag": "gcf",
+    "module": "module-2",
+    "lesson": "2.7",
+    "source": "slides:Acc6 Lesson 2.7 (Greatest Common Factor)",
+    "addedAt": "2026-10-13",
+    "q": "Which number is a common factor of 20 and 30?",
+    "opts": [
+      "5",
+      "4",
+      "3",
+      "60"
+    ],
+    "correct": 0,
+    "why": "20 ÷ 5 = 4 and 30 ÷ 5 = 6, so 5 divides both.",
+    "tip": "A common factor divides both numbers with no remainder."
+  },
+  {
+    "id": "M21-L7-03",
+    "dom": "NS",
+    "diff": 2,
+    "tag": "gcf",
+    "module": "module-2",
+    "lesson": "2.7",
+    "source": "slides:Acc6 Lesson 2.7 (Greatest Common Factor)",
+    "addedAt": "2026-10-13",
+    "q": "What is the GCF of 16 and 40?",
+    "opts": [
+      "16",
+      "4",
+      "8",
+      "80"
+    ],
+    "correct": 2,
+    "why": "Factors of 16: 1, 2, 4, 8, 16. 40 ÷ 8 = 5 but 40 ÷ 16 is not whole, so the GCF is 8.",
+    "tip": "Start with the smaller number’s largest factors and test them."
+  },
+  {
+    "id": "M21-L7-04",
+    "dom": "NS",
+    "diff": 2,
+    "tag": "gcf",
+    "module": "module-2",
+    "lesson": "2.7",
+    "source": "slides:Acc6 Lesson 2.7 (Greatest Common Factor)",
+    "addedAt": "2026-10-13",
+    "q": "What is the GCF of 9 and 14?",
+    "opts": [
+      "126",
+      "7",
+      "3",
+      "1"
+    ],
+    "correct": 3,
+    "why": "9 has factors 1, 3, 9. 14 has factors 1, 2, 7, 14. The only shared factor is 1.",
+    "tip": "If two numbers share nothing but 1, the GCF is 1."
+  },
+  {
+    "id": "M21-L7-05",
+    "dom": "NS",
+    "diff": 3,
+    "tag": "gcf",
+    "module": "module-2",
+    "lesson": "2.7",
+    "source": "slides:Acc6 Lesson 2.7 (Greatest Common Factor)",
+    "addedAt": "2026-10-13",
+    "q": "A teacher has 24 pencils and 36 erasers. She wants identical kits with no supplies left over. What is the greatest number of kits she can make?",
+    "opts": [
+      "72",
+      "60",
+      "6",
+      "12"
+    ],
+    "correct": 3,
+    "why": "GCF(24, 36) = 12. Each kit gets 2 pencils and 3 erasers.",
+    "tip": "\"Split into equal groups, as many as possible\" is a GCF problem."
+  },
+  {
+    "id": "M21-L7-06",
+    "dom": "NS",
+    "diff": 3,
+    "tag": "lcm-vs-gcf",
+    "module": "module-2",
+    "lesson": "2.7",
+    "source": "slides:Acc6 Lesson 2.7 (Greatest Common Factor)",
+    "addedAt": "2026-10-13",
+    "q": "Which situation is solved using the LCM instead of the GCF?",
+    "opts": [
+      "Finding when two runners on different lap times will next be at the start together.",
+      "Cutting two ribbons into the longest equal pieces with nothing left over.",
+      "Packing 30 apples and 45 oranges into identical bags.",
+      "Splitting 18 boys and 24 girls into the most equal teams."
+    ],
+    "correct": 0,
+    "why": "Lining up repeating events (laps) uses common multiples. The other three split things into equal groups, which uses common factors.",
+    "tip": "Splitting into groups → GCF. Repeating until things match → LCM."
+  },
+  {
+    "id": "M21-L7-07",
+    "dom": "NS",
+    "diff": 3,
+    "tag": "gcf",
+    "module": "module-2",
+    "lesson": "2.7",
+    "source": "slides:Acc6 Lesson 2.7 (Greatest Common Factor)",
+    "addedAt": "2026-10-13",
+    "q": "Use the GCF to write 36 + 48 as a product: ___ × (3 + 4).",
+    "opts": [
+      "84",
+      "12",
+      "6",
+      "4"
+    ],
+    "correct": 1,
+    "why": "GCF(36, 48) = 12. 36 = 12 × 3 and 48 = 12 × 4, so 36 + 48 = 12 × (3 + 4).",
+    "tip": "Factor out the GCF using the distributive property."
+  },
+  {
+    "id": "M21-L7-08",
+    "dom": "NS",
+    "diff": 4,
+    "tag": "gcf",
+    "module": "module-2",
+    "lesson": "2.7",
+    "source": "slides:Acc6 Lesson 2.7 (Greatest Common Factor)",
+    "addedAt": "2026-10-13",
+    "q": "A rectangle that is 18 cm by 30 cm is covered exactly by the largest possible square tiles. What is the side length of each tile?",
+    "opts": [
+      "90 cm",
+      "6 cm",
+      "12 cm",
+      "3 cm"
+    ],
+    "correct": 1,
+    "why": "The side must divide both 18 and 30. The greatest such number is GCF(18, 30) = 6 cm.",
+    "tip": "The largest square tile that fits evenly uses the GCF of the side lengths."
+  },
+  {
+    "id": "M21-L7-09",
+    "dom": "NS",
+    "diff": 5,
+    "tag": "lcm-vs-gcf",
+    "module": "module-2",
+    "lesson": "2.7",
+    "source": "slides:Acc6 Lesson 2.7 (Greatest Common Factor)",
+    "addedAt": "2026-10-13",
+    "q": "Juice comes in packs of 12 and snacks in packs of 8. (a) What is the fewest of each to buy so the amounts match, and (b) into how many identical bags could 12 juices and 8 snacks be split with nothing left over (as many bags as possible)?",
+    "opts": [
+      "(a) 4 each  (b) 24 bags",
+      "(a) 24 each  (b) 4 bags",
+      "(a) 24 each  (b) 2 bags",
+      "(a) 96 each  (b) 2 bags"
+    ],
+    "correct": 1,
+    "why": "(a) Matching amounts uses LCM(12, 8) = 24. (b) Equal groups use GCF(12, 8) = 4, so 4 bags with 3 juices and 2 snacks each.",
+    "tip": "Decide for each part: matching totals (LCM) or splitting (GCF)?"
+  },
+  {
+    "id": "M21-L8-01",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "comparing-ratios",
+    "module": "module-2",
+    "lesson": "2.8",
+    "source": "slides:Acc6 Lesson 2.8 (Comparing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Paint A uses 2 cups blue to 3 cups red. Paint B uses 4 cups blue to 6 cups red. How do the colors compare?",
+    "opts": [
+      "Paint B is more blue.",
+      "They are the same color.",
+      "Paint B is more red.",
+      "Paint A is more blue."
+    ],
+    "correct": 1,
+    "why": "4 : 6 is 2 : 3 multiplied by 2, so the ratios are equivalent and the colors are the same.",
+    "tip": "Equivalent ratios make the same color."
+  },
+  {
+    "id": "M21-L8-02",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "comparing-ratios",
+    "module": "module-2",
+    "lesson": "2.8",
+    "source": "slides:Acc6 Lesson 2.8 (Comparing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Recipe A: 3 cups blue and 5 cups yellow. Recipe B: 3 cups blue and 4 cups yellow. Which green is more yellow?",
+    "opts": [
+      "Recipe A",
+      "They are the same",
+      "Recipe B",
+      "You cannot tell"
+    ],
+    "correct": 0,
+    "why": "Both use 3 cups of blue, so compare the yellow: 5 > 4. Recipe A is more yellow.",
+    "tip": "When one quantity is the same, just compare the other."
+  },
+  {
+    "id": "M21-L8-03",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "comparing-ratios",
+    "module": "module-2",
+    "lesson": "2.8",
+    "source": "slides:Acc6 Lesson 2.8 (Comparing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Purple paint is made with 2 tsp blue and 3 tsp red. Han uses 3 tsp blue and 2 tsp red. Is his purple the same color?",
+    "opts": [
+      "Yes — both use 2 and 3.",
+      "No — he has more blue than red, but the recipe has more red than blue.",
+      "Yes — both use 5 tsp total.",
+      "No — he needs 5 tsp of blue."
+    ],
+    "correct": 1,
+    "why": "The recipe is blue : red = 2 : 3. Han’s is 3 : 2. Same total does not mean same ratio, so it is a different color.",
+    "tip": "The order of the quantities matters."
+  },
+  {
+    "id": "M21-L8-04",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "comparing-ratios",
+    "module": "module-2",
+    "lesson": "2.8",
+    "source": "slides:Acc6 Lesson 2.8 (Comparing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Lemonade A uses 2 scoops mix in 5 cups water. Lemonade B uses 3 scoops mix in 6 cups water. Which is stronger?",
+    "opts": [
+      "You cannot tell",
+      "Lemonade B",
+      "Lemonade A",
+      "They are the same"
+    ],
+    "correct": 1,
+    "why": "Make the water the same: A is 12 : 30 and B is 15 : 30. B has more mix in the same water, so it is stronger.",
+    "tip": "Scale both ratios so one quantity matches, then compare the other."
+  },
+  {
+    "id": "M21-L8-05",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "comparing-ratios",
+    "module": "module-2",
+    "lesson": "2.8",
+    "source": "slides:Acc6 Lesson 2.8 (Comparing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Class A has 4 teachers for 60 students. Class B has 3 teachers for 48 students. Which class has more students per teacher?",
+    "opts": [
+      "They are the same",
+      "You cannot tell",
+      "Class A",
+      "Class B"
+    ],
+    "correct": 3,
+    "why": "A: 60 ÷ 4 = 15 students per teacher. B: 48 ÷ 3 = 16 students per teacher. B has more.",
+    "tip": "Compare by finding the amount for 1."
+  },
+  {
+    "id": "M21-L8-06",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "comparing-ratios",
+    "module": "module-2",
+    "lesson": "2.8",
+    "source": "slides:Acc6 Lesson 2.8 (Comparing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Orange paint: Mix A is 6 cups red to 4 cups yellow. Mix B is 9 cups red to 6 cups yellow. Mix C is 8 cups red to 6 cups yellow. Which mix is a different shade?",
+    "opts": [
+      "Mix B",
+      "All three are the same",
+      "Mix C",
+      "Mix A"
+    ],
+    "correct": 2,
+    "why": "A = 3 : 2 and B = 3 : 2 (both simplify). C = 4 : 3, which is different.",
+    "tip": "Simplify each ratio to compare all of them at once."
+  },
+  {
+    "id": "M21-L8-07",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "comparing-ratios",
+    "module": "module-2",
+    "lesson": "2.8",
+    "source": "slides:Acc6 Lesson 2.8 (Comparing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Diego runs 5 laps in 8 minutes. Noah runs 7 laps in 12 minutes. Who runs faster?",
+    "opts": [
+      "They run at the same speed",
+      "You cannot tell",
+      "Noah",
+      "Diego"
+    ],
+    "correct": 3,
+    "why": "Make the minutes match at 24: Diego 15 laps, Noah 14 laps. Diego runs more laps in the same time.",
+    "tip": "Use a common value (like the LCM of the minutes) to compare."
+  },
+  {
+    "id": "M21-L8-08",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "comparing-ratios",
+    "module": "module-2",
+    "lesson": "2.8",
+    "source": "slides:Acc6 Lesson 2.8 (Comparing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Trail mix A has 3 cups nuts to 2 cups raisins. Trail mix B has 5 cups nuts to 4 cups raisins. Which mix has the greater ratio of nuts to raisins?",
+    "opts": [
+      "You cannot tell",
+      "Mix A",
+      "They are the same",
+      "Mix B"
+    ],
+    "correct": 1,
+    "why": "Match raisins at 4: A becomes 6 : 4 and B is 5 : 4. A has more nuts for the same raisins.",
+    "tip": "Pick the quantity that is easiest to make equal."
+  },
+  {
+    "id": "M21-L8-09",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "comparing-ratios",
+    "module": "module-2",
+    "lesson": "2.8",
+    "source": "slides:Acc6 Lesson 2.8 (Comparing Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Which drink has the most juice compared to water? A: 2 juice : 3 water   B: 3 juice : 4 water   C: 5 juice : 8 water",
+    "opts": [
+      "C",
+      "They are all the same",
+      "B",
+      "A"
+    ],
+    "correct": 2,
+    "why": "Juice per 1 cup of water: A = 2 ÷ 3 ≈ 0.67, B = 3 ÷ 4 = 0.75, C = 5 ÷ 8 = 0.625. B is the most juicy.",
+    "tip": "With three ratios, compare the amount per 1 of the same quantity."
+  },
+  {
+    "id": "M21-L9-01",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "ratio-table",
+    "module": "module-2",
+    "lesson": "2.9",
+    "source": "slides:Acc6 Lesson 2.9 (Ratio Tables with Large Quantities)",
+    "addedAt": "2026-10-13",
+    "q": "The table shows bottles of water to people. How many bottles are needed for 10 people?",
+    "img": "<svg viewBox=\"0 0 300 148\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:300px\"><rect x=\"20\" y=\"10\" width=\"130\" height=\"32\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"85.0\" y=\"31\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">People</text><rect x=\"150\" y=\"10\" width=\"130\" height=\"32\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"31\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">Bottles</text><rect x=\"20\" y=\"42\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"85.0\" y=\"63\" font-size=\"14\" font-weight=\"400\" fill=\"#2B3242\" text-anchor=\"middle\">1</text><rect x=\"150\" y=\"42\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"63\" font-size=\"14\" font-weight=\"400\" fill=\"#2B3242\" text-anchor=\"middle\">3</text><rect x=\"20\" y=\"74\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"85.0\" y=\"95\" font-size=\"14\" font-weight=\"400\" fill=\"#2B3242\" text-anchor=\"middle\">2</text><rect x=\"150\" y=\"74\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"95\" font-size=\"14\" font-weight=\"400\" fill=\"#2B3242\" text-anchor=\"middle\">6</text><rect x=\"20\" y=\"106\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"85.0\" y=\"127\" font-size=\"14\" font-weight=\"400\" fill=\"#2B3242\" text-anchor=\"middle\">10</text><rect x=\"150\" y=\"106\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"127\" font-size=\"14\" font-weight=\"700\" fill=\"#4F46E5\" text-anchor=\"middle\">?</text></svg>",
+    "opts": [
+      "30",
+      "33",
+      "13",
+      "20"
+    ],
+    "correct": 0,
+    "why": "Every person needs 3 bottles. 10 × 3 = 30 bottles.",
+    "tip": "Each row in a ratio table is the first row times the same number."
+  },
+  {
+    "id": "M21-L9-02",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "ratio-table",
+    "module": "module-2",
+    "lesson": "2.9",
+    "source": "slides:Acc6 Lesson 2.9 (Ratio Tables with Large Quantities)",
+    "addedAt": "2026-10-13",
+    "q": "A city stocks 2 power strips for every 25 people. How many power strips are needed for 200 people?",
+    "opts": [
+      "50",
+      "227",
+      "16",
+      "8"
+    ],
+    "correct": 2,
+    "why": "200 ÷ 25 = 8, so multiply both by 8: 2 × 8 = 16 power strips.",
+    "tip": "Choose a multiplier that jumps straight to the large number."
+  },
+  {
+    "id": "M21-L9-03",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "ratio-table",
+    "module": "module-2",
+    "lesson": "2.9",
+    "source": "slides:Acc6 Lesson 2.9 (Ratio Tables with Large Quantities)",
+    "addedAt": "2026-10-13",
+    "q": "A recommendation is 3 handheld showers for every 50 people. How many showers for 1,000 people?",
+    "opts": [
+      "53",
+      "60",
+      "20",
+      "150"
+    ],
+    "correct": 1,
+    "why": "1,000 ÷ 50 = 20. 3 × 20 = 60 showers.",
+    "tip": "Multiplying by 10 or 100 is a fast way through big numbers."
+  },
+  {
+    "id": "M21-L9-04",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "ratio-table",
+    "module": "module-2",
+    "lesson": "2.9",
+    "source": "slides:Acc6 Lesson 2.9 (Ratio Tables with Large Quantities)",
+    "addedAt": "2026-10-13",
+    "q": "Use the table. What is the missing value?",
+    "img": "<svg viewBox=\"0 0 300 148\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:300px\"><rect x=\"20\" y=\"10\" width=\"130\" height=\"32\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"85.0\" y=\"31\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">Cups of mix</text><rect x=\"150\" y=\"10\" width=\"130\" height=\"32\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"31\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">Servings</text><rect x=\"20\" y=\"42\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"85.0\" y=\"63\" font-size=\"14\" font-weight=\"400\" fill=\"#2B3242\" text-anchor=\"middle\">5</text><rect x=\"150\" y=\"42\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"63\" font-size=\"14\" font-weight=\"400\" fill=\"#2B3242\" text-anchor=\"middle\">40</text><rect x=\"20\" y=\"74\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"85.0\" y=\"95\" font-size=\"14\" font-weight=\"400\" fill=\"#2B3242\" text-anchor=\"middle\">10</text><rect x=\"150\" y=\"74\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"95\" font-size=\"14\" font-weight=\"400\" fill=\"#2B3242\" text-anchor=\"middle\">80</text><rect x=\"20\" y=\"106\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"85.0\" y=\"127\" font-size=\"14\" font-weight=\"400\" fill=\"#2B3242\" text-anchor=\"middle\">15</text><rect x=\"150\" y=\"106\" width=\"130\" height=\"32\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"127\" font-size=\"14\" font-weight=\"700\" fill=\"#4F46E5\" text-anchor=\"middle\">?</text></svg>",
+    "opts": [
+      "120",
+      "108",
+      "144",
+      "96"
+    ],
+    "correct": 0,
+    "why": "5 cups makes 40 servings → 8 servings per cup. 15 cups × 8 = 120 servings.",
+    "tip": "Look for a row you can scale easily to the row you need."
+  },
+  {
+    "id": "M21-L9-05",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "ratio-table",
+    "module": "module-2",
+    "lesson": "2.9",
+    "source": "slides:Acc6 Lesson 2.9 (Ratio Tables with Large Quantities)",
+    "addedAt": "2026-10-13",
+    "q": "A school orders 4 air pumps for every 120 students. How many air pumps does it need for 900 students?",
+    "opts": [
+      "7.5",
+      "30",
+      "36",
+      "25"
+    ],
+    "correct": 1,
+    "why": "4 pumps : 120 students = 1 pump : 30 students. 900 ÷ 30 = 30 pumps.",
+    "tip": "Divide down to a friendly row, then multiply up."
+  },
+  {
+    "id": "M21-L9-06",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "ratio-table",
+    "module": "module-2",
+    "lesson": "2.9",
+    "source": "slides:Acc6 Lesson 2.9 (Ratio Tables with Large Quantities)",
+    "addedAt": "2026-10-13",
+    "q": "In a ratio table, 6 tickets cost $42. Which row also belongs in the table?",
+    "opts": [
+      "60 tickets cost $96",
+      "60 tickets cost $420",
+      "12 tickets cost $48",
+      "7 tickets cost $43"
+    ],
+    "correct": 1,
+    "why": "Multiply both by 10: 60 tickets cost $420. Adding 1 or 6 to each value does not keep the ratio.",
+    "tip": "Rows must be multiples of each other."
+  },
+  {
+    "id": "M21-L9-07",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "ratio-table",
+    "module": "module-2",
+    "lesson": "2.9",
+    "source": "slides:Acc6 Lesson 2.9 (Ratio Tables with Large Quantities)",
+    "addedAt": "2026-10-13",
+    "q": "A factory makes 360 toys every 8 hours. At that rate, how many toys does it make in 50 hours?",
+    "opts": [
+      "2,880",
+      "2,250",
+      "1,800",
+      "3,600"
+    ],
+    "correct": 1,
+    "why": "360 ÷ 8 = 45 toys per hour. 45 × 50 = 2,250 toys.",
+    "tip": "Find the value for 1, then scale to the large number."
+  },
+  {
+    "id": "M21-L9-08",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "ratio-table",
+    "module": "module-2",
+    "lesson": "2.9",
+    "source": "slides:Acc6 Lesson 2.9 (Ratio Tables with Large Quantities)",
+    "addedAt": "2026-10-13",
+    "q": "A food bank packs 7 cans for every 2 families. How many cans for 150 families?",
+    "opts": [
+      "159",
+      "525",
+      "1,050",
+      "300"
+    ],
+    "correct": 1,
+    "why": "150 ÷ 2 = 75. 7 × 75 = 525 cans.",
+    "tip": "Use the multiplier 150 ÷ 2."
+  },
+  {
+    "id": "M21-L9-09",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "ratio-table",
+    "module": "module-2",
+    "lesson": "2.9",
+    "source": "slides:Acc6 Lesson 2.9 (Ratio Tables with Large Quantities)",
+    "addedAt": "2026-10-13",
+    "q": "A shelter needs 9 blankets for every 12 people. How many people can be served with 300 blankets?",
+    "opts": [
+      "400",
+      "312",
+      "225",
+      "360"
+    ],
+    "correct": 0,
+    "why": "9 : 12 simplifies to 3 : 4. 300 ÷ 3 = 100, so people = 4 × 100 = 400.",
+    "tip": "Simplify the ratio first to make big-number scaling easier."
+  },
+  {
+    "id": "M21-L10-01",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "multi-step-ratio",
+    "module": "module-2",
+    "lesson": "2.10",
+    "source": "slides:Acc6 Lesson 2.10 (Solving Ratio Problems)",
+    "addedAt": "2026-10-13",
+    "q": "It takes 4 balloons to decorate 1 table. How many tables can be decorated with 36 balloons?",
+    "opts": [
+      "144",
+      "40",
+      "32",
+      "9"
+    ],
+    "correct": 3,
+    "why": "36 ÷ 4 = 9 tables.",
+    "tip": "Divide when you know the total and the amount per group."
+  },
+  {
+    "id": "M21-L10-02",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "multi-step-ratio",
+    "module": "module-2",
+    "lesson": "2.10",
+    "source": "slides:Acc6 Lesson 2.10 (Solving Ratio Problems)",
+    "addedAt": "2026-10-13",
+    "q": "A balloon pump fills 3 balloons in 2 minutes. How many balloons does it fill in 10 minutes?",
+    "opts": [
+      "13",
+      "6",
+      "15",
+      "30"
+    ],
+    "correct": 2,
+    "why": "10 ÷ 2 = 5, so multiply both by 5: 3 × 5 = 15 balloons.",
+    "tip": "Find the multiplier from the minutes."
+  },
+  {
+    "id": "M21-L10-03",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "multi-step-ratio",
+    "module": "module-2",
+    "lesson": "2.10",
+    "source": "slides:Acc6 Lesson 2.10 (Solving Ratio Problems)",
+    "addedAt": "2026-10-13",
+    "q": "6 bags of balloons cost $15. How much do 10 bags cost?",
+    "opts": [
+      "$30",
+      "$25",
+      "$60",
+      "$19"
+    ],
+    "correct": 1,
+    "why": "$15 ÷ 6 = $2.50 per bag. $2.50 × 10 = $25.",
+    "tip": "When the multiplier is not whole, go through the value for 1."
+  },
+  {
+    "id": "M21-L10-04",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "multi-step-ratio",
+    "module": "module-2",
+    "lesson": "2.10",
+    "source": "slides:Acc6 Lesson 2.10 (Solving Ratio Problems)",
+    "addedAt": "2026-10-13",
+    "q": "A car travels 150 miles on 5 gallons of gas. How far can it go on 8 gallons?",
+    "opts": [
+      "120 miles",
+      "200 miles",
+      "153 miles",
+      "240 miles"
+    ],
+    "correct": 3,
+    "why": "150 ÷ 5 = 30 miles per gallon. 30 × 8 = 240 miles.",
+    "tip": "Divide down to 1, multiply up to what you need."
+  },
+  {
+    "id": "M21-L10-05",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "multi-step-ratio",
+    "module": "module-2",
+    "lesson": "2.10",
+    "source": "slides:Acc6 Lesson 2.10 (Solving Ratio Problems)",
+    "addedAt": "2026-10-13",
+    "q": "Which strategy correctly finds the cost of 15 pens if 6 pens cost $9?",
+    "opts": [
+      "Subtract 6 from 15 and add that many dollars.",
+      "Divide 6 and $9 by 3 to get 2 pens for $3, then multiply by 7.5 — or find $1.50 each and multiply by 15.",
+      "Multiply $9 by 15.",
+      "Add 9 to $9 to get $18."
+    ],
+    "correct": 1,
+    "why": "Both correct strategies give $22.50: $9 ÷ 6 = $1.50 each, and $1.50 × 15 = $22.50.",
+    "tip": "Any strategy works if you multiply or divide both quantities by the same number."
+  },
+  {
+    "id": "M21-L10-06",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "multi-step-ratio",
+    "module": "module-2",
+    "lesson": "2.10",
+    "source": "slides:Acc6 Lesson 2.10 (Solving Ratio Problems)",
+    "addedAt": "2026-10-13",
+    "q": "A recipe needs 4 eggs for 10 pancakes. How many eggs are needed for 25 pancakes?",
+    "opts": [
+      "10",
+      "100",
+      "19",
+      "8"
+    ],
+    "correct": 0,
+    "why": "4 eggs : 10 pancakes = 2 eggs : 5 pancakes. 25 is 5 × 5, so 2 × 5 = 10 eggs.",
+    "tip": "Divide to a smaller equivalent ratio that reaches the target evenly."
+  },
+  {
+    "id": "M21-L10-07",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "multi-step-ratio",
+    "module": "module-2",
+    "lesson": "2.10",
+    "source": "slides:Acc6 Lesson 2.10 (Solving Ratio Problems)",
+    "addedAt": "2026-10-13",
+    "q": "A party store sells 8 balloons for $6. Mrs. Lee needs 60 balloons. How much will they cost?",
+    "opts": [
+      "$80",
+      "$48",
+      "$58",
+      "$45"
+    ],
+    "correct": 3,
+    "why": "$6 ÷ 8 = $0.75 each. 60 × $0.75 = $45.",
+    "tip": "Price per balloon makes any amount easy to find."
+  },
+  {
+    "id": "M21-L10-08",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "multi-step-ratio",
+    "module": "module-2",
+    "lesson": "2.10",
+    "source": "slides:Acc6 Lesson 2.10 (Solving Ratio Problems)",
+    "addedAt": "2026-10-13",
+    "q": "A printer prints 45 pages in 3 minutes. How long does it take to print 270 pages?",
+    "opts": [
+      "18 minutes",
+      "90 minutes",
+      "6 minutes",
+      "15 minutes"
+    ],
+    "correct": 0,
+    "why": "45 ÷ 3 = 15 pages per minute. 270 ÷ 15 = 18 minutes.",
+    "tip": "Find the unit rate, then divide the total by it."
+  },
+  {
+    "id": "M21-L10-09",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "multi-step-ratio",
+    "module": "module-2",
+    "lesson": "2.10",
+    "source": "slides:Acc6 Lesson 2.10 (Solving Ratio Problems)",
+    "addedAt": "2026-10-13",
+    "q": "A machine fills 12 balloons in 5 minutes. A second machine fills 20 balloons in 8 minutes. Together, how many balloons do they fill in 40 minutes?",
+    "opts": [
+      "160",
+      "200",
+      "192",
+      "196"
+    ],
+    "correct": 3,
+    "why": "Machine 1: 40 ÷ 5 = 8, so 12 × 8 = 96. Machine 2: 40 ÷ 8 = 5, so 20 × 5 = 100. Together: 96 + 100 = 196.",
+    "tip": "Solve for each machine separately, then combine."
+  },
+  {
+    "id": "M21-L11-01",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.11",
+    "source": "slides:Acc6 Lesson 2.11 (Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Green paint uses blue and yellow in the ratio 2 : 3. How many cups of blue are in 10 cups of green paint?",
+    "img": "<svg viewBox=\"0 0 420 130\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:440px\"><text x=\"8\" y=\"37\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\">Blue</text><rect x=\"90\" y=\"15\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/><rect x=\"134\" y=\"15\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"8\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\">Yellow</text><rect x=\"90\" y=\"65\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/><rect x=\"134\" y=\"65\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/><rect x=\"178\" y=\"65\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/></svg>",
+    "opts": [
+      "2 cups",
+      "4 cups",
+      "6 cups",
+      "5 cups"
+    ],
+    "correct": 1,
+    "why": "The tape diagram has 2 + 3 = 5 equal parts. 10 ÷ 5 = 2 cups per part. Blue = 2 parts × 2 = 4 cups.",
+    "tip": "Add the parts to find the total number of boxes."
+  },
+  {
+    "id": "M21-L11-02",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.11",
+    "source": "slides:Acc6 Lesson 2.11 (Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Purple paint uses 2 tsp blue for every 3 tsp red. How much purple paint does one batch make?",
+    "opts": [
+      "1 tsp",
+      "3 tsp",
+      "5 tsp",
+      "6 tsp"
+    ],
+    "correct": 2,
+    "why": "One batch is 2 + 3 = 5 tsp of purple paint.",
+    "tip": "The whole is the sum of the parts."
+  },
+  {
+    "id": "M21-L11-03",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.11",
+    "source": "slides:Acc6 Lesson 2.11 (Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "The ratio of boys to girls in a club is 3 : 5. There are 40 students in all. How many are girls?",
+    "opts": [
+      "15",
+      "25",
+      "24",
+      "35"
+    ],
+    "correct": 1,
+    "why": "3 + 5 = 8 parts. 40 ÷ 8 = 5 students per part. Girls = 5 × 5 = 25.",
+    "tip": "Total ÷ number of parts = size of one part."
+  },
+  {
+    "id": "M21-L11-04",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.11",
+    "source": "slides:Acc6 Lesson 2.11 (Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Purple paint is 2 parts blue to 3 parts red. You need 15 tsp of purple paint. How many tsp of red?",
+    "opts": [
+      "6 tsp",
+      "12 tsp",
+      "9 tsp",
+      "10 tsp"
+    ],
+    "correct": 2,
+    "why": "5 parts make 15 tsp, so 1 part = 3 tsp. Red = 3 × 3 = 9 tsp.",
+    "tip": "Start with the total when you know the whole."
+  },
+  {
+    "id": "M21-L11-05",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.11",
+    "source": "slides:Acc6 Lesson 2.11 (Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Each box of the tape diagram has the same value. If the total is 56, what is the value of one box?",
+    "img": "<svg viewBox=\"0 0 420 130\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:440px\"><text x=\"8\" y=\"37\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\">Cats</text><rect x=\"90\" y=\"15\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/><rect x=\"134\" y=\"15\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/><rect x=\"178\" y=\"15\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"8\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"#2B3242\">Dogs</text><rect x=\"90\" y=\"65\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/><rect x=\"134\" y=\"65\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/><rect x=\"178\" y=\"65\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/><rect x=\"222\" y=\"65\" width=\"44\" height=\"34\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2\"/></svg>",
+    "opts": [
+      "14",
+      "8",
+      "7",
+      "28"
+    ],
+    "correct": 1,
+    "why": "There are 3 + 4 = 7 boxes in all. 56 ÷ 7 = 8 per box.",
+    "tip": "Count every box in both rows."
+  },
+  {
+    "id": "M21-L11-06",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.11",
+    "source": "slides:Acc6 Lesson 2.11 (Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A trail mix uses peanuts to raisins in a 5 : 2 ratio. There are 9 more cups of peanuts than raisins. How many cups of trail mix are there?",
+    "opts": [
+      "35 cups",
+      "21 cups",
+      "14 cups",
+      "15 cups"
+    ],
+    "correct": 1,
+    "why": "The difference is 5 − 2 = 3 parts = 9 cups, so 1 part = 3 cups. Total = 7 parts × 3 = 21 cups (15 peanuts, 6 raisins).",
+    "tip": "The difference between parts is also a number of boxes."
+  },
+  {
+    "id": "M21-L11-07",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.11",
+    "source": "slides:Acc6 Lesson 2.11 (Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Orange juice and soda are mixed in a 4 : 1 ratio. Jada makes 3 cups of punch using 2.4 cups of juice. Is her punch the same recipe?",
+    "opts": [
+      "Yes — 4 : 1 means juice is 4 out of 5 parts, and 4/5 of 3 cups is 2.4 cups.",
+      "No — she needs 4 cups of juice.",
+      "Yes — any punch with juice and soda is the same.",
+      "No — there should be 3 cups of soda."
+    ],
+    "correct": 0,
+    "why": "5 parts = 3 cups, so 1 part = 0.6 cup. Juice = 4 × 0.6 = 2.4 cups and soda = 0.6 cup. It matches.",
+    "tip": "Check: total ÷ total parts, then multiply by the part you want."
+  },
+  {
+    "id": "M21-L11-08",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.11",
+    "source": "slides:Acc6 Lesson 2.11 (Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A hospital has nurses and patients in a ratio of 1 : 4. There are 80 people in all. How many nurses are there?",
+    "opts": [
+      "64",
+      "4",
+      "20",
+      "16"
+    ],
+    "correct": 3,
+    "why": "1 + 4 = 5 parts. 80 ÷ 5 = 16, so there are 16 nurses and 64 patients.",
+    "tip": "Use the total number of parts to share out the whole."
+  },
+  {
+    "id": "M21-L11-09",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.11",
+    "source": "slides:Acc6 Lesson 2.11 (Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A bag has red, blue and green tiles in the ratio 2 : 3 : 5. There are 18 blue tiles. How many tiles in all?",
+    "opts": [
+      "60",
+      "30",
+      "90",
+      "36"
+    ],
+    "correct": 0,
+    "why": "Blue is 3 parts = 18, so 1 part = 6. Total = (2 + 3 + 5) × 6 = 10 × 6 = 60 tiles.",
+    "tip": "Use the part you know to find one box, then count all boxes."
+  },
+  {
+    "id": "M21-L12-01",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.12",
+    "source": "slides:Acc6 Lesson 2.12 (Applying Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Adult and student tickets are sold in a ratio of 3 : 10. A total of 78 tickets were sold. How many were adult tickets?",
+    "opts": [
+      "18",
+      "60",
+      "23",
+      "26"
+    ],
+    "correct": 0,
+    "why": "3 + 10 = 13 parts. 78 ÷ 13 = 6 per part. Adults = 3 × 6 = 18 and students = 60.",
+    "tip": "Divide the total by the sum of the ratio parts."
+  },
+  {
+    "id": "M21-L12-02",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.12",
+    "source": "slides:Acc6 Lesson 2.12 (Applying Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A city plan uses land for parks and buildings in the ratio 2 : 7. The city has 90 acres. How many acres are parks?",
+    "opts": [
+      "20 acres",
+      "18 acres",
+      "70 acres",
+      "45 acres"
+    ],
+    "correct": 0,
+    "why": "2 + 7 = 9 parts. 90 ÷ 9 = 10 acres per part. Parks = 2 × 10 = 20 acres.",
+    "tip": "Draw a tape diagram with 9 equal boxes."
+  },
+  {
+    "id": "M21-L12-03",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.12",
+    "source": "slides:Acc6 Lesson 2.12 (Applying Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "The ratio of fiction to non-fiction books on a shelf is 5 : 3. There are 15 non-fiction books. How many books are there in all?",
+    "opts": [
+      "24",
+      "23",
+      "25",
+      "40"
+    ],
+    "correct": 3,
+    "why": "Non-fiction is 3 parts = 15, so 1 part = 5. Total = 8 parts × 5 = 40 books.",
+    "tip": "When you know a part, start with the part — not the total."
+  },
+  {
+    "id": "M21-L12-04",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.12",
+    "source": "slides:Acc6 Lesson 2.12 (Applying Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Bard paid $26 for 4 tickets, Andre paid $29 for 4 tickets, and Mai paid $31.25 for 5 tickets. Who paid the lowest price per ticket?",
+    "opts": [
+      "Mai",
+      "Bard",
+      "They all paid the same",
+      "Andre"
+    ],
+    "correct": 0,
+    "why": "Bard: $26 ÷ 4 = $6.50. Andre: $29 ÷ 4 = $7.25. Mai: $31.25 ÷ 5 = $6.25. Mai paid the least per ticket.",
+    "tip": "Divide the total price by the number of tickets."
+  },
+  {
+    "id": "M21-L12-05",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.12",
+    "source": "slides:Acc6 Lesson 2.12 (Applying Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A town has houses and apartments in the ratio 4 : 5. There are 30 more apartments than houses. How many homes are there in all?",
+    "opts": [
+      "120",
+      "270",
+      "150",
+      "30"
+    ],
+    "correct": 1,
+    "why": "The difference is 5 − 4 = 1 part = 30. Total = 9 parts × 30 = 270 homes.",
+    "tip": "The difference in parts tells you the value of one part."
+  },
+  {
+    "id": "M21-L12-06",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.12",
+    "source": "slides:Acc6 Lesson 2.12 (Applying Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Blue and yellow paint make green paint in a 1 : 3 ratio. Lin wants 20 cups of green paint but has only 4 cups of blue. Does she have enough?",
+    "opts": [
+      "No — she needs 5 cups of blue.",
+      "Yes — she needs only 4 cups of blue.",
+      "Yes — she needs only 1 cup of blue.",
+      "No — she needs 15 cups of blue."
+    ],
+    "correct": 0,
+    "why": "1 + 3 = 4 parts. 20 ÷ 4 = 5 cups per part. Blue is 1 part = 5 cups, so 4 cups is not enough.",
+    "tip": "Find the size of one part from the whole first."
+  },
+  {
+    "id": "M21-L12-07",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.12",
+    "source": "slides:Acc6 Lesson 2.12 (Applying Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A school garden has tomatoes, peppers and beans planted in a 3 : 2 : 1 ratio. There are 72 plants. How many more tomato plants than bean plants are there?",
+    "opts": [
+      "48",
+      "24",
+      "36",
+      "12"
+    ],
+    "correct": 1,
+    "why": "3 + 2 + 1 = 6 parts; 72 ÷ 6 = 12 per part. Tomatoes = 36, beans = 12. 36 − 12 = 24.",
+    "tip": "Find each part, then answer the exact question asked."
+  },
+  {
+    "id": "M21-L12-08",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.12",
+    "source": "slides:Acc6 Lesson 2.12 (Applying Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "A soccer team won 3 games for every 2 games it lost (no ties). It played 35 games. How many more games did it win than lose?",
+    "opts": [
+      "7",
+      "21",
+      "5",
+      "14"
+    ],
+    "correct": 0,
+    "why": "3 + 2 = 5 parts; 35 ÷ 5 = 7 per part. Wins = 21, losses = 14. 21 − 14 = 7.",
+    "tip": "The difference is 1 part, so it equals one box."
+  },
+  {
+    "id": "M21-L12-09",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "part-part-whole",
+    "module": "module-2",
+    "lesson": "2.12",
+    "source": "slides:Acc6 Lesson 2.12 (Applying Part-Part-Whole Ratios)",
+    "addedAt": "2026-10-13",
+    "q": "Same recipe? A purple paint recipe is 2 tsp blue : 3 tsp red. Kiran made 5 tsp of purple with 3 tsp of blue. Choose the best explanation.",
+    "opts": [
+      "Same — both make 5 tsp.",
+      "Same — he only swapped the numbers.",
+      "Not the same — 5 tsp of purple should use 2 tsp blue and 3 tsp red.",
+      "Not the same — 5 tsp of purple needs 5 tsp of blue."
+    ],
+    "correct": 2,
+    "why": "One batch of the recipe is exactly 5 tsp: 2 blue + 3 red. Using 3 blue changes the ratio to 3 : 2, a different color.",
+    "tip": "Use a table of the recipe to check the parts for the total you have."
+  },
+  {
+    "id": "M21-MD1-01",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "unit-conversion",
+    "module": "module-2",
+    "lesson": "MD1",
+    "source": "slides:Acc6 Lesson MD1 (Measurement Conversions)",
+    "addedAt": "2026-10-13",
+    "q": "How many inches are in 4 feet? (1 foot = 12 inches)",
+    "opts": [
+      "48 inches",
+      "3 inches",
+      "16 inches",
+      "40 inches"
+    ],
+    "correct": 0,
+    "why": "1 ft : 12 in, so 4 ft : 48 in.",
+    "tip": "Converting to a smaller unit gives a bigger number."
+  },
+  {
+    "id": "M21-MD1-02",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "unit-conversion",
+    "module": "module-2",
+    "lesson": "MD1",
+    "source": "slides:Acc6 Lesson MD1 (Measurement Conversions)",
+    "addedAt": "2026-10-13",
+    "q": "How many feet are in 15 yards? (1 yard = 3 feet)",
+    "opts": [
+      "12 feet",
+      "5 feet",
+      "18 feet",
+      "45 feet"
+    ],
+    "correct": 3,
+    "why": "1 yd : 3 ft. Multiply by 15: 15 yd : 45 ft.",
+    "tip": "Use the ratio 1 yd : 3 ft as a ratio table."
+  },
+  {
+    "id": "M21-MD1-03",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "unit-conversion",
+    "module": "module-2",
+    "lesson": "MD1",
+    "source": "slides:Acc6 Lesson MD1 (Measurement Conversions)",
+    "addedAt": "2026-10-13",
+    "q": "How many yards are in 15 feet?",
+    "opts": [
+      "12 yards",
+      "5 yards",
+      "45 yards",
+      "18 yards"
+    ],
+    "correct": 1,
+    "why": "3 ft : 1 yd. 15 ÷ 3 = 5 yards.",
+    "tip": "Converting to a larger unit gives a smaller number."
+  },
+  {
+    "id": "M21-MD1-04",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "unit-conversion",
+    "module": "module-2",
+    "lesson": "MD1",
+    "source": "slides:Acc6 Lesson MD1 (Measurement Conversions)",
+    "addedAt": "2026-10-13",
+    "q": "Marco wants to convert 15 feet to yards. He set up the table with 3 ft over 1 yd, and wrote 15 under the 1 yd. What did he do wrong?",
+    "opts": [
+      "He should add 15 and 3.",
+      "He should have used 12 instead of 3.",
+      "15 is feet, so it belongs in the same column as the 3 ft.",
+      "Nothing; his set-up is correct."
+    ],
+    "correct": 2,
+    "why": "In a ratio table, each column must hold the same unit. 15 feet goes under 3 feet, giving 15 ft : 5 yd.",
+    "tip": "Keep like units lined up together."
+  },
+  {
+    "id": "M21-MD1-05",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "unit-conversion",
+    "module": "module-2",
+    "lesson": "MD1",
+    "source": "slides:Acc6 Lesson MD1 (Measurement Conversions)",
+    "addedAt": "2026-10-13",
+    "q": "A flagpole is 14 yards tall. How many feet tall is it?",
+    "opts": [
+      "42 feet",
+      "17 feet",
+      "168 feet",
+      "4.7 feet"
+    ],
+    "correct": 0,
+    "why": "1 yd = 3 ft, so 14 × 3 = 42 feet.",
+    "tip": "Multiply when going from a larger unit to a smaller one."
+  },
+  {
+    "id": "M21-MD1-06",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "unit-conversion",
+    "module": "module-2",
+    "lesson": "MD1",
+    "source": "slides:Acc6 Lesson MD1 (Measurement Conversions)",
+    "addedAt": "2026-10-13",
+    "q": "How many ounces are in 3.5 pounds? (1 pound = 16 ounces)",
+    "opts": [
+      "48 ounces",
+      "56 ounces",
+      "64 ounces",
+      "19.5 ounces"
+    ],
+    "correct": 1,
+    "why": "16 × 3.5 = 56 ounces.",
+    "tip": "Multiply by the number of small units in one large unit."
+  },
+  {
+    "id": "M21-MD1-07",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "unit-conversion",
+    "module": "module-2",
+    "lesson": "MD1",
+    "source": "slides:Acc6 Lesson MD1 (Measurement Conversions)",
+    "addedAt": "2026-10-13",
+    "q": "Jada converted 8 feet to inches by doing 8 × 12. Han did 12 × 8. Who is correct?",
+    "opts": [
+      "Only Jada",
+      "Both — they both found 96 inches; the order of multiplying does not matter.",
+      "Only Han",
+      "Neither — they should divide."
+    ],
+    "correct": 1,
+    "why": "Both use the ratio 1 ft : 12 in. 8 × 12 = 12 × 8 = 96 inches.",
+    "tip": "Multiplication is commutative, so either order works."
+  },
+  {
+    "id": "M21-MD1-08",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "unit-conversion",
+    "module": "module-2",
+    "lesson": "MD1",
+    "source": "slides:Acc6 Lesson MD1 (Measurement Conversions)",
+    "addedAt": "2026-10-13",
+    "q": "A water jug holds 3 gallons. How many quarts is that? (1 gallon = 4 quarts)",
+    "opts": [
+      "7 quarts",
+      "12 quarts",
+      "16 quarts",
+      "0.75 quarts"
+    ],
+    "correct": 1,
+    "why": "1 gal : 4 qt, so 3 gal : 12 qt.",
+    "tip": "Write the conversion as a ratio and scale it."
+  },
+  {
+    "id": "M21-MD1-09",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "unit-conversion",
+    "module": "module-2",
+    "lesson": "MD1",
+    "source": "slides:Acc6 Lesson MD1 (Measurement Conversions)",
+    "addedAt": "2026-10-13",
+    "q": "A ribbon is 2.5 meters long. How many centimeters long is it? (1 m = 100 cm)",
+    "opts": [
+      "102.5 cm",
+      "2,500 cm",
+      "250 cm",
+      "25 cm"
+    ],
+    "correct": 2,
+    "why": "1 m : 100 cm, so 2.5 m : 250 cm.",
+    "tip": "Metric conversions multiply or divide by powers of 10."
+  },
+  {
+    "id": "M21-MD1-10",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "unit-conversion",
+    "module": "module-2",
+    "lesson": "MD1",
+    "source": "slides:Acc6 Lesson MD1 (Measurement Conversions)",
+    "addedAt": "2026-10-13",
+    "q": "A recipe needs 3 cups of milk. A cup is 8 fluid ounces, and Elena has a 20-fluid-ounce bottle. Does she have enough?",
+    "opts": [
+      "Yes — she needs 11 fluid ounces.",
+      "Yes — she needs 20 fluid ounces.",
+      "No — she needs 38 fluid ounces.",
+      "No — she needs 24 fluid ounces."
+    ],
+    "correct": 3,
+    "why": "3 cups × 8 fl oz = 24 fl oz. 20 fl oz is 4 fluid ounces short.",
+    "tip": "Convert to the same unit before comparing."
+  },
+  {
+    "id": "M21-L15-01",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "speed",
+    "module": "module-2",
+    "lesson": "2.15",
+    "source": "slides:Acc6 Lesson 2.15 (Comparing Speeds)",
+    "addedAt": "2026-10-13",
+    "q": "A sixth grader walks 10 meters in 8 seconds. What is the walking speed in meters per second?",
+    "opts": [
+      "80 m/s",
+      "18 m/s",
+      "0.8 m/s",
+      "1.25 m/s"
+    ],
+    "correct": 3,
+    "why": "Speed = distance ÷ time = 10 ÷ 8 = 1.25 meters per second.",
+    "tip": "Speed is a unit rate: distance for 1 unit of time."
+  },
+  {
+    "id": "M21-L15-02",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "speed",
+    "module": "module-2",
+    "lesson": "2.15",
+    "source": "slides:Acc6 Lesson 2.15 (Comparing Speeds)",
+    "addedAt": "2026-10-13",
+    "q": "At 10 meters in 8 seconds, how long does it take to walk 5 meters?",
+    "opts": [
+      "4 seconds",
+      "6.25 seconds",
+      "5 seconds",
+      "3 seconds"
+    ],
+    "correct": 0,
+    "why": "5 meters is half of 10 meters, so it takes half of 8 seconds: 4 seconds.",
+    "tip": "Half the distance takes half the time at the same speed."
+  },
+  {
+    "id": "M21-L15-03",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "speed",
+    "module": "module-2",
+    "lesson": "2.15",
+    "source": "slides:Acc6 Lesson 2.15 (Comparing Speeds)",
+    "addedAt": "2026-10-13",
+    "q": "At 10 meters in 8 seconds, how long does it take to walk 18 meters?",
+    "opts": [
+      "22.5 seconds",
+      "16 seconds",
+      "14.4 seconds",
+      "20 seconds"
+    ],
+    "correct": 2,
+    "why": "8 ÷ 10 = 0.8 seconds per meter. 18 × 0.8 = 14.4 seconds.",
+    "tip": "You can use seconds per meter to find the time for any distance."
+  },
+  {
+    "id": "M21-L15-04",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "speed",
+    "module": "module-2",
+    "lesson": "2.15",
+    "source": "slides:Acc6 Lesson 2.15 (Comparing Speeds)",
+    "addedAt": "2026-10-13",
+    "q": "A cheetah runs 100 meters in 4 seconds. What is its speed?",
+    "opts": [
+      "96 m/s",
+      "25 m/s",
+      "0.04 m/s",
+      "400 m/s"
+    ],
+    "correct": 1,
+    "why": "100 ÷ 4 = 25 meters per second.",
+    "tip": "Divide distance by time."
+  },
+  {
+    "id": "M21-L15-05",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "speed",
+    "module": "module-2",
+    "lesson": "2.15",
+    "source": "slides:Acc6 Lesson 2.15 (Comparing Speeds)",
+    "addedAt": "2026-10-13",
+    "q": "Runner A runs 200 meters in 25 seconds. Runner B runs 150 meters in 20 seconds. Who is faster?",
+    "opts": [
+      "You cannot tell",
+      "Runner A",
+      "They are equally fast",
+      "Runner B"
+    ],
+    "correct": 1,
+    "why": "A: 200 ÷ 25 = 8 m/s. B: 150 ÷ 20 = 7.5 m/s. A covers more meters each second.",
+    "tip": "To compare speeds, find meters per second for each."
+  },
+  {
+    "id": "M21-L15-06",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "speed",
+    "module": "module-2",
+    "lesson": "2.15",
+    "source": "slides:Acc6 Lesson 2.15 (Comparing Speeds)",
+    "addedAt": "2026-10-13",
+    "q": "Two people run the same 400-meter track. One takes 80 seconds and the other takes 100 seconds. Which statement is true?",
+    "opts": [
+      "The 80-second runner is faster, at 4 m/s versus 5 m/s.",
+      "They are the same speed because they ran the same distance.",
+      "The 100-second runner is faster because 100 > 80.",
+      "The 80-second runner is faster, at 5 m/s versus 4 m/s."
+    ],
+    "correct": 3,
+    "why": "400 ÷ 80 = 5 m/s and 400 ÷ 100 = 4 m/s. Less time for the same distance means faster.",
+    "tip": "Same distance? The shorter time is faster."
+  },
+  {
+    "id": "M21-L15-07",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "speed",
+    "module": "module-2",
+    "lesson": "2.15",
+    "source": "slides:Acc6 Lesson 2.15 (Comparing Speeds)",
+    "addedAt": "2026-10-13",
+    "q": "A world-record swimmer swims 50 meters in 20 seconds. At that speed, how far would the swimmer go in 1 minute?",
+    "opts": [
+      "100 meters",
+      "1,000 meters",
+      "2.5 meters",
+      "150 meters"
+    ],
+    "correct": 3,
+    "why": "50 ÷ 20 = 2.5 m/s. 1 minute = 60 seconds. 2.5 × 60 = 150 meters.",
+    "tip": "Convert minutes to seconds before using a meters-per-second rate."
+  },
+  {
+    "id": "M21-L15-08",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "speed",
+    "module": "module-2",
+    "lesson": "2.15",
+    "source": "slides:Acc6 Lesson 2.15 (Comparing Speeds)",
+    "addedAt": "2026-10-13",
+    "q": "A train travels 300 km in 4 hours. A car travels 210 km in 3 hours. Which is faster, and by how much?",
+    "opts": [
+      "The car, by 5 km per hour",
+      "They are the same",
+      "The train, by 5 km per hour",
+      "The train, by 90 km per hour"
+    ],
+    "correct": 2,
+    "why": "Train: 300 ÷ 4 = 75 km/h. Car: 210 ÷ 3 = 70 km/h. 75 − 70 = 5 km/h.",
+    "tip": "Find each unit rate, then subtract."
+  },
+  {
+    "id": "M21-L15-09",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "speed",
+    "module": "module-2",
+    "lesson": "2.15",
+    "source": "slides:Acc6 Lesson 2.15 (Comparing Speeds)",
+    "addedAt": "2026-10-13",
+    "q": "A snail moves 3 meters in 4 minutes. How many minutes will it take to move 15 meters?",
+    "opts": [
+      "16 minutes",
+      "11.25 minutes",
+      "20 minutes",
+      "60 minutes"
+    ],
+    "correct": 2,
+    "why": "15 ÷ 3 = 5 groups of 3 meters. 5 × 4 = 20 minutes.",
+    "tip": "Scale the time by the same factor as the distance."
+  },
+  {
+    "id": "M21-L16-01",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "comparing-rates",
+    "module": "module-2",
+    "lesson": "2.16",
+    "source": "slides:Acc6 Lesson 2.16 (Comparing Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Model train A travels 30 inches in 5 seconds. Train B travels 50 inches in 10 seconds. Which is faster?",
+    "opts": [
+      "They are the same",
+      "You cannot tell",
+      "Train B",
+      "Train A"
+    ],
+    "correct": 3,
+    "why": "A: 30 ÷ 5 = 6 in/s. B: 50 ÷ 10 = 5 in/s. A is faster.",
+    "tip": "Compare inches per second."
+  },
+  {
+    "id": "M21-L16-02",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "comparing-rates",
+    "module": "module-2",
+    "lesson": "2.16",
+    "source": "slides:Acc6 Lesson 2.16 (Comparing Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Store 1 sells 3 pounds of apples for $4.50. Store 2 sells 5 pounds for $7. Which is the better buy?",
+    "opts": [
+      "Store 1, at $1.50 per pound",
+      "Store 2, at $1.40 per pound",
+      "Store 1, because $4.50 < $7",
+      "They are the same"
+    ],
+    "correct": 1,
+    "why": "Store 1: $4.50 ÷ 3 = $1.50/lb. Store 2: $7 ÷ 5 = $1.40/lb. Store 2 is cheaper per pound.",
+    "tip": "Compare price per pound."
+  },
+  {
+    "id": "M21-L16-03",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "comparing-rates",
+    "module": "module-2",
+    "lesson": "2.16",
+    "source": "slides:Acc6 Lesson 2.16 (Comparing Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Which is the faster typing rate: 120 words in 3 minutes or 210 words in 5 minutes?",
+    "opts": [
+      "210 words in 5 minutes",
+      "120 words in 3 minutes",
+      "They are the same",
+      "You cannot tell"
+    ],
+    "correct": 0,
+    "why": "120 ÷ 3 = 40 words/min. 210 ÷ 5 = 42 words/min. 42 > 40.",
+    "tip": "Find words per minute for both."
+  },
+  {
+    "id": "M21-L16-04",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "comparing-rates",
+    "module": "module-2",
+    "lesson": "2.16",
+    "source": "slides:Acc6 Lesson 2.16 (Comparing Rates)",
+    "addedAt": "2026-10-13",
+    "q": "A model train goes 2 feet per second. Another goes 30 inches per second. Which is faster? (1 foot = 12 inches)",
+    "opts": [
+      "They are the same",
+      "The 2 feet per second train",
+      "The 30 inches per second train",
+      "You cannot compare different units"
+    ],
+    "correct": 2,
+    "why": "2 ft/s = 24 in/s. 30 in/s > 24 in/s, so the second train is faster.",
+    "tip": "Convert to the same units before comparing rates."
+  },
+  {
+    "id": "M21-L16-05",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "comparing-rates",
+    "module": "module-2",
+    "lesson": "2.16",
+    "source": "slides:Acc6 Lesson 2.16 (Comparing Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Elena runs 1 mile in 10 minutes. Kiran runs 2,000 meters in 12 minutes. About 1 mile is 1,600 meters. Who is faster?",
+    "opts": [
+      "You cannot tell",
+      "They are about the same",
+      "Elena",
+      "Kiran"
+    ],
+    "correct": 3,
+    "why": "Elena: 1,600 ÷ 10 = 160 meters per minute. Kiran: 2,000 ÷ 12 ≈ 167 meters per minute. Kiran is faster.",
+    "tip": "Make the units match, then find the rate per minute."
+  },
+  {
+    "id": "M21-L16-06",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "comparing-rates",
+    "module": "module-2",
+    "lesson": "2.16",
+    "source": "slides:Acc6 Lesson 2.16 (Comparing Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Water fills Tank A at 18 liters every 3 minutes and Tank B at 50 liters every 10 minutes. How much more water does Tank A get in 1 hour?",
+    "opts": [
+      "10 liters",
+      "60 liters",
+      "1 liter",
+      "300 liters"
+    ],
+    "correct": 1,
+    "why": "A: 6 L/min × 60 = 360 L. B: 5 L/min × 60 = 300 L. Difference = 60 L.",
+    "tip": "Use unit rates to compare over any time."
+  },
+  {
+    "id": "M21-L16-07",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "comparing-rates",
+    "module": "module-2",
+    "lesson": "2.16",
+    "source": "slides:Acc6 Lesson 2.16 (Comparing Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Train X travels 45 meters in 15 seconds. Train Y travels 200 meters in 1 minute. Which train is faster?",
+    "opts": [
+      "Train Y",
+      "They are the same",
+      "You cannot tell",
+      "Train X"
+    ],
+    "correct": 0,
+    "why": "X: 45 ÷ 15 = 3 m/s. Y: 200 ÷ 60 ≈ 3.33 m/s. Y is faster.",
+    "tip": "Change minutes to seconds so both rates use the same units."
+  },
+  {
+    "id": "M21-L16-08",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "comparing-rates",
+    "module": "module-2",
+    "lesson": "2.16",
+    "source": "slides:Acc6 Lesson 2.16 (Comparing Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Package A: 16 oz of cereal for $4.00. Package B: 2 pounds of cereal for $7.20. Which costs less per ounce? (1 lb = 16 oz)",
+    "opts": [
+      "Package A, at $0.25 per ounce",
+      "Package B, at $3.60 per ounce",
+      "They cost the same",
+      "Package B, at $0.225 per ounce"
+    ],
+    "correct": 3,
+    "why": "A: $4.00 ÷ 16 = $0.25/oz. B: 2 lb = 32 oz, $7.20 ÷ 32 = $0.225/oz. B is cheaper.",
+    "tip": "Convert pounds to ounces first."
+  },
+  {
+    "id": "M21-L17-01",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "two-unit-rates",
+    "module": "module-2",
+    "lesson": "2.17",
+    "source": "slides:Acc6 Lesson 2.17 (Two Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Soft serve costs $6 for 3 cups. What is the price per cup?",
+    "opts": [
+      "$3 per cup",
+      "$2 per cup",
+      "$0.50 per cup",
+      "$18 per cup"
+    ],
+    "correct": 1,
+    "why": "$6 ÷ 3 = $2 per cup.",
+    "tip": "\"Per\" means \"for each one\"."
+  },
+  {
+    "id": "M21-L17-02",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "two-unit-rates",
+    "module": "module-2",
+    "lesson": "2.17",
+    "source": "slides:Acc6 Lesson 2.17 (Two Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Soft serve costs $6 for 3 cups. How many cups can you buy per dollar?",
+    "opts": [
+      "6 cups per dollar",
+      "0.5 cup per dollar",
+      "3 cups per dollar",
+      "2 cups per dollar"
+    ],
+    "correct": 1,
+    "why": "3 cups ÷ $6 = 0.5 cup per dollar.",
+    "tip": "Every ratio has two unit rates: a ÷ b and b ÷ a."
+  },
+  {
+    "id": "M21-L17-03",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "two-unit-rates",
+    "module": "module-2",
+    "lesson": "2.17",
+    "source": "slides:Acc6 Lesson 2.17 (Two Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "A ratio is 4 cups of flour to 5 cakes. What are its two unit rates?",
+    "opts": [
+      "4 cups per cake and 5 cakes per cup",
+      "0.8 cup per cake and 0.8 cake per cup",
+      "0.8 cup per cake and 1.25 cakes per cup",
+      "9 cups per cake and 1 cake per cup"
+    ],
+    "correct": 2,
+    "why": "4 ÷ 5 = 0.8 cup per cake. 5 ÷ 4 = 1.25 cakes per cup.",
+    "tip": "Divide each quantity by the other to get the two unit rates."
+  },
+  {
+    "id": "M21-L17-04",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "two-unit-rates",
+    "module": "module-2",
+    "lesson": "2.17",
+    "source": "slides:Acc6 Lesson 2.17 (Two Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "A recipe uses 3 cups of water for 2 cups of rice. Which unit rate tells how much water for 1 cup of rice?",
+    "opts": [
+      "1.5 cups of water per cup of rice",
+      "5 cups of water per cup of rice",
+      "6 cups of water per cup of rice",
+      "0.67 cup of water per cup of rice"
+    ],
+    "correct": 0,
+    "why": "Water ÷ rice = 3 ÷ 2 = 1.5 cups of water per cup of rice.",
+    "tip": "Put the \"per\" quantity in the divisor."
+  },
+  {
+    "id": "M21-L17-05",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "two-unit-rates",
+    "module": "module-2",
+    "lesson": "2.17",
+    "source": "slides:Acc6 Lesson 2.17 (Two Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "12 ounces of frozen yogurt cost $3. Which pair of unit rates is correct?",
+    "opts": [
+      "$0.25 per ounce and 0.25 ounce per dollar",
+      "$36 per ounce and 15 ounces per dollar",
+      "$0.25 per ounce and 4 ounces per dollar",
+      "$4 per ounce and 0.25 ounce per dollar"
+    ],
+    "correct": 2,
+    "why": "$3 ÷ 12 = $0.25 per ounce. 12 ÷ $3 = 4 ounces per dollar.",
+    "tip": "The two unit rates are reciprocals of each other."
+  },
+  {
+    "id": "M21-L17-06",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "two-unit-rates",
+    "module": "module-2",
+    "lesson": "2.17",
+    "source": "slides:Acc6 Lesson 2.17 (Two Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "It takes 20 minutes to paint 5 boards. Which unit rate is most useful to find how many boards are painted in 2 hours?",
+    "opts": [
+      "0.25 board per minute, so 30 boards in 120 minutes",
+      "4 boards per minute, so 480 boards",
+      "20 boards, because 2 hours is 20 minutes × 6 and 5 − 1 = 4",
+      "0.25 minute per board, so 30 boards"
+    ],
+    "correct": 0,
+    "why": "5 ÷ 20 = 0.25 board per minute. 2 hours = 120 minutes. 120 × 0.25 = 30 boards. (Or 120 ÷ 4 minutes per board = 30.)",
+    "tip": "Choose the unit rate that has the unknown quantity \"per\" the known one."
+  },
+  {
+    "id": "M21-L17-07",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "two-unit-rates",
+    "module": "module-2",
+    "lesson": "2.17",
+    "source": "slides:Acc6 Lesson 2.17 (Two Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "A soft-serve machine makes 15 cups in 6 minutes. How many minutes per cup?",
+    "opts": [
+      "90 minutes per cup",
+      "2.5 minutes per cup",
+      "9 minutes per cup",
+      "0.4 minute per cup"
+    ],
+    "correct": 3,
+    "why": "6 minutes ÷ 15 cups = 0.4 minute per cup (and 2.5 cups per minute).",
+    "tip": "Minutes per cup = minutes ÷ cups."
+  },
+  {
+    "id": "M21-L17-08",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "two-unit-rates",
+    "module": "module-2",
+    "lesson": "2.17",
+    "source": "slides:Acc6 Lesson 2.17 (Two Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Lin bought 5 pounds of grapes for $8. She wants to know how many pounds she can get for $20. Which calculation works?",
+    "opts": [
+      "0.625 lb per dollar × $20 = 12.5 lb",
+      "20 − 8 + 5 = 17 lb",
+      "$1.60 per lb × 20 = 32 lb",
+      "$8 ÷ 5 × 20 = 32 lb"
+    ],
+    "correct": 0,
+    "why": "Pounds per dollar = 5 ÷ 8 = 0.625. 0.625 × 20 = 12.5 pounds.",
+    "tip": "Pick the unit rate that is \"what you want per what you have\"."
+  },
+  {
+    "id": "M21-L18-01",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "unit-rate",
+    "module": "module-2",
+    "lesson": "2.18",
+    "source": "slides:Acc6 Lesson 2.18 (Using Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "A car uses 1 gallon of gas every 32 miles. How many gallons does it need for 192 miles?",
+    "opts": [
+      "6 gallons",
+      "5 gallons",
+      "224 gallons",
+      "160 gallons"
+    ],
+    "correct": 0,
+    "why": "192 ÷ 32 = 6 gallons.",
+    "tip": "Divide the total by the unit rate."
+  },
+  {
+    "id": "M21-L18-02",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "unit-rate",
+    "module": "module-2",
+    "lesson": "2.18",
+    "source": "slides:Acc6 Lesson 2.18 (Using Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "A worker earns $15 per hour. How much does the worker earn in 7.5 hours?",
+    "opts": [
+      "$2.00",
+      "$22.50",
+      "$112.50",
+      "$105.00"
+    ],
+    "correct": 2,
+    "why": "$15 × 7.5 = $112.50.",
+    "tip": "Multiply the unit rate by the number of units."
+  },
+  {
+    "id": "M21-L18-03",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "unit-rate",
+    "module": "module-2",
+    "lesson": "2.18",
+    "source": "slides:Acc6 Lesson 2.18 (Using Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "A faucet drips 3 liters every 12 minutes. How many liters does it drip in 1 hour?",
+    "opts": [
+      "15 liters",
+      "20 liters",
+      "5 liters",
+      "36 liters"
+    ],
+    "correct": 0,
+    "why": "3 ÷ 12 = 0.25 liter per minute. 0.25 × 60 = 15 liters.",
+    "tip": "Change the hour into minutes so the units match."
+  },
+  {
+    "id": "M21-L18-04",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "unit-rate",
+    "module": "module-2",
+    "lesson": "2.18",
+    "source": "slides:Acc6 Lesson 2.18 (Using Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Which is the best buy for juice?",
+    "opts": [
+      "32 oz for $2.56 ($0.08 per oz)",
+      "12 oz for $1.20 ($0.10 per oz)",
+      "20 oz for $1.80 ($0.09 per oz)",
+      "64 oz for $4.48 ($0.07 per oz)"
+    ],
+    "correct": 3,
+    "why": "Compare the price per ounce: $0.07 is the lowest, so the 64-oz bottle is the best buy.",
+    "tip": "The best buy has the lowest unit price."
+  },
+  {
+    "id": "M21-L18-05",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "unit-rate",
+    "module": "module-2",
+    "lesson": "2.18",
+    "source": "slides:Acc6 Lesson 2.18 (Using Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "A printer prints 18 pages per minute. How long will it take to print 270 pages?",
+    "opts": [
+      "12 minutes",
+      "4,860 minutes",
+      "15 minutes",
+      "252 minutes"
+    ],
+    "correct": 2,
+    "why": "270 ÷ 18 = 15 minutes.",
+    "tip": "Total ÷ rate = time."
+  },
+  {
+    "id": "M21-L18-06",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "unit-rate",
+    "module": "module-2",
+    "lesson": "2.18",
+    "source": "slides:Acc6 Lesson 2.18 (Using Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Diego’s heart beats 72 times per minute. How many times does it beat in 15 seconds?",
+    "opts": [
+      "18",
+      "1,080",
+      "4.8",
+      "288"
+    ],
+    "correct": 0,
+    "why": "15 seconds is 1/4 of a minute. 72 ÷ 4 = 18 beats.",
+    "tip": "Find what fraction of the unit you need."
+  },
+  {
+    "id": "M21-L18-07",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "unit-rate",
+    "module": "module-2",
+    "lesson": "2.18",
+    "source": "slides:Acc6 Lesson 2.18 (Using Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Paint covers 350 square feet per gallon. A wall is 1,225 square feet. Paint only comes in whole gallons. How many gallons must be bought?",
+    "opts": [
+      "3.5 gallons",
+      "5 gallons",
+      "3 gallons",
+      "4 gallons"
+    ],
+    "correct": 3,
+    "why": "1,225 ÷ 350 = 3.5 gallons, so 4 whole gallons are needed.",
+    "tip": "Round up when you need enough to finish the job."
+  },
+  {
+    "id": "M21-L18-08",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "unit-rate",
+    "module": "module-2",
+    "lesson": "2.18",
+    "source": "slides:Acc6 Lesson 2.18 (Using Unit Rates)",
+    "addedAt": "2026-10-13",
+    "q": "Bike A goes 36 km in 2 hours. Bike B goes 50 km in 2.5 hours. How much farther does Bike B go than Bike A in 5 hours?",
+    "opts": [
+      "14 km",
+      "10 km",
+      "2 km",
+      "20 km"
+    ],
+    "correct": 1,
+    "why": "A: 36 ÷ 2 = 18 km/h → 90 km. B: 50 ÷ 2.5 = 20 km/h → 100 km. 100 − 90 = 10 km.",
+    "tip": "Find both unit rates, then use them for the same time."
+  }
+]

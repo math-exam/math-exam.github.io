@@ -1,0 +1,577 @@
+[
+  {
+    "id": "SU2-01",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "simplest-form",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "A bag has 4 red marbles and 6 blue marbles. What is the ratio of red marbles to blue marbles in simplest form?",
+    "opts": [
+      "3 : 2",
+      "6 : 4",
+      "4 : 6",
+      "2 : 3"
+    ],
+    "correct": 3,
+    "why": "Divide both numbers by their greatest common factor, 2: 4 ÷ 2 = 2 and 6 ÷ 2 = 3. The simplest form is 2 : 3.",
+    "tip": "Simplest form means dividing both terms by the greatest common factor.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-02",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "equivalent-ratios",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "Which ratio is equivalent to 3 : 5?",
+    "opts": [
+      "6 : 10",
+      "8 : 10",
+      "5 : 3",
+      "3 : 10"
+    ],
+    "correct": 0,
+    "why": "Multiplying both parts by 2 gives 6 : 10. The other choices do not multiply both parts by the same number.",
+    "tip": "Equivalent ratios are made by multiplying (or dividing) both numbers by the same non-zero number.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-03",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "equivalent-ratios",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "Which two ratios are equivalent to 24 : 15?",
+    "opts": [
+      "8 : 5 and 16 : 10",
+      "3 : 2 and 6 : 4",
+      "24 : 10 and 12 : 5",
+      "5 : 8 and 10 : 16"
+    ],
+    "correct": 0,
+    "why": "24 ÷ 3 = 8 and 15 ÷ 3 = 5, so 24 : 15 simplifies to 8 : 5. Multiplying 8 : 5 by 2 gives 16 : 10.",
+    "tip": "Simplify first. Then multiply the simplest form to make new equivalent ratios.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-04",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "ratio-table",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "Dyeing yarn uses 750 milliliters of water for every 25 grams of yarn. Using the table, how many grams of yarn go with 150 milliliters of water?",
+    "img": "<table style=\"border-collapse:collapse;margin:0 auto;font-family:inherit\"><tr><th style=\"background:#5b6170;color:#fff;padding:8px 22px;font-weight:700\">Water (mL)</th><th style=\"background:#5b6170;color:#fff;padding:8px 22px;font-weight:700\">Yarn Fibers (g)</th></tr><tr><td style=\"background:#f2f4f9;padding:10px 22px;text-align:center;font-size:18px;border:1px dotted #aab\">750</td><td style=\"background:#f2f4f9;padding:10px 22px;text-align:center;font-size:18px;border:1px dotted #aab\">25</td></tr><tr><td style=\"background:#f2f4f9;padding:10px 22px;text-align:center;font-size:18px;border:1px dotted #aab\">150</td><td style=\"background:#f2f4f9;padding:10px 22px;text-align:center;font-size:18px;border:1px dotted #aab\">?</td></tr><tr><td style=\"background:#f2f4f9;padding:10px 22px;text-align:center;font-size:18px;border:1px dotted #aab\">?</td><td style=\"background:#f2f4f9;padding:10px 22px;text-align:center;font-size:18px;border:1px dotted #aab\">1</td></tr></table>",
+    "opts": [
+      "30 g",
+      "25 g",
+      "5 g",
+      "10 g"
+    ],
+    "correct": 2,
+    "why": "750 ÷ 150 = 5, so the yarn is also divided by 5: 25 ÷ 5 = 5 grams. (Check: 150 : 5 is the same ratio as 750 : 25 once both are divided by 5.)",
+    "tip": "In a ratio table, find the multiplier between the two known values in one column, then apply it to the other column.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-05",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "ratio-table",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "Green paint is made from yellow and blue paint in the ratio 3 : 4. How many gallons of yellow paint are needed to make 35 gallons of green paint?",
+    "opts": [
+      "20 gal",
+      "21 gal",
+      "5 gal",
+      "15 gal"
+    ],
+    "correct": 3,
+    "why": "3 + 4 = 7 equal parts in all. 35 ÷ 7 = 5 gallons per part. Yellow is 3 parts: 3 × 5 = 15 gallons.",
+    "tip": "Add the parts first to find the total number of parts, then find how much one part is.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-06",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "tape-diagram",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "The tape diagram shows the ratio of yellow paint to blue paint in a mixture of green paint. What is the ratio of yellow paint to blue paint?",
+    "img": "<svg viewBox=\"0 0 292 115\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\"><rect x=\"20\" y=\"50\" width=\"36\" height=\"40\" fill=\"#FFFFFF\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"56\" y=\"50\" width=\"36\" height=\"40\" fill=\"#FFFFFF\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"92\" y=\"50\" width=\"36\" height=\"40\" fill=\"#FFFFFF\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><line x1=\"20\" y1=\"36\" x2=\"128\" y2=\"36\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"128\" y1=\"30\" x2=\"128\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"74.0\" y=\"24\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">Yellow</text><rect x=\"128\" y=\"50\" width=\"36\" height=\"40\" fill=\"#B9C2D6\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"164\" y=\"50\" width=\"36\" height=\"40\" fill=\"#B9C2D6\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"200\" y=\"50\" width=\"36\" height=\"40\" fill=\"#B9C2D6\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"236\" y=\"50\" width=\"36\" height=\"40\" fill=\"#B9C2D6\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><line x1=\"128\" y1=\"36\" x2=\"272\" y2=\"36\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"128\" y1=\"30\" x2=\"128\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"272\" y1=\"30\" x2=\"272\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"200.0\" y=\"24\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">Blue</text></svg>",
+    "opts": [
+      "3 : 7",
+      "4 : 3",
+      "3 : 4",
+      "4 : 7"
+    ],
+    "correct": 2,
+    "why": "The diagram has 3 equal yellow boxes and 4 equal blue boxes, so yellow : blue = 3 : 4.",
+    "tip": "In a tape diagram, count the equal boxes for each part. Keep the same order as the question.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-07",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "tape-diagram",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "Using the same tape diagram, what fraction of the green paint is yellow?",
+    "img": "<svg viewBox=\"0 0 292 115\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\"><rect x=\"20\" y=\"50\" width=\"36\" height=\"40\" fill=\"#FFFFFF\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"56\" y=\"50\" width=\"36\" height=\"40\" fill=\"#FFFFFF\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"92\" y=\"50\" width=\"36\" height=\"40\" fill=\"#FFFFFF\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><line x1=\"20\" y1=\"36\" x2=\"128\" y2=\"36\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"128\" y1=\"30\" x2=\"128\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"74.0\" y=\"24\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">Yellow</text><rect x=\"128\" y=\"50\" width=\"36\" height=\"40\" fill=\"#B9C2D6\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"164\" y=\"50\" width=\"36\" height=\"40\" fill=\"#B9C2D6\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"200\" y=\"50\" width=\"36\" height=\"40\" fill=\"#B9C2D6\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"236\" y=\"50\" width=\"36\" height=\"40\" fill=\"#B9C2D6\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><line x1=\"128\" y1=\"36\" x2=\"272\" y2=\"36\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"128\" y1=\"30\" x2=\"128\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"272\" y1=\"30\" x2=\"272\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"200.0\" y=\"24\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">Blue</text></svg>",
+    "opts": [
+      "7/3",
+      "3/4",
+      "3/7",
+      "4/7"
+    ],
+    "correct": 2,
+    "why": "There are 3 + 4 = 7 equal boxes in all, and 3 of them are yellow, so 3/7 of the green paint is yellow.",
+    "tip": "A part-to-whole fraction compares one part to the total of all parts, not to the other part.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-08",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "ratio-to-total",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "The ratio of cats to dogs at a boarding facility is 3 : 8. There are 33 cats and dogs in all. How many cats are at the boarding facility?",
+    "opts": [
+      "9 cats",
+      "24 cats",
+      "3 cats",
+      "11 cats"
+    ],
+    "correct": 0,
+    "why": "3 + 8 = 11 parts. 33 ÷ 11 = 3 animals per part. Cats are 3 parts: 3 × 3 = 9.",
+    "tip": "Find the total number of parts before you divide the total amount.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-09",
+    "dom": "RP",
+    "diff": 1,
+    "tag": "unit-rate",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "Maya types 180 words in 3 minutes. What is her unit rate in words per minute?",
+    "opts": [
+      "45 words per minute",
+      "60 words per minute",
+      "177 words per minute",
+      "540 words per minute"
+    ],
+    "correct": 1,
+    "why": "180 ÷ 3 = 60 words per minute.",
+    "tip": "Divide the total by the number of minutes to get the amount for 1 minute.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-10",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "best-buy",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "Pack A has 6 pencils for $2.10. Pack B has 10 pencils for $3.00. Which pack is the better buy?",
+    "opts": [
+      "They cost the same per pencil",
+      "Pack A, at $0.35 per pencil",
+      "Pack B, at $0.30 per pencil",
+      "Pack A, because it costs less in total"
+    ],
+    "correct": 2,
+    "why": "Pack A: $2.10 ÷ 6 = $0.35 per pencil. Pack B: $3.00 ÷ 10 = $0.30 per pencil. Pack B is cheaper for each pencil.",
+    "tip": "When pack sizes are different, compare the price for one item, not the total price.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-11",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "best-buy",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "Movie tickets cost different amounts depending on the day and time of the show. Bard paid $39 for 6 tickets. Andre paid $21.75 for 3 tickets. Mai paid $31.25 for 5 tickets. Who paid the lowest price per ticket?",
+    "opts": [
+      "Bard and Mai tied",
+      "Mai, at $6.25 per ticket",
+      "Bard, at $6.50 per ticket",
+      "Andre, at $7.25 per ticket"
+    ],
+    "correct": 1,
+    "why": "Bard: $39 ÷ 6 = $6.50. Andre: $21.75 ÷ 3 = $7.25. Mai: $31.25 ÷ 5 = $6.25. Mai paid the lowest price per ticket.",
+    "tip": "Divide each total by its number of tickets, then compare the prices per ticket.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-12",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "unit-rate",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "A cyclist rides 45 miles in 3 hours at a steady speed. How far will she ride in 5 hours?",
+    "opts": [
+      "225 miles",
+      "60 miles",
+      "75 miles",
+      "80 miles"
+    ],
+    "correct": 2,
+    "why": "45 ÷ 3 = 15 miles per hour. In 5 hours she rides 5 × 15 = 75 miles.",
+    "tip": "Find the rate for one hour, then multiply by the number of hours.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-13",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "proportional-relationship",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "The pay for two jobs is shown below. 2 hours of work earns $18. 5 hours of work earns $45. Is the pay proportional to the hours worked?",
+    "opts": [
+      "Yes, the pay is $9 per hour both times",
+      "Yes, the pay is $27 per hour both times",
+      "No, because 5 hours is more than 2 hours",
+      "No, because $45 is not double $18"
+    ],
+    "correct": 0,
+    "why": "$18 ÷ 2 = $9 per hour and $45 ÷ 5 = $9 per hour. The unit rate is the same, so the relationship is proportional.",
+    "tip": "A relationship is proportional when dividing y by x gives the same number every time.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-14",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "constant-of-proportionality",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "The table shows a proportional relationship between x and y. When x is 2, y is 9. When x is 4, y is 18. When x is 6, y is 27. What is the constant of proportionality?",
+    "opts": [
+      "13.5",
+      "9",
+      "2",
+      "4.5"
+    ],
+    "correct": 3,
+    "why": "y ÷ x = 9 ÷ 2 = 4.5, 18 ÷ 4 = 4.5, and 27 ÷ 6 = 4.5. The constant of proportionality is 4.5.",
+    "tip": "The constant of proportionality is y ÷ x, the same for every pair of values.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-15",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "proportional-relationship",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "A gym charges a $5 sign-up fee plus $12 per visit. The total cost is $17 for 1 visit, $29 for 2 visits, and $41 for 3 visits. Is the cost proportional to the number of visits?",
+    "opts": [
+      "Yes, because $17 is a whole number",
+      "Yes, because each visit costs $12 extra",
+      "Yes, because the cost goes up every time",
+      "No, because $29 is not 2 × $17"
+    ],
+    "correct": 3,
+    "why": "For a proportional relationship, 2 visits would cost 2 × $17 = $34. The cost is $29, so the relationship is not proportional. The $5 fee means the line does not pass through (0, 0).",
+    "tip": "Check whether doubling the x-value doubles the y-value. If not, the relationship is not proportional.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-16",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "percent",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "What is 35% of 80?",
+    "opts": [
+      "28",
+      "24",
+      "35",
+      "115"
+    ],
+    "correct": 0,
+    "why": "35% = 0.35. 0.35 × 80 = 28.",
+    "tip": "To find a percent of a number, change the percent to a decimal and multiply.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-17",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "percent",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "A jacket costs $60. It is on sale for 25% off. What is the sale price?",
+    "opts": [
+      "$45",
+      "$35",
+      "$15",
+      "$85"
+    ],
+    "correct": 0,
+    "why": "25% of $60 = 0.25 × $60 = $15 off. $60 − $15 = $45.",
+    "tip": "Find the discount first, then subtract it from the original price.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-18",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "percent",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "A shirt costs $40. The sales tax is 15%. What is the total price with tax?",
+    "opts": [
+      "$6",
+      "$55",
+      "$40",
+      "$46"
+    ],
+    "correct": 3,
+    "why": "15% of $40 = $6. $40 + $6 = $46.",
+    "tip": "Tax is a percent of the original price, so add the tax amount to the price.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-19",
+    "dom": "RP",
+    "diff": 2,
+    "tag": "ratio-word-problem",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "The ratio of red roses to white roses in a shop is 2 : 3. There are 18 white roses. How many red roses are there?",
+    "opts": [
+      "30 red roses",
+      "27 red roses",
+      "12 red roses",
+      "6 red roses"
+    ],
+    "correct": 2,
+    "why": "18 ÷ 3 = 6 roses per part. Red roses are 2 parts: 2 × 6 = 12.",
+    "tip": "Use the known part to find the value of one part, then multiply by the other part of the ratio.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-20",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "ratio-to-total",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "At a park, the ratio of adults to children is 5 : 2. There are 56 people in all. How many children are at the park?",
+    "opts": [
+      "20 children",
+      "16 children",
+      "14 children",
+      "36 children"
+    ],
+    "correct": 1,
+    "why": "5 + 2 = 7 parts. 56 ÷ 7 = 8 people per part. Children are 2 parts: 2 × 8 = 16.",
+    "tip": "Use the total number of parts (5 + 2 = 7), not just one part of the ratio.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-21",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "tape-diagram",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "The ratio of a to b is 2 : 5, and a + b = 49. What is the value of b? The tape diagram shows the two parts.",
+    "img": "<svg viewBox=\"0 0 292 130\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\"><rect x=\"20\" y=\"50\" width=\"36\" height=\"40\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"56\" y=\"50\" width=\"36\" height=\"40\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><line x1=\"20\" y1=\"36\" x2=\"92\" y2=\"36\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"92\" y1=\"30\" x2=\"92\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"56.0\" y=\"24\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">a</text><rect x=\"92\" y=\"50\" width=\"36\" height=\"40\" fill=\"#D3DAEC\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"128\" y=\"50\" width=\"36\" height=\"40\" fill=\"#D3DAEC\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"164\" y=\"50\" width=\"36\" height=\"40\" fill=\"#D3DAEC\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"200\" y=\"50\" width=\"36\" height=\"40\" fill=\"#D3DAEC\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><rect x=\"236\" y=\"50\" width=\"36\" height=\"40\" fill=\"#D3DAEC\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><line x1=\"92\" y1=\"36\" x2=\"272\" y2=\"36\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"92\" y1=\"30\" x2=\"92\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><line x1=\"272\" y1=\"30\" x2=\"272\" y2=\"42\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"182.0\" y=\"24\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">b</text><text x=\"146.0\" y=\"122\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">a + b = 49</text></svg>",
+    "opts": [
+      "14",
+      "21",
+      "35",
+      "49"
+    ],
+    "correct": 2,
+    "why": "The diagram has 2 + 5 = 7 equal units, and 49 ÷ 7 = 7 per unit. Part b has 5 units: 5 × 7 = 35.",
+    "tip": "Use the tape diagram to count the units. Find the value of one unit by dividing the total by the number of units.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-22",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "multi-step",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "The ratio of books to magazines in a shop is 4 : 1. There are 20 books. If 3 more magazines are added, what is the new ratio of books to magazines?",
+    "opts": [
+      "5 : 2",
+      "4 : 1",
+      "5 : 1",
+      "23 : 8"
+    ],
+    "correct": 0,
+    "why": "20 books for 4 parts means 5 magazines at first. After adding 3, there are 8 magazines. 20 : 8 simplifies to 5 : 2.",
+    "tip": "Find the original amounts first. Then update the one that changed and simplify.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-23",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "ratio-word-problem",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "Juice is mixed in the ratio of 2 cups of concentrate to 5 cups of water. How many cups of water are needed for 3 cups of concentrate?",
+    "opts": [
+      "7.5 cups",
+      "6 cups",
+      "15 cups",
+      "10 cups"
+    ],
+    "correct": 0,
+    "why": "3 cups of concentrate is 1.5 times 2 cups, so use 1.5 × 5 = 7.5 cups of water.",
+    "tip": "Find the scale factor between the two amounts of concentrate, then apply the same factor to the water.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-24",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "scale",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "A map scale is 1 inch : 25 miles. Two towns are 3.5 inches apart on the map. How far apart are they in real life?",
+    "opts": [
+      "87.5 miles",
+      "25 miles",
+      "100 miles",
+      "75 miles"
+    ],
+    "correct": 0,
+    "why": "Each inch represents 25 miles, so 3.5 inches represents 3.5 × 25 = 87.5 miles.",
+    "tip": "Multiply the map distance by the real distance per map unit.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-25",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "unit-rate",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "A recipe uses 3/4 cup of sugar for every 2 cups of flour. How many cups of sugar are needed for 6 cups of flour?",
+    "opts": [
+      "3 cups",
+      "2 1/4 cups",
+      "1 1/2 cups",
+      "4 1/2 cups"
+    ],
+    "correct": 1,
+    "why": "6 cups of flour is 3 times 2 cups. So 3 × 3/4 = 9/4 = 2 1/4 cups of sugar.",
+    "tip": "Find the scale factor between the two flour amounts, then multiply the sugar by it.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-26",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "multi-step",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "The ratio of A to B is 2 : 3, and the ratio of B to C is 4 : 5. What is the ratio of A to C?",
+    "opts": [
+      "8 : 5",
+      "8 : 15",
+      "2 : 5",
+      "6 : 20"
+    ],
+    "correct": 1,
+    "why": "Make the B values match. Multiply A : B = 2 : 3 by 4 to get 8 : 12. Multiply B : C = 4 : 5 by 3 to get 12 : 15. So A : B : C = 8 : 12 : 15, and A : C = 8 : 15.",
+    "tip": "When two ratios share a term, scale them until that term is the same number in both.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-27",
+    "dom": "RP",
+    "diff": 3,
+    "tag": "part-to-whole",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "A class has 12 boys and 16 girls. What is the ratio of girls to all students in simplest form?",
+    "opts": [
+      "3 : 7",
+      "4 : 3",
+      "7 : 4",
+      "4 : 7"
+    ],
+    "correct": 3,
+    "why": "Total students = 12 + 16 = 28. Girls to all students is 16 : 28, which simplifies to 4 : 7.",
+    "tip": "Make sure the total includes all groups before writing the ratio.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-28",
+    "dom": "RP",
+    "diff": 4,
+    "tag": "proportional-relationship",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "The graph shows miles traveled (vertical axis) against hours (horizontal axis) for a bike ride at a steady speed. What is the unit rate?",
+    "img": "<svg viewBox=\"0 0 360 265\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\"><line x1=\"60\" y1=\"220\" x2=\"330\" y2=\"220\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"220\" stroke=\"#2B3242\" stroke-width=\"2.5\"/><text x=\"60\" y=\"240\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"middle\">0</text><text x=\"105\" y=\"240\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"middle\">1</text><text x=\"150\" y=\"240\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"middle\">2</text><text x=\"195\" y=\"240\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"middle\">3</text><text x=\"240\" y=\"240\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"middle\">4</text><text x=\"285\" y=\"240\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"middle\">5</text><text x=\"330\" y=\"240\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"middle\">6</text><text x=\"50\" y=\"225\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"end\">0</text><line x1=\"56\" y1=\"220\" x2=\"60\" y2=\"220\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"50\" y=\"168\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"end\">3</text><line x1=\"56\" y1=\"163\" x2=\"60\" y2=\"163\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"50\" y=\"111\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"end\">6</text><line x1=\"56\" y1=\"106\" x2=\"60\" y2=\"106\" stroke=\"#2B3242\" stroke-width=\"2\"/><text x=\"50\" y=\"54\" font-size=\"14\" fill=\"#2B3242\" text-anchor=\"end\">9</text><line x1=\"56\" y1=\"49\" x2=\"60\" y2=\"49\" stroke=\"#2B3242\" stroke-width=\"2\"/><polyline points=\"60,220 150,163 240,106 330,49\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"3\"/><circle cx=\"60\" cy=\"220\" r=\"5\" fill=\"#4F46E5\"/><circle cx=\"150\" cy=\"163\" r=\"5\" fill=\"#4F46E5\"/><circle cx=\"240\" cy=\"106\" r=\"5\" fill=\"#4F46E5\"/><circle cx=\"330\" cy=\"49\" r=\"5\" fill=\"#4F46E5\"/><text x=\"195\" y=\"260\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">Hours</text><text x=\"18\" y=\"125\" font-size=\"15\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\" transform=\"rotate(-90 18 125)\">Miles</text></svg>",
+    "opts": [
+      "3 miles per hour",
+      "1.5 miles per hour",
+      "2 miles per hour",
+      "0.67 miles per hour"
+    ],
+    "correct": 1,
+    "why": "The line passes through (2, 3). 3 ÷ 2 = 1.5 miles per hour. It also passes through (4, 6) and (6, 9), which gives the same unit rate.",
+    "tip": "On a proportional graph, the unit rate is the y-value divided by the x-value for any point on the line.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-29",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "ratio-word-problem",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "A recipe uses flour and sugar in the ratio 5 : 2. Lee uses 3 1/2 cups of sugar. How many cups of flour does Lee use?",
+    "opts": [
+      "8 3/4 cups",
+      "7 cups",
+      "1 3/4 cups",
+      "9 cups"
+    ],
+    "correct": 0,
+    "why": "Flour : sugar = 5 : 2, so flour = 5/2 of the sugar. 5/2 × 3 1/2 = 5/2 × 7/2 = 35/4 = 8 3/4 cups.",
+    "tip": "Write the ratio as a multiplier (flour is 5/2 times the sugar), then multiply.",
+    "module": "sub-unit-2-quiz-ratios"
+  },
+  {
+    "id": "SU2-30",
+    "dom": "RP",
+    "diff": 5,
+    "tag": "multi-step",
+    "source": "sub-unit-2-quiz-ratios",
+    "addedAt": "2026-10-05",
+    "q": "A store raises the price of a $40 item by 25%. Then it offers 10% off the new price. What is the final price?",
+    "opts": [
+      "$45",
+      "$36",
+      "$44",
+      "$50"
+    ],
+    "correct": 0,
+    "why": "25% of $40 = $10, so the new price is $50. 10% of $50 = $5 off, so the final price is $45.",
+    "tip": "Each percent change is applied to the price after the previous change, not the original price.",
+    "module": "sub-unit-2-quiz-ratios"
+  }
+]

@@ -1,0 +1,980 @@
+[
+  {
+    "id": "DA1-01",
+    "dom": "G",
+    "diff": 2,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Which measurement is the height that matches the 12 cm base of this parallelogram?",
+    "img": "<svg viewBox=\"0 0 380 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"60,170 260,170 320,50 120,50\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"170\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<rect x=\"120\" y=\"158\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n<text x=\"160\" y=\"195\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">12 cm</text>\n<text x=\"30\" y=\"115\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">7 cm</text>\n<text x=\"128\" y=\"115\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">5 cm</text>\n\n</svg>",
+    "opts": [
+      "12 cm",
+      "7 cm",
+      "5 cm",
+      "84 cm"
+    ],
+    "correct": 2,
+    "why": "The height is the perpendicular (dashed) segment from the base to the opposite side. Here that is 5 cm. The 7 cm side is slanted, so it is not the height.",
+    "tip": "Height always makes a right angle with the base — look for the little square.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-02",
+    "dom": "G",
+    "diff": 1,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "What is the area of this parallelogram?",
+    "img": "<svg viewBox=\"0 0 380 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"60,170 260,170 320,50 120,50\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"170\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<rect x=\"120\" y=\"158\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n<text x=\"160\" y=\"195\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">9 units</text>\n<text x=\"30\" y=\"115\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">7 units</text>\n<text x=\"128\" y=\"115\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">6 units</text>\n\n</svg>",
+    "opts": [
+      "32 square units",
+      "15 square units",
+      "54 square units",
+      "63 square units"
+    ],
+    "correct": 2,
+    "why": "Area = base × height = 9 × 6 = 54 square units. The slanted side (7) is not used.",
+    "tip": "Area of a parallelogram = base × height, using the perpendicular height.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-03",
+    "dom": "G",
+    "diff": 2,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A parallelogram has a base of 14 cm and a height of 5.5 cm. What is its area?",
+    "opts": [
+      "77 square cm",
+      "38.5 square cm",
+      "19.5 square cm",
+      "39 square cm"
+    ],
+    "correct": 0,
+    "why": "14 × 5.5 = 77 square centimeters.",
+    "tip": "Multiply base × height. For a decimal, 14 × 5 = 70 and 14 × 0.5 = 7.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-04",
+    "dom": "G",
+    "diff": 3,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A parallelogram has an area of 72 square meters and a base of 9 meters. What is its height?",
+    "opts": [
+      "4 meters",
+      "63 meters",
+      "648 meters",
+      "8 meters"
+    ],
+    "correct": 3,
+    "why": "Area = base × height, so height = 72 ÷ 9 = 8 meters.",
+    "tip": "To find a missing side, undo the multiplication with division.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-05",
+    "dom": "G",
+    "diff": 3,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "The area of a parallelogram is 96 square feet and its height is 6 feet. What is the length of the base?",
+    "opts": [
+      "90 feet",
+      "16 feet",
+      "8 feet",
+      "576 feet"
+    ],
+    "correct": 1,
+    "why": "base = area ÷ height = 96 ÷ 6 = 16 feet.",
+    "tip": "Base × height = area, so base = area ÷ height.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-06",
+    "dom": "G",
+    "diff": 2,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Each square on the grid is 1 square unit. What is the area of the parallelogram?",
+    "img": "<svg viewBox=\"0 0 380 170\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"46\" y1=\"20\" x2=\"46\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"72\" y1=\"20\" x2=\"72\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"98\" y1=\"20\" x2=\"98\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"124\" y1=\"20\" x2=\"124\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"176\" y1=\"20\" x2=\"176\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"202\" y1=\"20\" x2=\"202\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"228\" y1=\"20\" x2=\"228\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"254\" y1=\"20\" x2=\"254\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"280\" y1=\"20\" x2=\"280\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"306\" y1=\"20\" x2=\"306\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"332\" y1=\"20\" x2=\"332\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"358\" y1=\"20\" x2=\"358\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"384\" y1=\"20\" x2=\"384\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"20\" x2=\"384\" y2=\"20\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"46\" x2=\"384\" y2=\"46\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"72\" x2=\"384\" y2=\"72\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"98\" x2=\"384\" y2=\"98\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"124\" x2=\"384\" y2=\"124\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"150\" x2=\"384\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/>\n<polygon points=\"46,124 202,124 280,20 124,20\" fill=\"rgba(79,70,229,.15)\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n</svg>",
+    "opts": [
+      "40 square units",
+      "24 square units",
+      "30 square units",
+      "10 square units"
+    ],
+    "correct": 1,
+    "why": "The base is 6 units and the vertical height is 4 units, so the area is 6 × 4 = 24 square units.",
+    "tip": "On a grid, count the base along a grid line and the height straight up — not along the slant.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-07",
+    "dom": "G",
+    "diff": 4,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "This parallelogram has an area of 60 square centimeters. The height to the 10 cm base is 6 cm. What is the height that goes with the 8 cm base?",
+    "img": "<svg viewBox=\"0 0 380 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"40,170 220,170 315,62 135,62\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"135\" y1=\"62\" x2=\"135\" y2=\"170\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<rect x=\"135\" y=\"158\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n<text x=\"110\" y=\"195\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">10 cm</text>\n<text x=\"70\" y=\"112\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"end\">8 cm</text>\n<text x=\"143\" y=\"120\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">6 cm</text>\n<text x=\"40\" y=\"30\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">Area: 60 square centimeters</text>\n</svg>",
+    "opts": [
+      "7.5 cm",
+      "8 cm",
+      "3.75 cm",
+      "6 cm"
+    ],
+    "correct": 0,
+    "why": "The area stays 60 no matter which base you use. With the 8 cm base: height = 60 ÷ 8 = 7.5 cm.",
+    "tip": "Any side can be the base, but the height must be perpendicular to whichever base you choose.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-08",
+    "dom": "G",
+    "diff": 1,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Ari cuts a right triangle off one end of a parallelogram and slides it to the other end. Which shape does he make, with the same area as the parallelogram?",
+    "opts": [
+      "A rectangle",
+      "A trapezoid",
+      "A triangle",
+      "A circle"
+    ],
+    "correct": 0,
+    "why": "Moving the triangle to the other side turns the parallelogram into a rectangle with the same base and height, so the area is unchanged.",
+    "tip": "Decompose and rearrange: area does not change when pieces are moved.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-09",
+    "dom": "G",
+    "diff": 3,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Parallelogram A has a base of 8 inches and a height of 9 inches. Parallelogram B has the same area and a base of 12 inches. What is the height of Parallelogram B?",
+    "opts": [
+      "6 inches",
+      "12 inches",
+      "72 inches",
+      "9 inches"
+    ],
+    "correct": 0,
+    "why": "Area of A = 8 × 9 = 72. For B: 12 × height = 72, so height = 72 ÷ 12 = 6 inches.",
+    "tip": "Find the shared area first, then divide by the new base.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-10",
+    "dom": "G",
+    "diff": 4,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A garden is shaped like a parallelogram with a base of 15 m and a height of 8 m. Each bag of mulch covers 10 square meters. How many bags are needed to cover the whole garden?",
+    "opts": [
+      "120 bags",
+      "12 bags",
+      "15 bags",
+      "8 bags"
+    ],
+    "correct": 1,
+    "why": "Area = 15 × 8 = 120 square meters. 120 ÷ 10 = 12 bags.",
+    "tip": "Find the area first, then divide by the coverage of one bag.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-11",
+    "dom": "G",
+    "diff": 3,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A parallelogram has a base of 5 cm and a height of 4 cm. If the base is tripled to 15 cm and the height stays 4 cm, what is the new area?",
+    "opts": [
+      "60 square cm",
+      "180 square cm",
+      "19 square cm",
+      "20 square cm"
+    ],
+    "correct": 0,
+    "why": "15 × 4 = 60 square centimeters — three times the original area of 20.",
+    "tip": "If one measurement is multiplied by 3 and the other stays the same, the area is multiplied by 3.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-12",
+    "dom": "G",
+    "diff": 2,
+    "tag": "parallelogram",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "What is the area of this parallelogram?",
+    "img": "<svg viewBox=\"0 0 380 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"60,170 260,170 320,50 120,50\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"170\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<rect x=\"120\" y=\"158\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n<text x=\"160\" y=\"195\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">7.5 in.</text>\n<text x=\"30\" y=\"115\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">5 in.</text>\n<text x=\"128\" y=\"115\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">4 in.</text>\n\n</svg>",
+    "opts": [
+      "15 square inches",
+      "11.5 square inches",
+      "30 square inches",
+      "37.5 square inches"
+    ],
+    "correct": 2,
+    "why": "7.5 × 4 = 30 square inches. The 5 in. side is slanted and is not used.",
+    "tip": "Ignore slanted sides — they are extra information.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-13",
+    "dom": "G",
+    "diff": 1,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "What is the area of this right triangle?",
+    "img": "<svg viewBox=\"0 0 340 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"60,180 260,180 60,40\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<rect x=\"60\" y=\"168\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n<text x=\"140\" y=\"205\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">8 cm</text>\n<text x=\"15\" y=\"115\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">6 cm</text>\n<text x=\"170\" y=\"100\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">10 cm</text>\n</svg>",
+    "opts": [
+      "60 square cm",
+      "30 square cm",
+      "24 square cm",
+      "48 square cm"
+    ],
+    "correct": 2,
+    "why": "The two legs are perpendicular, so use them as base and height: ½ × 8 × 6 = 24 square centimeters. The 10 cm side is extra.",
+    "tip": "In a right triangle the two legs are a base and its height.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-14",
+    "dom": "G",
+    "diff": 2,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "What is the area of this triangle?",
+    "img": "<svg viewBox=\"0 0 360 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"50,180 250,180 200,40\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"200\" y1=\"40\" x2=\"200\" y2=\"180\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<rect x=\"200\" y=\"168\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n<text x=\"130\" y=\"205\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">10 in.</text>\n<text x=\"160\" y=\"125\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">7 in.</text>\n<text x=\"232\" y=\"105\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">8 in.</text>\n</svg>",
+    "opts": [
+      "70 square inches",
+      "80 square inches",
+      "35 square inches",
+      "40 square inches"
+    ],
+    "correct": 2,
+    "why": "Area = ½ × base × height = ½ × 10 × 7 = 35 square inches. The 8 in. side is not perpendicular to the base, so it is not used.",
+    "tip": "Use the base and the perpendicular height. Slanted sides are extra.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-15",
+    "dom": "G",
+    "diff": 3,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "The height of this obtuse triangle is drawn outside the triangle. What is the area of the triangle?",
+    "img": "<svg viewBox=\"0 0 380 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"110,180 260,180 60,80\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"60\" y1=\"80\" x2=\"60\" y2=\"180\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"60\" y1=\"180\" x2=\"110\" y2=\"180\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<rect x=\"60\" y=\"168\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"205\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">9 cm</text>\n<text x=\"52\" y=\"135\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\" text-anchor=\"end\">6 cm</text>\n</svg>",
+    "opts": [
+      "54 square cm",
+      "15 square cm",
+      "27 square cm",
+      "30 square cm"
+    ],
+    "correct": 2,
+    "why": "Base = 9 cm and its matching height = 6 cm, even though the height falls outside the triangle. ½ × 9 × 6 = 27 square centimeters.",
+    "tip": "The height can sit outside an obtuse triangle. It is still the perpendicular distance to the line containing the base.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-16",
+    "dom": "G",
+    "diff": 3,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A triangle has an area of 30 square inches and a base of 12 inches. What is its height?",
+    "opts": [
+      "360 inches",
+      "2.5 inches",
+      "5 inches",
+      "10 inches"
+    ],
+    "correct": 2,
+    "why": "½ × 12 × h = 30 → 6 × h = 30 → h = 5 inches.",
+    "tip": "Area × 2 ÷ base = height: 30 × 2 ÷ 12 = 5.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-17",
+    "dom": "G",
+    "diff": 3,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A triangle has an area of 45 square feet and a height of 9 feet. What is the length of its base?",
+    "opts": [
+      "405 feet",
+      "10 feet",
+      "20 feet",
+      "5 feet"
+    ],
+    "correct": 1,
+    "why": "Double the area to get base × height: 90. Then 90 ÷ 9 = 10 feet.",
+    "tip": "A triangle is half of a parallelogram, so double the area first.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-18",
+    "dom": "G",
+    "diff": 3,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Triangle P has a base of 12 cm and a height of 5 cm. Triangle Q has the same area as P and a base of 10 cm. What is the height of Triangle Q?",
+    "opts": [
+      "6 cm",
+      "7 cm",
+      "5 cm",
+      "30 cm"
+    ],
+    "correct": 0,
+    "why": "Area of P = ½ × 12 × 5 = 30. For Q: ½ × 10 × h = 30 → 5h = 30 → h = 6 cm.",
+    "tip": "Find the shared area, then work backwards.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-19",
+    "dom": "G",
+    "diff": 2,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "This parallelogram has an area of 84 square meters. A diagonal cuts it into two identical triangles. What is the area of one triangle?",
+    "img": "<svg viewBox=\"0 0 380 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"60,170 260,170 320,50 120,50\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"60\" y1=\"170\" x2=\"320\" y2=\"50\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<text x=\"60\" y=\"25\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">Area: 84 square meters</text>\n</svg>",
+    "opts": [
+      "21 square meters",
+      "84 square meters",
+      "168 square meters",
+      "42 square meters"
+    ],
+    "correct": 3,
+    "why": "The two triangles are identical and together make the parallelogram, so each is half: 84 ÷ 2 = 42 square meters.",
+    "tip": "Any triangle is half of a parallelogram with the same base and height.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-20",
+    "dom": "G",
+    "diff": 3,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "The area of a triangle is 20 square units. Which base and height could the triangle have?",
+    "opts": [
+      "base = 8, height = 5",
+      "base = 4, height = 5",
+      "base = 10, height = 10",
+      "base = 20, height = 4"
+    ],
+    "correct": 0,
+    "why": "base × height must equal 2 × 20 = 40. Only 8 × 5 = 40. The others give 20, 80, and 100.",
+    "tip": "Multiply base × height, then halve it, and see if you reach the area.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-21",
+    "dom": "G",
+    "diff": 2,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Each square on the grid is 1 square unit. What is the area of the triangle?",
+    "img": "<svg viewBox=\"0 0 380 170\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"46\" y1=\"20\" x2=\"46\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"72\" y1=\"20\" x2=\"72\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"98\" y1=\"20\" x2=\"98\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"124\" y1=\"20\" x2=\"124\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"176\" y1=\"20\" x2=\"176\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"202\" y1=\"20\" x2=\"202\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"228\" y1=\"20\" x2=\"228\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"254\" y1=\"20\" x2=\"254\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"280\" y1=\"20\" x2=\"280\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"306\" y1=\"20\" x2=\"306\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"332\" y1=\"20\" x2=\"332\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"358\" y1=\"20\" x2=\"358\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"384\" y1=\"20\" x2=\"384\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"20\" x2=\"384\" y2=\"20\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"46\" x2=\"384\" y2=\"46\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"72\" x2=\"384\" y2=\"72\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"98\" x2=\"384\" y2=\"98\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"124\" x2=\"384\" y2=\"124\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"150\" x2=\"384\" y2=\"150\" stroke=\"#C9CFDD\" stroke-width=\"1\"/>\n<polygon points=\"72,124 254,124 150,20\" fill=\"rgba(79,70,229,.15)\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n</svg>",
+    "opts": [
+      "14 square units",
+      "28 square units",
+      "18 square units",
+      "11 square units"
+    ],
+    "correct": 0,
+    "why": "Base = 7 units, height = 4 units. ½ × 7 × 4 = 14 square units.",
+    "tip": "Count the base along the grid and the height straight up.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-22",
+    "dom": "G",
+    "diff": 3,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "What is the area of this triangle? (The 10 cm sides are extra information.)",
+    "img": "<svg viewBox=\"0 0 380 230\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"40,190 320,190 180,85\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"180\" y1=\"85\" x2=\"180\" y2=\"190\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<rect x=\"180\" y=\"178\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"215\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">16 cm</text>\n<text x=\"190\" y=\"150\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">6 cm</text>\n<text x=\"75\" y=\"130\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">10 cm</text>\n<text x=\"250\" y=\"130\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">10 cm</text>\n</svg>",
+    "opts": [
+      "48 square cm",
+      "60 square cm",
+      "80 square cm",
+      "96 square cm"
+    ],
+    "correct": 0,
+    "why": "Base 16 cm, perpendicular height 6 cm: ½ × 16 × 6 = 48 square centimeters.",
+    "tip": "Use only the base and the perpendicular height.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-23",
+    "dom": "G",
+    "diff": 3,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A triangle has a base of 7.2 cm and a height of 5 cm. What is its area?",
+    "opts": [
+      "36 square cm",
+      "12.2 square cm",
+      "18 square cm",
+      "9 square cm"
+    ],
+    "correct": 2,
+    "why": "½ × 7.2 × 5 = 3.6 × 5 = 18 square centimeters.",
+    "tip": "Halve first to make the multiplication easier: half of 7.2 is 3.6.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-24",
+    "dom": "G",
+    "diff": 4,
+    "tag": "triangle",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A triangular sail has a base of 6 feet and a height of 9 feet. The sailmaker charges $3 per square foot. How much does the sail cost?",
+    "img": "<svg viewBox=\"0 0 320 230\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"60,200 180,200 60,20\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<rect x=\"60\" y=\"188\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n<text x=\"105\" y=\"222\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">6 ft</text>\n<text x=\"15\" y=\"115\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">9 ft</text>\n</svg>",
+    "opts": [
+      "$162",
+      "$27",
+      "$54",
+      "$81"
+    ],
+    "correct": 3,
+    "why": "Area = ½ × 6 × 9 = 27 square feet. Cost = 27 × $3 = $81.",
+    "tip": "Two steps: area first, then multiply by the price.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-25",
+    "dom": "G",
+    "diff": 3,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "This shape is a rectangle with a triangle on top. The rectangle is 10 m wide and 6 m tall. The triangle has a base of 10 m and a height of 4 m. What is the total area?",
+    "img": "<svg viewBox=\"0 0 340 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"60,230 260,230 260,110 160,30 60,110\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"60\" y1=\"110\" x2=\"260\" y2=\"110\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"160\" y1=\"30\" x2=\"160\" y2=\"110\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<text x=\"160\" y=\"255\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">10 m</text>\n<text x=\"268\" y=\"175\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">6 m</text>\n<text x=\"170\" y=\"75\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">4 m</text>\n</svg>",
+    "opts": [
+      "64 square meters",
+      "60 square meters",
+      "80 square meters",
+      "100 square meters"
+    ],
+    "correct": 2,
+    "why": "Rectangle: 10 × 6 = 60. Triangle: ½ × 10 × 4 = 20. Total = 80 square meters.",
+    "tip": "Split into simple shapes, find each area, and add.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-26",
+    "dom": "G",
+    "diff": 3,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A 12 ft by 10 ft rectangular room has a 5 ft by 4 ft rectangular corner cut out, as shown. What is the area of the floor?",
+    "img": "<svg viewBox=\"0 0 360 255\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"40,220 280,220 280,100 180,100 180,20 40,20\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<text x=\"160\" y=\"244\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">12 ft</text>\n<text x=\"34\" y=\"125\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"end\">10 ft</text>\n<text x=\"230\" y=\"14\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">5 ft</text>\n<text x=\"230\" y=\"65\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">4 ft</text>\n</svg>",
+    "opts": [
+      "120 square feet",
+      "100 square feet",
+      "31 square feet",
+      "140 square feet"
+    ],
+    "correct": 1,
+    "why": "Big rectangle: 12 × 10 = 120. Missing corner: 5 × 4 = 20. Floor = 120 − 20 = 100 square feet.",
+    "tip": "Subtracting a missing piece is often quicker than adding pieces.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-27",
+    "dom": "G",
+    "diff": 4,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "This trapezoid has bases of 14 cm and 8 cm and a height of 5 cm. Split it into a rectangle and two triangles. What is its area?",
+    "img": "<svg viewBox=\"0 0 380 210\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"50,150 274,150 226,70 98,70\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"98\" y1=\"70\" x2=\"98\" y2=\"150\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"226\" y1=\"70\" x2=\"226\" y2=\"150\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<text x=\"162\" y=\"180\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">14 cm</text>\n<text x=\"162\" y=\"60\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">8 cm</text>\n<text x=\"220\" y=\"118\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\" text-anchor=\"end\">5 cm</text>\n</svg>",
+    "opts": [
+      "55 square cm",
+      "110 square cm",
+      "40 square cm",
+      "70 square cm"
+    ],
+    "correct": 0,
+    "why": "Rectangle: 8 × 5 = 40. The two end triangles together have base 14 − 8 = 6 and height 5: ½ × 6 × 5 = 15. Total = 55 square centimeters.",
+    "tip": "The two small triangles at the ends can be pushed together into one triangle.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-28",
+    "dom": "G",
+    "diff": 4,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Each square on the grid is 1 square unit. What is the area of this shape?",
+    "img": "<svg viewBox=\"0 0 380 200\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<line x1=\"20\" y1=\"16\" x2=\"20\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"46\" y1=\"16\" x2=\"46\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"72\" y1=\"16\" x2=\"72\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"98\" y1=\"16\" x2=\"98\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"124\" y1=\"16\" x2=\"124\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"150\" y1=\"16\" x2=\"150\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"176\" y1=\"16\" x2=\"176\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"202\" y1=\"16\" x2=\"202\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"228\" y1=\"16\" x2=\"228\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"254\" y1=\"16\" x2=\"254\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"280\" y1=\"16\" x2=\"280\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"306\" y1=\"16\" x2=\"306\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"332\" y1=\"16\" x2=\"332\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"358\" y1=\"16\" x2=\"358\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"384\" y1=\"16\" x2=\"384\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"16\" x2=\"384\" y2=\"16\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"42\" x2=\"384\" y2=\"42\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"68\" x2=\"384\" y2=\"68\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"94\" x2=\"384\" y2=\"94\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"120\" x2=\"384\" y2=\"120\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"146\" x2=\"384\" y2=\"146\" stroke=\"#C9CFDD\" stroke-width=\"1\"/><line x1=\"20\" y1=\"172\" x2=\"384\" y2=\"172\" stroke=\"#C9CFDD\" stroke-width=\"1\"/>\n<polygon points=\"46,42 150,42 228,146 46,146\" fill=\"rgba(79,70,229,.15)\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n</svg>",
+    "opts": [
+      "16 square units",
+      "22 square units",
+      "28 square units",
+      "19 square units"
+    ],
+    "correct": 1,
+    "why": "Rectangle 4 × 4 = 16, plus a right triangle with base 3 and height 4: ½ × 3 × 4 = 6. Total 22 square units.",
+    "tip": "Cut the shape along a grid line into a rectangle and a triangle.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-29",
+    "dom": "G",
+    "diff": 3,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Sadie paints a wall that is 20 ft wide and 9 ft tall. The wall has a door that is 3 ft wide and 7 ft tall that she will not paint. How many square feet will she paint?",
+    "img": "<svg viewBox=\"0 0 390 225\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"30,190 330,190 330,40 30,40\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<rect x=\"150\" y=\"90\" width=\"45\" height=\"100\" fill=\"#fff\" stroke=\"#2B3242\" stroke-width=\"3\"/>\n<text x=\"180\" y=\"214\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">20 ft</text>\n<text x=\"338\" y=\"120\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">9 ft</text>\n<text x=\"172\" y=\"80\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">door 3 ft × 7 ft</text>\n</svg>",
+    "opts": [
+      "201 square feet",
+      "180 square feet",
+      "170 square feet",
+      "159 square feet"
+    ],
+    "correct": 3,
+    "why": "Wall: 20 × 9 = 180. Door: 3 × 7 = 21. Paint area = 180 − 21 = 159 square feet.",
+    "tip": "Subtract the area you do not need.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-30",
+    "dom": "G",
+    "diff": 4,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A diagonal of length 10 cm splits this quadrilateral into two triangles. The heights to the diagonal are 4 cm and 3 cm. What is the area of the quadrilateral?",
+    "img": "<svg viewBox=\"0 0 380 200\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"50,100 130,20 250,100 170,160\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"50\" y1=\"100\" x2=\"250\" y2=\"100\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"100\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"170\" y1=\"100\" x2=\"170\" y2=\"160\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<text x=\"190\" y=\"93\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">10 cm</text>\n<text x=\"136\" y=\"65\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">4 cm</text>\n<text x=\"176\" y=\"126\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">3 cm</text>\n</svg>",
+    "opts": [
+      "35 square cm",
+      "20 square cm",
+      "120 square cm",
+      "70 square cm"
+    ],
+    "correct": 0,
+    "why": "Top triangle: ½ × 10 × 4 = 20. Bottom triangle: ½ × 10 × 3 = 15. Total = 35 square centimeters.",
+    "tip": "Two triangles sharing a base can be added together.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-31",
+    "dom": "G",
+    "diff": 4,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A 12 cm by 8 cm rectangle has a right triangle cut off one corner. The triangle has a base of 6 cm and a height of 8 cm. What is the area of the remaining shape?",
+    "img": "<svg viewBox=\"0 0 360 230\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"40,190 270,190 270,40 155,40\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"40\" y1=\"190\" x2=\"40\" y2=\"40\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"40\" y1=\"40\" x2=\"155\" y2=\"40\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<text x=\"155\" y=\"215\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">12 cm</text>\n<text x=\"278\" y=\"120\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">8 cm</text>\n<text x=\"80\" y=\"30\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">6 cm</text>\n</svg>",
+    "opts": [
+      "24 square cm",
+      "72 square cm",
+      "120 square cm",
+      "96 square cm"
+    ],
+    "correct": 1,
+    "why": "Rectangle: 12 × 8 = 96. Removed triangle: ½ × 6 × 8 = 24. Remaining = 96 − 24 = 72 square centimeters.",
+    "tip": "Area of the whole minus area of the cut-off part.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-32",
+    "dom": "G",
+    "diff": 4,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A trapezoid has bases of 9 cm and 5 cm and a height of 4 cm. A diagonal splits it into two triangles: one with base 9 cm and one with base 5 cm, both with height 4 cm. What is the area of the trapezoid?",
+    "opts": [
+      "56 square cm",
+      "36 square cm",
+      "28 square cm",
+      "18 square cm"
+    ],
+    "correct": 2,
+    "why": "½ × 9 × 4 = 18 and ½ × 5 × 4 = 10. Total = 28 square centimeters.",
+    "tip": "Add the two triangle areas.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-33",
+    "dom": "G",
+    "diff": 3,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A playground is a 30 m by 20 m rectangle. A triangular sandbox in one corner has a base of 8 m and a height of 6 m. How many square meters of the playground are NOT sandbox?",
+    "opts": [
+      "576 square meters",
+      "600 square meters",
+      "24 square meters",
+      "552 square meters"
+    ],
+    "correct": 0,
+    "why": "Playground: 30 × 20 = 600. Sandbox: ½ × 8 × 6 = 24. The rest = 600 − 24 = 576 square meters.",
+    "tip": "Do not forget to halve the triangle.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-34",
+    "dom": "G",
+    "diff": 3,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "This figure is a rectangle that is 8 units wide and 5 units tall with a triangle on top (base 8, height 3). Which expression gives its total area?",
+    "img": "<svg viewBox=\"0 0 340 240\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"60,210 260,210 260,110 160,50 60,110\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"60\" y1=\"110\" x2=\"260\" y2=\"110\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"160\" y1=\"50\" x2=\"160\" y2=\"110\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<text x=\"160\" y=\"235\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">8 units</text>\n<text x=\"268\" y=\"165\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">5 units</text>\n<text x=\"166\" y=\"90\" font-size=\"14\" font-weight=\"700\" fill=\"#4F46E5\">3 units</text>\n</svg>",
+    "opts": [
+      "(8 + 5) + (8 + 3)",
+      "(8 × 5) + (8 × 3)",
+      "(8 × 5) + (½ × 8 × 3)",
+      "½ × 8 × (5 + 3)"
+    ],
+    "correct": 2,
+    "why": "Rectangle = 8 × 5. Triangle = ½ × 8 × 3. Add them: (8 × 5) + (½ × 8 × 3) = 40 + 12 = 52 square units.",
+    "tip": "Each piece gets its own formula; then add.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-35",
+    "dom": "G",
+    "diff": 4,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "The front of a house has an area of 135 square feet, and the back is exactly the same size. One can of paint covers 50 square feet. How many cans are needed to paint the front and the back with one coat?",
+    "opts": [
+      "6 cans",
+      "270 cans",
+      "5 cans",
+      "3 cans"
+    ],
+    "correct": 0,
+    "why": "Total = 135 + 135 = 270 square feet. 270 ÷ 50 = 5.4, so she must buy 6 cans (5 cans is not enough).",
+    "tip": "When you divide to find how many items to buy, round up.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-36",
+    "dom": "G",
+    "diff": 5,
+    "tag": "composite",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A shape is made of a 10 m by 6 m rectangle with a triangle on top. The triangle has a base of 10 m. The whole shape has an area of 90 square meters. What is the height of the triangle?",
+    "img": "<svg viewBox=\"0 0 340 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"60,230 260,230 260,130 160,40 60,130\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"60\" y1=\"130\" x2=\"260\" y2=\"130\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"160\" y1=\"40\" x2=\"160\" y2=\"130\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<text x=\"160\" y=\"255\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">10 m</text>\n<text x=\"268\" y=\"185\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">6 m</text>\n<text x=\"154\" y=\"92\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\" text-anchor=\"end\">h = ?</text>\n<text x=\"30\" y=\"30\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">Total area: 90 m²</text>\n</svg>",
+    "opts": [
+      "3 meters",
+      "30 meters",
+      "6 meters",
+      "9 meters"
+    ],
+    "correct": 2,
+    "why": "Rectangle = 10 × 6 = 60. So the triangle is 90 − 60 = 30 square meters. ½ × 10 × h = 30 → 5h = 30 → h = 6 m.",
+    "tip": "Subtract the known piece, then solve for the missing measurement.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-37",
+    "dom": "G",
+    "diff": 1,
+    "tag": "polyhedron",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Which solid is NOT a polyhedron?",
+    "opts": [
+      "Cone",
+      "Triangular prism",
+      "Cube",
+      "Square pyramid"
+    ],
+    "correct": 0,
+    "why": "A polyhedron has only flat faces (polygons). A cone has a curved surface, so it is not a polyhedron.",
+    "tip": "Polyhedron = all faces are flat polygons.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-38",
+    "dom": "G",
+    "diff": 2,
+    "tag": "polyhedron",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "How many faces does a triangular prism have?",
+    "opts": [
+      "3",
+      "5",
+      "6",
+      "4"
+    ],
+    "correct": 1,
+    "why": "2 triangular bases + 3 rectangular sides = 5 faces.",
+    "tip": "Prism: 2 bases + one rectangle for each side of the base.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-39",
+    "dom": "G",
+    "diff": 3,
+    "tag": "polyhedron",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "How many faces does a pentagonal prism have?",
+    "opts": [
+      "5",
+      "6",
+      "7",
+      "10"
+    ],
+    "correct": 2,
+    "why": "2 pentagon bases + 5 rectangular sides = 7 faces.",
+    "tip": "Faces = 2 + number of sides of the base.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-40",
+    "dom": "G",
+    "diff": 3,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "This is a net of a rectangular prism. Which is the total surface area of the prism?",
+    "img": "<svg viewBox=\"0 0 400 270\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<rect x=\"20\" y=\"100\" width=\"100\" height=\"60\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\"/><text x=\"70\" y=\"135\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">5 × 3</text>\n<rect x=\"120\" y=\"100\" width=\"80\" height=\"60\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\"/><text x=\"160\" y=\"135\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">4 × 3</text>\n<rect x=\"200\" y=\"100\" width=\"100\" height=\"60\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\"/><text x=\"250\" y=\"135\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">5 × 3</text>\n<rect x=\"300\" y=\"100\" width=\"80\" height=\"60\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\"/><text x=\"340\" y=\"135\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">4 × 3</text>\n<rect x=\"20\" y=\"20\" width=\"100\" height=\"80\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\"/><text x=\"70\" y=\"65\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">5 × 4</text>\n<rect x=\"20\" y=\"160\" width=\"100\" height=\"80\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\"/><text x=\"70\" y=\"205\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">5 × 4</text>\n<text x=\"200\" y=\"262\" font-size=\"13\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">All lengths are in centimeters</text>\n</svg>",
+    "opts": [
+      "94 square cm",
+      "60 square cm",
+      "47 square cm",
+      "82 square cm"
+    ],
+    "correct": 0,
+    "why": "The faces come in three matching pairs: 5 × 3 = 15, 5 × 4 = 20, and 3 × 4 = 12. Surface area = 2 × (15 + 20 + 12) = 94 square centimeters.",
+    "tip": "Faces of a rectangular prism come in 3 pairs — do not forget the pairs.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-41",
+    "dom": "G",
+    "diff": 2,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A cube has edges that are 5 cm long. What is its surface area?",
+    "img": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"70,70 170,70 170,170 70,170\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polygon points=\"70,70 130,34 230,34 170,70\" fill=\"#E1E6F3\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polygon points=\"170,70 230,34 230,134 170,170\" fill=\"#D3DAEC\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><text x=\"120\" y=\"192\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">5 cm</text><text x=\"62\" y=\"125\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"end\">5 cm</text><text x=\"238\" y=\"89\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">5 cm</text>\n</svg>",
+    "opts": [
+      "100 square cm",
+      "25 square cm",
+      "150 square cm",
+      "125 square cm"
+    ],
+    "correct": 2,
+    "why": "Each face is 5 × 5 = 25 square cm. A cube has 6 faces: 6 × 25 = 150 square centimeters.",
+    "tip": "Cube surface area = 6 × (edge × edge).",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-42",
+    "dom": "G",
+    "diff": 3,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A cube-shaped box has edges that are 1.5 m long. What is its surface area?",
+    "opts": [
+      "13.5 square meters",
+      "3.38 square meters",
+      "9 square meters",
+      "2.25 square meters"
+    ],
+    "correct": 0,
+    "why": "One face: 1.5 × 1.5 = 2.25. Six faces: 6 × 2.25 = 13.5 square meters.",
+    "tip": "Find one face, then multiply by 6.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-43",
+    "dom": "G",
+    "diff": 3,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "What is the surface area of this rectangular prism?",
+    "img": "<svg viewBox=\"0 0 380 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"70,80 230,80 230,160 70,160\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polygon points=\"70,80 150,32 310,32 230,80\" fill=\"#E1E6F3\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polygon points=\"230,80 310,32 310,112 230,160\" fill=\"#D3DAEC\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><text x=\"150\" y=\"182\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">8 in.</text><text x=\"62\" y=\"125\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"end\">5 in.</text><text x=\"318\" y=\"77\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">4 in.</text>\n</svg>",
+    "opts": [
+      "92 square inches",
+      "144 square inches",
+      "184 square inches",
+      "160 square inches"
+    ],
+    "correct": 2,
+    "why": "Front/back: 8 × 5 = 40 each. Top/bottom: 8 × 4 = 32 each. Left/right: 4 × 5 = 20 each. Total = 2 × (40 + 32 + 20) = 184 square inches. (160 is the volume — not what was asked.)",
+    "tip": "Surface area adds the areas of all faces; volume multiplies the three edges.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-44",
+    "dom": "G",
+    "diff": 4,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A triangular prism has right-triangle bases with legs 3 cm and 4 cm and a hypotenuse of 5 cm. The prism is 10 cm long. What is its surface area?",
+    "img": "<svg viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"50,120 150,200 260,145 160,65\" fill=\"#E1E6F3\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"50\" y1=\"200\" x2=\"160\" y2=\"145\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"160\" y1=\"145\" x2=\"260\" y2=\"145\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"160\" y1=\"145\" x2=\"160\" y2=\"65\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<polygon points=\"50,200 150,200 50,120\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<rect x=\"50\" y=\"188\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2B3242\" stroke-width=\"1.5\"/>\n<text x=\"100\" y=\"224\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">4 cm</text>\n<text x=\"42\" y=\"165\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"end\">3 cm</text>\n<text x=\"92\" y=\"140\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">5 cm</text>\n<text x=\"215\" y=\"188\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">10 cm</text>\n</svg>",
+    "opts": [
+      "120 square cm",
+      "12 square cm",
+      "132 square cm",
+      "60 square cm"
+    ],
+    "correct": 2,
+    "why": "Two triangles: 2 × (½ × 3 × 4) = 12. Three rectangles, each 10 long: 3 × 10 + 4 × 10 + 5 × 10 = 120. Total = 132 square centimeters.",
+    "tip": "Triangular prism = 2 triangles + 3 rectangles.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-45",
+    "dom": "G",
+    "diff": 4,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A square pyramid has a base that is 6 cm by 6 cm. Each of its 4 triangular faces has a base of 6 cm and a height of 5 cm. What is the total surface area?",
+    "img": "<svg viewBox=\"0 0 360 230\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"50,170 230,170 300,130 120,130\" fill=\"#E1E6F3\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<polygon points=\"50,170 230,170 175,30\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"175\" y1=\"30\" x2=\"300\" y2=\"130\" stroke=\"#2B3242\" stroke-width=\"2\"/>\n<line x1=\"175\" y1=\"30\" x2=\"120\" y2=\"130\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<line x1=\"175\" y1=\"30\" x2=\"140\" y2=\"170\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n<text x=\"140\" y=\"195\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">6 cm</text>\n<text x=\"166\" y=\"112\" font-size=\"16\" font-weight=\"700\" fill=\"#4F46E5\">5 cm</text>\n</svg>",
+    "opts": [
+      "180 square cm",
+      "66 square cm",
+      "60 square cm",
+      "96 square cm"
+    ],
+    "correct": 3,
+    "why": "Base: 6 × 6 = 36. Each triangle: ½ × 6 × 5 = 15, and 4 of them = 60. Total = 36 + 60 = 96 square centimeters.",
+    "tip": "Pyramid = one base + a triangle for each side of the base.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-46",
+    "dom": "G",
+    "diff": 1,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Which task needs you to find SURFACE AREA?",
+    "opts": [
+      "Finding how much wrapping paper covers a gift box",
+      "Finding how much sand fills a sandbox",
+      "Finding how much water a fish tank holds",
+      "Finding how many cubes fit inside a box"
+    ],
+    "correct": 0,
+    "why": "Surface area is the total area of the outside faces — like wrapping paper. The others are about filling space (volume).",
+    "tip": "Covering the outside = surface area. Filling the inside = volume.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-47",
+    "dom": "G",
+    "diff": 4,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A cube has a surface area of 96 square inches. How long is each edge?",
+    "opts": [
+      "6 inches",
+      "8 inches",
+      "16 inches",
+      "4 inches"
+    ],
+    "correct": 3,
+    "why": "96 ÷ 6 = 16 square inches per face. 4 × 4 = 16, so each edge is 4 inches.",
+    "tip": "Divide by 6 to get one face, then find the side of that square.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-48",
+    "dom": "G",
+    "diff": 4,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "An open box (no lid) is a rectangular prism 10 in. long, 6 in. wide, and 4 in. tall. How many square inches of cardboard are needed to make it?",
+    "img": "<svg viewBox=\"0 0 370 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"70,90 220,90 220,160 70,160\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polygon points=\"70,90 150,42 300,42 220,90\" fill=\"#E1E6F3\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polygon points=\"220,90 300,42 300,112 220,160\" fill=\"#D3DAEC\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><text x=\"145\" y=\"182\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">10 in.</text><text x=\"62\" y=\"130\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"end\">4 in.</text><text x=\"308\" y=\"82\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">6 in.</text>\n</svg>",
+    "opts": [
+      "240 square inches",
+      "188 square inches",
+      "248 square inches",
+      "124 square inches"
+    ],
+    "correct": 1,
+    "why": "Bottom: 10 × 6 = 60. Two long sides: 2 × (10 × 4) = 80. Two short sides: 2 × (6 × 4) = 48. Total = 188 square inches. (The full closed box would be 248.)",
+    "tip": "Read carefully — a missing face means you subtract or leave it out.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-49",
+    "dom": "G",
+    "diff": 4,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "A cube-shaped gift box has edges of 8 inches. A sheet of wrapping paper is 400 square inches. If the paper covers the whole box with no overlap, how much paper is left over?",
+    "opts": [
+      "144 square inches",
+      "16 square inches",
+      "336 square inches",
+      "-112 square inches"
+    ],
+    "correct": 1,
+    "why": "Surface area = 6 × (8 × 8) = 384. 400 − 384 = 16 square inches left over.",
+    "tip": "Compute the surface area, then compare it to what you have.",
+    "module": "district-assessment-1"
+  },
+  {
+    "id": "DA1-50",
+    "dom": "G",
+    "diff": 5,
+    "tag": "surface-area",
+    "source": "district-assessment-1",
+    "addedAt": "2026-09-28",
+    "q": "Two cubes with 2 cm edges are glued together face to face to make one 2 cm × 2 cm × 4 cm prism. What is the surface area of the new prism?",
+    "img": "<svg viewBox=\"0 0 360 210\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;max-width:420px\">\n<polygon points=\"70,80 230,80 230,160 70,160\" fill=\"#EEF1F8\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polygon points=\"70,80 120,50 280,50 230,80\" fill=\"#E1E6F3\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polygon points=\"230,80 280,50 280,130 230,160\" fill=\"#D3DAEC\" stroke=\"#2B3242\" stroke-width=\"3\" stroke-linejoin=\"round\"/><text x=\"150\" y=\"182\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"middle\">4 cm</text><text x=\"62\" y=\"125\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\" text-anchor=\"end\">2 cm</text><text x=\"288\" y=\"95\" font-size=\"16\" font-weight=\"700\" fill=\"#2B3242\">2 cm</text><line x1=\"150\" y1=\"80\" x2=\"150\" y2=\"160\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/><line x1=\"150\" y1=\"80\" x2=\"180\" y2=\"50\" stroke=\"#2B3242\" stroke-width=\"2\" stroke-dasharray=\"6,5\"/>\n</svg>",
+    "opts": [
+      "16 square cm",
+      "44 square cm",
+      "48 square cm",
+      "40 square cm"
+    ],
+    "correct": 3,
+    "why": "Combined prism: 2 × (2×2 + 2×4 + 2×4) = 2 × 20 = 40 square cm. Check: two separate cubes = 2 × 24 = 48; gluing hides 2 faces of 4 each = 8; 48 − 8 = 40.",
+    "tip": "Gluing hides faces, so the total is less than the two cubes’ areas added.",
+    "module": "district-assessment-1"
+  }
+]

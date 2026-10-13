@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{APP_NAME}} — Grade 6 Adaptive Math Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="auth-banner hide" id="authBanner">
+        Your Google sign-in expired. Answers are kept and will save once you reconnect.
+        <button class="btn ghost small">Reconnect</button>
+      </div>
+      <div class="status-bar hide" id="statusBar"></div>
+
+      <section id="signin" class="card hide">
+        <span class="brand"><span class="dot"></span> {{APP_NAME}}</span>
+        <h1>Grade 6 math, that adjusts to you</h1>
+        <p class="lead">
+          Sign in with Google to start. Tests and results are saved in a <b>{{APP_NAME}}</b> folder in your Google
+          Drive.
+        </p>
+        <button class="btn" id="signInBtn">Sign in with Google</button>
+        <p class="fine mt8">
+          By signing in you agree to the <a href="terms.html">Terms of Service</a> and
+          <a href="privacy.html">Privacy Policy</a>.
+        </p>
+        <p class="fine mt8" id="signinMsg"></p>
+      </section>
+
+      <section id="loading" class="card hide"><p class="fine" id="loadingMsg">Loading…</p></section>
+
+      <section id="home" class="card hide">
+        <div class="topbar">
+          <span class="brand"><span class="dot"></span> {{APP_NAME}}</span>
+          <span class="fine"
+            ><span id="homeEmail"></span> · <a href="#" id="signOutBtn">Sign out</a>
+            <a class="btn ghost small" href="admin.html">Admin mode</a></span
+          >
+        </div>
+        <h1>Hi, <span id="homeName"></span>!</h1>
+
+        <div class="section-title"><h2>Active assignments</h2></div>
+        <div class="sess-list" id="todoList"></div>
+        <div id="emptyTodo" class="hide">
+          <p class="lead">There are no active assignments.</p>
+          <a class="btn small" href="admin.html">Create a test</a>
+        </div>
+
+        <div class="section-title"><h2>Completed</h2></div>
+        <div class="sess-list" id="doneList"></div>
+        <p class="fine mt18" id="bankLine"></p>
+      </section>
+
+      <section id="quiz" class="card hide" aria-live="polite">
+        <div class="meta-row">
+          <span class="qcount" id="qcount">Question 1 of 43</span>
+          <span class="level-chip" title="How hard the current question is">
+            Level
+            <span class="bars" id="levelBars"><span></span><span></span><span></span><span></span><span></span></span>
+          </span>
+        </div>
+        <div class="progress"><i id="progressFill"></i></div>
+
+        <span class="domain-tag" id="domainTag"></span>
+        <div class="q-img hide" id="questionImg"></div>
+        <div class="question" id="questionText">—</div>
+
+        <div class="opts" id="options"></div>
+
+        <div class="feedback" id="feedback">
+          <div class="verdict" id="verdict"></div>
+          <div class="why" id="why"></div>
+          <div class="next"><button class="btn" id="nextBtn">Next question</button></div>
+        </div>
+
+        <p class="kbd-hint">Tip: press 1–4 to pick an answer, Enter for next.</p>
+      </section>
+
+      <section id="results" class="card hide">
+        <span class="brand"><span class="dot"></span> {{APP_NAME}}</span>
+        <h1 id="resultTitle">Nice work!</h1>
+        <p class="lead" id="resultLead"></p>
+
+        <div class="score-hero">
+          <div class="ring">
+            <svg width="120" height="120" viewBox="0 0 120 120">
+              <circle cx="60" cy="60" r="52" fill="none" stroke="#E9EEF6" stroke-width="14" />
+              <circle
+                id="ringArc"
+                cx="60"
+                cy="60"
+                r="52"
+                fill="none"
+                stroke="#15A34A"
+                stroke-width="14"
+                stroke-linecap="round"
+                stroke-dasharray="326.7"
+                stroke-dashoffset="326.7"
+              />
+            </svg>
+            <div class="num">
+              <span><b id="scorePct">0%</b><small id="scoreFrac">0 / 0</small></span>
+            </div>
+          </div>
+          <div class="score-note">
+            <div class="big" id="levelReached">Practice level reached: —</div>
+            <p class="fine" id="levelExplain" style="margin: 0"></p>
+          </div>
+        </div>
+
+        <div class="path-box">
+          <svg
+            id="resultPath"
+            viewBox="0 0 640 190"
+            width="100%"
+            height="180"
+            role="img"
+            aria-label="Your difficulty path across the test"
+          ></svg>
+          <div class="path-read" id="pathRead"></div>
+        </div>
+
+        <div class="section-title"><h2>Strengths &amp; focus areas</h2></div>
+        <div class="dbreak" id="domainBreak"></div>
+
+        <div class="section-title">
+          <h2>How you could have done better</h2>
+          <span class="badge" id="missedBadge">0</span>
+        </div>
+        <div id="reviewIntro" class="lead"></div>
+        <div class="review" id="review"></div>
+        <div class="center mt18 hide" id="showAllWrap">
+          <button class="btn ghost" id="showAllBtn" style="width: auto; padding: 12px 20px">Show every question</button>
+        </div>
+
+        <div class="row-actions" style="margin-top: 22px">
+          <button class="btn ghost" id="homeBtn">Back to my tests</button>
+        </div>
+      </section>
+      <footer class="site-foot">
+        <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

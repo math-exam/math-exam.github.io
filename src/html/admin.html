@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{APP_NAME}} — Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+  </head>
+  <body>
+    <div class="wrap wide">
+      <div class="auth-banner hide" id="authBanner">
+        Your Google sign-in expired. <button class="btn ghost small">Reconnect</button>
+      </div>
+      <div class="status-bar hide" id="statusBar"></div>
+
+      <section id="signin" class="card hide">
+        <span class="brand"><span class="dot"></span> {{APP_NAME}} · Admin</span>
+        <p class="lead">Sign in with Google to manage tests and view sessions.</p>
+        <button class="btn" id="signInBtn" style="width: auto">Sign in with Google</button>
+        <p class="fine mt8" id="signinMsg"></p>
+      </section>
+
+      <section id="loading" class="card hide"><p class="fine" id="loadingMsg">Loading…</p></section>
+
+      <div id="main" class="hide">
+        <section class="card">
+          <div class="topbar">
+            <span class="brand"><span class="dot"></span> {{APP_NAME}} · Admin</span>
+            <span class="fine"
+              ><span id="meEmail"></span> · <a href="#" id="signOutBtn">Sign out</a>
+              <a class="btn ghost small" href="index.html">Exit admin mode</a></span
+            >
+          </div>
+        </section>
+
+        <div>
+          <section class="card mt18">
+            <div class="section-title" style="margin-top: 0">
+              <h2>Live</h2>
+              <span class="pill" id="livePill"></span>
+            </div>
+            <div id="liveEmpty" class="fine">No test in progress.</div>
+            <div id="liveBody" class="hide">
+              <div class="fine" id="liveTitle"></div>
+              <div class="stat-row">
+                <div class="stat">
+                  <div class="k">Question</div>
+                  <div class="v" id="liveQ">—</div>
+                </div>
+                <div class="stat">
+                  <div class="k">Level</div>
+                  <div class="v" id="liveLevel">—</div>
+                </div>
+                <div class="stat">
+                  <div class="k">Score</div>
+                  <div class="v" id="liveScore">—</div>
+                </div>
+                <div class="stat">
+                  <div class="k">Last answer</div>
+                  <div class="v" id="liveLast">—</div>
+                </div>
+              </div>
+              <div class="current-q">
+                <div class="lbl">On screen now</div>
+                <div class="txt" id="liveCurrent">—</div>
+              </div>
+              <div class="insight-list" id="liveInsights"></div>
+              <div class="path-box"><svg id="livePath" viewBox="0 0 640 190" width="100%" height="160"></svg></div>
+              <div class="dbreak" id="liveDomains"></div>
+              <div class="inline-form mt18">
+                <a class="btn ghost small" id="liveDetail" href="#">Open details</a>
+                <button class="btn ghost small" id="endBtn">End this session</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="card mt18">
+            <div class="section-title" style="margin-top: 0"><h2>Active assignments</h2></div>
+            <div class="sess-list" id="assignList"></div>
+
+            <div class="section-title mt18"><h2>Add a paper</h2></div>
+            <div class="sess-list" id="paperList"></div>
+
+            <div class="section-title mt18"><h2>Add an adaptive test</h2></div>
+            <div class="form-grid">
+              <div>
+                <label for="adTitle">Title</label><input type="text" id="adTitle" placeholder="Adaptive practice" />
+              </div>
+              <div><label for="adLength">Questions</label><input type="number" id="adLength" min="5" max="100" /></div>
+            </div>
+            <label class="mt8">Focus domains (optional)</label>
+            <div class="check-row" id="adDomains"></div>
+            <label class="mt8">Focus topics (optional)</label>
+            <div class="check-row" id="adTags"></div>
+            <div class="mt18"><button class="btn small" id="adAssignBtn">Add adaptive test</button></div>
+
+            <div class="section-title mt18"><h2>Build a paper</h2></div>
+            <p class="fine">
+              A fixed set from the question bank, filtered by when questions were added, domain and difficulty.
+            </p>
+            <div class="form-grid mt8">
+              <div>
+                <label for="paperTitle">Title</label
+                ><input type="text" id="paperTitle" placeholder="e.g. Unit 1 review" />
+              </div>
+              <div>
+                <label for="paperCount">Number of questions</label
+                ><input type="number" id="paperCount" min="1" max="200" placeholder="all matching" />
+              </div>
+              <div>
+                <label for="paperFrom">Added from</label
+                ><select id="paperFrom"></select>
+              </div>
+              <div>
+                <label for="paperTo">Added through</label
+                ><select id="paperTo"></select>
+              </div>
+              <div>
+                <label for="paperMinDiff">Min difficulty</label
+                ><select id="paperMinDiff">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div>
+                <label for="paperMaxDiff">Max difficulty</label
+                ><select id="paperMaxDiff">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option selected>5</option>
+                </select>
+              </div>
+            </div>
+            <label class="mt8">Domains (none checked = all)</label>
+            <div class="check-row" id="paperDomains"></div>
+            <div class="mt18">
+              <button class="btn small" id="genPaperBtn">Build &amp; add</button>
+              <span class="fine" id="paperMsg"></span>
+            </div>
+          </section>
+
+          <section class="card mt18">
+            <div class="section-title" style="margin-top: 0"><h2>Question bank</h2></div>
+            <p class="fine" id="bankLine"></p>
+            <button class="btn ghost small" id="resetBankBtn">Reset — allow repeats from the start</button>
+          </section>
+
+          <section class="card mt18">
+            <div class="section-title" style="margin-top: 0"><h2>Past sessions</h2></div>
+            <div class="sess-list" id="historyList"></div>
+          </section>
+        </div>
+      </div>
+      <footer class="site-foot">
+        <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a>
+      </footer>
+    </div>
+    <script src="admin.js"></script>
+  </body>
+</html>
