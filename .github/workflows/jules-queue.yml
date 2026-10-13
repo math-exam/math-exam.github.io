@@ -42,15 +42,12 @@ jobs:
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'issues' &&
        github.event.label.name == 'triage-send-to-bot' &&
-       (github.event.sender.login == 'axemclion' ||
-        github.event.sender.login == 'axemclion-bot' ||
-        github.event.sender.login == 'biits-llc' ||
+       (contains(fromJSON(vars.TRUSTED_USERS || '[]'), github.event.sender.login) ||
         github.event.sender.login == 'github-actions[bot]')) ||
       (github.event_name == 'pull_request' &&
        github.event.pull_request.head.repo.full_name == github.repository &&
-       (github.event.pull_request.user.login == 'google-labs-jules[bot]' ||
-        github.event.pull_request.user.login == 'axemclion' ||
-        github.event.pull_request.user.login == 'biits-llc'))
+       (contains(fromJSON(vars.TRUSTED_USERS || '[]'), github.event.pull_request.user.login) ||
+        github.event.pull_request.user.login == 'google-labs-jules[bot]'))
     runs-on: ubuntu-latest
     steps:
       - name: Wait for checks and merge Jules PR
@@ -217,16 +214,46 @@ jobs:
             exit 0
           fi
 
-          next=$(gh issue list --repo "$REPO" --label triage-send-to-bot --state open --json number,title,body,createdAt --jq 'sort_by(.createdAt) | .[0] // empty')
-          if [ -z "$next" ]; then
+          # Skip (and dequeue) any issue whose title or body changed after it
+          # was labeled, so Jules only ever sees text a trusted user approved.
+          # The title/body used for the prompt come from this same read.
+          number=""
+          for n in $(gh issue list --repo "$REPO" --label triage-send-to-bot --state open --json number,createdAt --jq 'sort_by(.createdAt) | .[].number'); do
+            issue=$(gh api graphql -F owner="${REPO%/*}" -F name="${REPO#*/}" -F n="$n" -f query='
+              query($owner: String!, $name: String!, $n: Int!) {
+                repository(owner: $owner, name: $name) {
+                  issue(number: $n) {
+                    title body lastEditedAt
+                    timelineItems(itemTypes: [LABELED_EVENT, RENAMED_TITLE_EVENT], last: 100) {
+                      nodes {
+                        __typename
+                        ... on LabeledEvent { createdAt label { name } }
+                        ... on RenamedTitleEvent { createdAt }
+                      }
+                    }
+                  }
+                }
+              }' --jq '.data.repository.issue')
+            stale=$(jq -r '
+              (.timelineItems.nodes | map(select(.__typename == "LabeledEvent" and .label.name == "triage-send-to-bot") | .createdAt) | max) as $labeled
+              | ([.lastEditedAt] + (.timelineItems.nodes | map(select(.__typename == "RenamedTitleEvent") | .createdAt)) | map(select(. != null)) | max) as $edited
+              | ($labeled == null or ($edited != null and $edited > $labeled))' <<<"$issue")
+            if [ "$stale" = "true" ]; then
+              echo "Issue #$n was edited after it was labeled, dequeuing it."
+              gh issue edit "$n" --repo "$REPO" --remove-label triage-send-to-bot || true
+              gh issue comment "$n" --repo "$REPO" --body "This issue was edited after it was queued, so Jules did not start on it. Review the current text and add \`triage-send-to-bot\` again to queue it." || true
+              continue
+            fi
+            number=$n
+            title=$(jq -r '.title' <<<"$issue")
+            jq -r '.body' <<<"$issue" > /tmp/issue_body.md
+            break
+          done
+          if [ -z "$number" ]; then
             echo "No queued issues."
             echo "found=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-
-          number=$(echo "$next" | jq -r '.number')
-          title=$(echo "$next" | jq -r '.title')
-          echo "$next" | jq -r '.body' > /tmp/issue_body.md
 
           gh issue edit "$number" --repo "$REPO" --remove-label triage-send-to-bot --add-label jules-in-progress
 
