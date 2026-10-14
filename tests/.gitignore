@@ -1,0 +1,7 @@
+*.tsbuildinfo
+coverage
+coverage-*.json
+.vscode
+.idea
+*.log
+.pstmsvc*.txt

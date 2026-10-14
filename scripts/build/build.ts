@@ -1,10 +1,13 @@
-import { spawnSync } from 'node:child_process';
+import { spawnSync, execSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import * as esbuild from 'esbuild';
 import { APP_NAME } from '../../src/config';
 import type { Paper, Question } from '../../src/types';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, '..', '..');
 const DIST = path.join(ROOT, 'dist');
 const QUESTIONS_DIR = path.join(ROOT, 'data', 'questions');
@@ -59,8 +62,27 @@ function buildHtml(): void {
     const src = path.join(HTML_DIR, f);
     if (f.endsWith('.html'))
       fs.writeFileSync(path.join(DIST, f), fs.readFileSync(src, 'utf8').replaceAll('{{APP_NAME}}', APP_NAME));
-    else fs.copyFileSync(src, path.join(DIST, f));
+    else if (f.endsWith('.css') || f.endsWith('.json')) fs.copyFileSync(src, path.join(DIST, f));
   }
+}
+
+const STATIC_SCRIPTS = ['sw.js', 'sw-register.js'];
+
+function copyStaticScripts(): void {
+  for (const f of STATIC_SCRIPTS) {
+    const src = path.join(HTML_DIR, f);
+    if (fs.existsSync(src)) {
+      fs.copyFileSync(src, path.join(DIST, f));
+      console.log(`copied ${f} to dist`);
+    }
+  }
+}
+
+function generateBuildInfo(): void {
+  const commit = execSync('git rev-parse --short HEAD', { cwd: ROOT, encoding: 'utf8' }).trim();
+  const buildInfo = { commit: commit, builtAt: new Date().toISOString() };
+  fs.writeFileSync(path.join(DIST, 'buildinfo.js'), `var BUILD_INFO=${JSON.stringify(buildInfo, null, 2)}`);
+  console.log(`buildinfo: commit=${commit}`);
 }
 
 function typecheck(): void {
@@ -72,6 +94,8 @@ function rebuildAssets(): void {
   try {
     buildData();
     buildHtml();
+    copyStaticScripts();
+    generateBuildInfo();
   } catch (e) {
     console.error(String(e));
     if (!watch) process.exit(1);
