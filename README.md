@@ -1,5 +1,7 @@
 # MathPath
 
+[https://math-exam.github.io/](https://math-exam.github.io/)
+
 Adaptive math practice in the style of MAP Growth Math. A static site on GitHub Pages that uses Google sign-in and stores everything in your own Google Drive.
 
 The app's name is set once, as `APP_NAME` in `src/config.ts`.
